@@ -1,15 +1,5 @@
 # Piacere Matthew
 
-## Project structure
+## To-Do List
 
-```
-$PROJECT_ROOT
-├── me
-│   ├── Index
-│   ├── Bio
-│   ├── Colophon
-│   ├── Now    
-├── blog
-    ├── Tech
-    ├── Senza Meta
-```
+- [ ] Sistemare pagina link
