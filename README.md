@@ -1,4 +1,4 @@
-# Astro Starter Kit: Basics
+# Piacere, Matthew
 
 ```sh
 npm create astro@latest -- --template basics
