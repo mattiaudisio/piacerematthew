@@ -250,11 +250,23 @@
         "author_text" : "Akihito Tsukushi",
         "remote_id" : "https://lore.livellosegreto.it/book/34175",
         "stato" : "Letti"
-    }
+    },
     {
         "title" : "La Mente come Arma",
         "author_text" : "Vittorio Fattore",
         "remote_id" : "https://www.amazon.it/Mente-Come-Arma-definitivamente-padroneggiare/dp/B08QW47VC2",
         "stato" : "Letti"
+    },
+    {
+        "title" : "Nel muro",
+        "author_text" : "Mauro Corona",
+        "remote_id" : "https://www.maurocorona.it/libri/nel-muro/",
+        "stato" : "Letture correnti"
+    },
+    {
+        "title" : "Un giorno questo dolore ti sarà utile",
+        "author_text" : "Peter Cameron",
+        "remote_id" : "https://www.amazon.it/giorno-questo-dolore-sarà-utile/dp/8845925021",
+        "stato" : "Da Leggere"
     }
 ]
