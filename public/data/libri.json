@@ -268,5 +268,17 @@
         "author_text" : "Peter Cameron",
         "remote_id" : "https://www.amazon.it/giorno-questo-dolore-sarà-utile/dp/8845925021",
         "stato" : "Da Leggere"
+    },
+    {
+        "title" : "Compiti per anime irrequiete",
+        "author_text" : "Matteo Gracis",
+        "remote_id" : "https://www.matteogracis.it/compiti-per-anime-irrequiete/",
+        "stato" : "Da Leggere"
+    },
+    {
+        "title" : "Manuale di sopravvivenza per esseri umani che si sentono alieni",
+        "author_text" : "Matteo Gracis",
+        "remote_id" : "https://www.matteogracis.it/manuale/",
+        "stato" : "Da Leggere"
     }
 ]
