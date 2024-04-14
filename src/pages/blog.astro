@@ -4,13 +4,11 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 const angoloTech = (await Astro.glob('./posts/angolo-tech/*.md')).sort(
   (a: any, b: any) =>
-    new Date(b.frontmatter.pubDate).valueOf() -
-    new Date(a.frontmatter.pubDate).valueOf()
+    new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
 )
 const senzaMeta = (await Astro.glob('./posts/senza-meta/*.md')).sort(
   (a: any, b: any) =>
-    new Date(b.frontmatter.pubDate).valueOf() -
-    new Date(a.frontmatter.pubDate).valueOf()
+    new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
 )
 import '../styles/global.css'
 ---

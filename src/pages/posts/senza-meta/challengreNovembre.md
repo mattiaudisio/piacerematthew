@@ -5,7 +5,7 @@ tags:
   - SentaMeta
 slug: challenge-novembre
 layout: ../../../layouts/MarkdownPostLayout.astro
-pubDate: 2024-02-11
+pubDate: 2023-12-01
 ---
 
 ## Premessa
