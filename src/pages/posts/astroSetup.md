@@ -16,7 +16,7 @@ Piccola guida sul come preparare il setup per realizzare il tuo sito web con il 
 Per utilizzare questo Framework, sarà necessario installare <a href="https://nodejs.org/en/">Node.js</a>. Cliccando su <a href="https://nodejs.org/en/">questo link</a> sarai renderizzato al sito ufficiali di Node.Js dove, cliccando sul pulsante con la versione LTS, scaricherai l'eseguibile per installarlo.<br />
 Dopo aver cliccato sull'eseguibile scaricato e aver completato l'installazione di Node.JS, ti appariranno questi programmi:<br /><br />
 
-<img src="./images/posts/node1.png">
+<img src="https://raw.githubusercontent.com/mattiaudisio/piacerematthew/main/public/images/posts/node1.png">
 
 Quello che è stato installato è Node.JS e, insiseme, è stato installato _Node.Js command prompt_, quello che ci servirà in questo tutorial.
 Aprilo e appena ti appare il prompt, digita <u>node-v</u> e, il numero che ti apparirà, rappresenta la versione che hai appena installato di Node.JS.
@@ -32,7 +32,7 @@ Come prima cosa digita il comdando <u>cd Documenti/</u> (o Documents se hai l'OS
 mi raccomando nei nomi delle directory, dette anche cartelle, e dei file non dovrebbero andare gli spazi, al posto di quelli usa o un - o un _).
 Ora, se andari dentro _Documenti_, troverai tutte le cartelle che hai creato:<br /><br />
 
-<img src="./images/posts/node2.png">
+<img src="https://raw.githubusercontent.com/mattiaudisio/piacerematthew/main/public/images/posts/node2.png">
 
 <br /><br />
 Ora, come ultimissima cosa prima di cominciare seriamente, ti faccio scaricare un Package Manager che può tornarti utile durante il lavoro, <a href="https://yarnpkg.com/">Yarn</a>. Quindi, sempre dal tuo prompt di Node, digita <u>npm i -g corepack</u> e aspetta che venga installato.<br />
