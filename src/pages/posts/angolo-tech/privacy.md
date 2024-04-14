@@ -3,7 +3,7 @@ public: true
 title: Come migliorare la tua privacy online
 tags:
   - Angolo Tech
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 slug: migliorare-privacy
 pubDate: 2022-11-01
 ---

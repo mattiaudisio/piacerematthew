@@ -3,7 +3,7 @@ public: true
 title: Usare Thunderbird come backup per le mail di Gmail
 tags:
   - Angolo Tech
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 slug: thunderbird-backup
 pubDate: 2024-01-24
 ---

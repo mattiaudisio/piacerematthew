@@ -3,7 +3,7 @@ public: true
 title: Usare Telegram come un lettore di Feed RSS
 tags:
   - Angolo Tech
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 slug: telegrtam-rss
 pubDate: 2024-01-31
 ---

@@ -3,7 +3,7 @@ public: true
 title: Creare un intero podcast artificialmente
 tags:
   - Angolo Tech
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 slug: telegrtam-rss
 pubDate: 2023-12-20
 ---

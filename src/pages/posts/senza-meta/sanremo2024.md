@@ -3,7 +3,7 @@ public: true
 title: Un pensiero su Sanremo
 tags:
   - SentaMeta
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 slug: sanremo-2024
 pubDate: 2024-02-11
 ---

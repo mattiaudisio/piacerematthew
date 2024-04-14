@@ -3,7 +3,7 @@ public: true
 title: Come fare un Website Blocker con Python
 tags:
   - Angolo Tech
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 slug: website-blocker
 pubDate: 2022-08-16
 ---

@@ -3,7 +3,7 @@ public: true
 title: Recensione "Filosofia Giapponese, 4 libri in 1 Ikigai, Kaizen, Shinrin-yoku, Kintsukuroi"
 tags:
   - SentaMeta
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 slug: recensione-libro-filosofia-giapponese
 pubDate: 2023-10-08
 ---

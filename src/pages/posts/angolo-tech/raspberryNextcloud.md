@@ -3,7 +3,7 @@ public: true
 title: Come ho installato Nextcloud su un Raspberry Pi 3
 tags:
   - Angolo Tech
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 slug: raspberry-nextcloud
 pubDate: 2024-04-14
 ---

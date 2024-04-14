@@ -3,7 +3,7 @@ public: true
 title: Rendere il tuo telefono ＦＯＳＳ　往いぞ
 tags:
   - Angolo Tech
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 slug: raspberry-nextcloud
 pubDate: 2024-04-14
 ---

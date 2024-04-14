@@ -1,10 +1,10 @@
 ---
 public: true
-title: Senza Meta – Wrapped 2023 (anche detto il meglio del 2023)
+title: Wrapped 2023 (anche detto il meglio del 2023)
 tags:
   - SentaMeta
 slug: wrapped-2023
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 pubDate: 2023-12-15
 ---
 

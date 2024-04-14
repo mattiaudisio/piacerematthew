@@ -2,7 +2,16 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import blog from '../../public/data/blog.json';
+const angoloTech = (await Astro.glob('./posts/angolo-tech/*.md')).sort(
+  (a: any, b: any) =>
+    new Date(b.frontmatter.pubDate).valueOf() -
+    new Date(a.frontmatter.pubDate).valueOf()
+)
+const senzaMeta = (await Astro.glob('./posts/senza-meta/*.md')).sort(
+  (a: any, b: any) =>
+    new Date(b.frontmatter.pubDate).valueOf() -
+    new Date(a.frontmatter.pubDate).valueOf()
+)
 import '../styles/global.css'
 ---
 
@@ -14,15 +23,11 @@ import '../styles/global.css'
 				<p>Qui scrivo di tecnologia, internet culture e di esperienze di vita che voglio raccontare.</p>
                 <h3>L'angolo Tech</h3>
                 <p>“L'angolo Tech” è una rubrica che nasce da una semplice esigenza: avere un posto dove mettere gli appunti delle cose che faccio, in modo che in futuro so dove trovarli quando ne ho bisogno.</p><br />
-				<ul>
+                <ul>
                     {
-                        blog.map((blog) => {
-                            if (blog.tag == "Angolo Tech"){
-                                return(
-                                <li>- <a href={blog.url}>{blog.titolo}</a></li>
-                            );
-                            }
-                        })
+                        angoloTech.map(post => (
+                            <li>- <a href={post.url}>{post.frontmatter.title}</a></li>
+                        ))
                     }
                 </ul>
 				<h3>Senza Meta</h3>
@@ -31,13 +36,9 @@ import '../styles/global.css'
                 </p><br />
 				 <ul>
                     {
-                        blog.map((blog) => {
-                            if (blog.tag == "Senza Meta"){
-                                return(
-                                <li>- <a href={blog.url}>{blog.titolo}</a></li>
-                            );
-                            }
-                        })
+                        senzaMeta.map(post => (
+                            <li>- <a href={post.url}>{post.frontmatter.title}</a></li>
+                        ))
                     }
                 </ul>
  			</div>

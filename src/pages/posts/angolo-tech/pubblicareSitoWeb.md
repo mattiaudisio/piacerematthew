@@ -3,7 +3,7 @@ public: true
 title: Come pubblicare gratuitamente un sito web (statico o dinamico)
 tags:
   - Angolo Tech
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 slug: pubblicare-sito-web
 pubDate: 2023-01-19
 ---

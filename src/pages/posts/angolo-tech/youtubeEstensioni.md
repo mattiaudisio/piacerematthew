@@ -3,7 +3,7 @@ public: true
 title: Come rendere vivibile YouTube grazie a queste estensioni
 tags:
   - Angolo Tech
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 slug: telegrtam-rss
 pubDate: 2023-08-23
 ---

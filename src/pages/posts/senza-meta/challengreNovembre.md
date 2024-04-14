@@ -1,10 +1,10 @@
 ---
 public: true
-title: Senza Meta – Un mese di sfida.. per diminuire  lo schifo verso me stesso
+title: Un mese di sfida.. per diminuire  lo schifo verso me stesso
 tags:
   - SentaMeta
 slug: challenge-novembre
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 pubDate: 2024-02-11
 ---
 

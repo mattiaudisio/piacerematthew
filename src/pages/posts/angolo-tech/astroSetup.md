@@ -3,7 +3,7 @@ public: true
 title: Astro Framework Setup Tutorial
 tags:
   - Angolo Tech
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 slug: astro-setup
 pubDate: 2022-10-06
 ---
