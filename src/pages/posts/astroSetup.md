@@ -32,7 +32,7 @@ Come prima cosa digita il comdando <u>cd Documenti/</u> (o Documents se hai l'OS
 mi raccomando nei nomi delle directory, dette anche cartelle, e dei file non dovrebbero andare gli spazi, al posto di quelli usa o un - o un _).
 Ora, se andari dentro _Documenti_, troverai tutte le cartelle che hai creato:<br /><br />
 
-<img src="../../../public/images/posts/node2.png">
+<img src="images/posts/node2.png">
 
 <br /><br />
 Ora, come ultimissima cosa prima di cominciare seriamente, ti faccio scaricare un Package Manager che può tornarti utile durante il lavoro, <a href="https://yarnpkg.com/">Yarn</a>. Quindi, sempre dal tuo prompt di Node, digita <u>npm i -g corepack</u> e aspetta che venga installato.<br />
