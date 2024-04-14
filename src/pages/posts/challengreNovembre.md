@@ -53,7 +53,7 @@ Nel dettaglio:<br /><br />
     </ol>  
 </ol>  
 <br /><br />
-<img src="../../../public/images/posts/meditazione.jpg" alt="i 10 minuti di Yoga">
+<img src="https://raw.githubusercontent.com/mattiaudisio/piacerematthew/main/public/images/posts/meditazione.jpg" alt="i 10 minuti di Yoga">
 
 ## Svolgimento
 
@@ -81,4 +81,4 @@ Mi ha aiutato a capire che, se voglio migliorarmi, devo cominciare a migliorare 
 
 Quindi grazie me di un mese fa che ha deciso di fare questa “Challenge”, in fondo ne sentivi veramente il bisogno.<br /><br />
 
-<img src="../../../public/images/posts/scheda.jpg" alt="la scheda a fine mese">
+<img src="https://raw.githubusercontent.com/mattiaudisio/piacerematthew/main/public/images/posts/scheda.jpg" alt="la scheda a fine mese">

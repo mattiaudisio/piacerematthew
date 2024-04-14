@@ -48,7 +48,7 @@ Ultima roba degna.... un webserie disponibile su YouTube!
 
 Avevo fatto un post su PIXEL, dove ho mostrato tutti i libri che ho letto nel 2023, ma, avendo cancellatto il profilo, quello che rimane è questa foto.
 <br /><br />
-<img src="../../../public/images/posts/libri2023.jpg">
+<img src="https://raw.githubusercontent.com/mattiaudisio/piacerematthew/main/public/images/posts/libri2023.jpg">
 
 ## 🎮 Videogame
 
