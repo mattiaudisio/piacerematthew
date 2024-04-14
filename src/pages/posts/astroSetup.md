@@ -16,7 +16,7 @@ Piccola guida sul come preparare il setup per realizzare il tuo sito web con il 
 Per utilizzare questo Framework, sarà necessario installare <a href="https://nodejs.org/en/">Node.js</a>. Cliccando su <a href="https://nodejs.org/en/">questo link</a> sarai renderizzato al sito ufficiali di Node.Js dove, cliccando sul pulsante con la versione LTS, scaricherai l'eseguibile per installarlo.<br />
 Dopo aver cliccato sull'eseguibile scaricato e aver completato l'installazione di Node.JS, ti appariranno questi programmi:<br /><br />
 
-<img src="../../../public/images/posts/node1.png">
+<img src="/../../public/images/posts/node1.png">
 
 Quello che è stato installato è Node.JS e, insiseme, è stato installato _Node.Js command prompt_, quello che ci servirà in questo tutorial.
 Aprilo e appena ti appare il prompt, digita <u>node-v</u> e, il numero che ti apparirà, rappresenta la versione che hai appena installato di Node.JS.
