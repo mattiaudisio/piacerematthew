@@ -16,7 +16,9 @@ import '../styles/global.css'
 					Questa pagina prende il posto di <a href="http://lore.livellosegreto.it/">Lore</a>, un istanza di BookWyrm gestita da <a href="http://livellosegreto.it/">Livello Segreto</a>.
 					Un tempo avevo un account, che usavo sia per tenere traccia del mio “percorso” da minimalista che nel gestire i libri che leggo.<br /><br />
 					Ora ho una pagina di questo sito dedicato a questo.</p>
-                <h3>📚 Sto leggendo</h3>
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 s:grid-cols-1 gap-4">
+            <div>
+        <h3>📚 Sto leggendo</h3>
                 <ul>
                     {
                         listaLibri.map((listaLibri) => {
@@ -28,6 +30,8 @@ import '../styles/global.css'
                         })
                     }
                 </ul>
+            </div>
+            <div>
                 <h3>📚 Da Leggere</h3>
                 <ul>
                     {
@@ -40,6 +44,8 @@ import '../styles/global.css'
                         })
                     }
                 </ul>
+            </div>
+            <div>
                 <h3>📚 letti</h3>
                 <ul>
                     {
@@ -52,6 +58,8 @@ import '../styles/global.css'
                         })
                     }
                 </ul>
+            </div>
+        </div>
 			</div>
 			<Footer/>
 		</div>
