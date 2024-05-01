@@ -1,0 +1,72 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import listaFilm from '../../public/data/film.json';
+import listaSerie from '../../public/data/serie.json'
+import '../styles/global.css'
+---
+
+<Layout title="Tracker | Piacere, Matthew">
+	<main>
+		<div id="divPrincipale">
+			<Header />
+			<div id="divSezione">
+				<h2>Serie Tv</h2>
+        <p>La pagina che deve tenere traccia di quello che sto guardando, ho guardato e devo guardare (Un TvTime DIY che non da i miei dati a qualcuno)</p>
+                <h3>📺 In pari</h3>
+                <ul>
+                    {
+                        listaSerie.map((listaSerie) => {
+                            if (listaSerie.Stato == "In pari"){
+                                return(<li>- <a href={listaSerie.link}>{listaSerie.titolo}</a></li>);
+                            }
+                        })
+                    }
+                </ul>
+                <h3>📺 Terminato</h3>
+                <ul>
+                    {
+                        listaSerie.map((listaSerie) => {
+                            if (listaSerie.Stato == "Terminata"){
+                                return(<li>- <a href={listaSerie.link}>{listaSerie.titolo}</a></li>);
+                            }
+                        })
+                    }
+                </ul>
+                <h3>📺 Serie Preferite ❤️</h3>
+                <ul>
+                    {
+                        listaSerie.map((listaSerie) => {
+                            if (listaSerie.preferiti == 1){
+                                return(<li>- <a href={listaSerie.link}>{listaSerie.titolo}</a></li>);
+                            }
+                        })
+                    }
+                </ul>
+                <br />        
+        <h2>Film</h2>
+        <p>Stessa roba delle serie ma con i film</p>
+        <h3>🎞️ Guardati</h3>
+        <ul>
+            {
+                listaFilm.map((listaFilm) => {
+                    return(<li>- <a href={listaFilm.link}>{listaFilm.Film}</a></li>);
+                })
+            }
+        </ul>
+        <h3>🎞️ Film Preferiti ❤️</h3>
+        <ul>
+            {
+                listaFilm.map((listaFilm) => {
+                    if (listaFilm.preferito == 1){
+                        return(<li>- <a href={listaFilm.link}>{listaFilm.Film}</a></li>);
+                    }
+                })
+            }
+        </ul>
+      </div>
+      <Footer/>
+		</div>
+	</main>
+</Layout>
