@@ -13,5 +13,5 @@ _la prima_: mi sono stufato dei film americani, ho proprio l'eusarimento e la no
 _secondo_: sto capendo Fada quando dice nelle reaction: _**"Musica matematicamente perfetta"**_, perchè sti film sono matematicamente perfetti ed è tutto fatto per essere così preciso e uguale a tutto quello che Hollywood ha vomitato nelle sale negli ultimi anni che ormai non ti danno nessuna emozione.<br /><br />
 Questo film in particolare sembra scritto dall'Intelligenza Artificale (_Ok chatGPT, scrivimi una storia con protagonisti delle scimmie che vivono in un mondo con pochissimi umani vivi e condiscilo con tutti i clichè di sceneggiatura che abbiamo visto negli ultimi 20 anni nei cinema USA_)...
 La devo smettere di guardare film americani<br /><br />
-_Articolo nato da una memo vocale fatto il 13 maggio 2024 dopo aver visto il film al cinema_
+_Articolo nato da un memo vocale fatto il 13 maggio 2024 dopo aver visto il film al cinema_
 
