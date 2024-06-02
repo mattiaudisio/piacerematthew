@@ -102,7 +102,7 @@ Senza troppi giri di parole, dato che non mi so spiegare, ecco qua lo script fin
 ```
 
 Qua c'è il risultato finale<br /><br />
-<iframe id="odysee-iframe" style="width:100%; aspect-ratio:16 / 9;" src="https://odysee.com/$/embed/@matthew:28f/TestAi:a?r=J62iRW6KvqeKZPabjGUYWqr6TpU5A51d" allowfullscreen></iframe>
+<iframe width="760" height="415" src="https://www.youtube.com/embed/tvQzAGsA41k?si=Qb_3G2yZz_s2apTV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 3. pensieri mei
 
