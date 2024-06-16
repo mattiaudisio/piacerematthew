@@ -21,13 +21,11 @@ import '../styles/global.css'
         <h3>📚 Sto leggendo</h3>
                 <ul>
                     {
-                        listaLibri.map((listaLibri) => {
-                            if (listaLibri.stato == "Letture correnti"){
-                                return(
-                                <li>- <a href={listaLibri.remote_id}>{listaLibri.title} di {listaLibri.author_text}</a></li>
-                            );
-                            }
-                        })
+                            listaLibri.map((listaLibri) => {
+                                if (listaLibri.stato == "Letture correnti"){
+                                    return(<li>- <a href={listaLibri.remote_id}>{listaLibri.title} di {listaLibri.author_text}</a></li>);
+                                }
+                            })
                     }
                 </ul>
             </div>
