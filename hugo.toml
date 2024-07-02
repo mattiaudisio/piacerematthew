@@ -1,0 +1,8 @@
+baseURL = ''
+languageCode = 'it-it'
+title = 'Piacere, Matthew'
+theme = 'lugo'
+
+[params]  
+   # Hide Next and Previous page buttons normally displayed full height beside content
+   disableNextPrev = true    
