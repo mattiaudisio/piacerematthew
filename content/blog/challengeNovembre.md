@@ -36,7 +36,7 @@ La mia sfida di novembre, che stupidamente si può chiamare SNC (Sport November 
     - [Leggere un libro](https://lore.livellosegreto.it/book/139361/s/filosofia-giapponese-4-libri-in-1-ikigai-kaizen-shinrin-yoku-kintsukuroi)
 
 {{<center>}}
-    <img src="https://raw.githubusercontent.com/mattiaudisio/piacerematthew/main/public/images/posts/meditazione.jpg" id="imgArticle">
+    <img src="/posts/meditazione.jpg" id="imgArticle">
 {{</center>}}
 
 
@@ -68,4 +68,6 @@ Mi ha aiutato a capire che, se voglio migliorarmi, devo cominciare a migliorare 
 
 Quindi grazie me di un mese fa che ha deciso di fare questa “Challenge”, in fondo ne sentivi veramente il bisogno.
 
-<img src="https://raw.githubusercontent.com/mattiaudisio/piacerematthew/main/public/images/posts/scheda.jpg" alt="la scheda a fine mese">
+{{<center>}}
+<img src="/posts/scheda.jpg" alt="la scheda a fine mese" id="imgArticle">
+{{</center>}}

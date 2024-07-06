@@ -516,7 +516,7 @@ Ho finito la terza stagione di &lt;strong&gt;“After Life”&lt;/strong&gt;, Se
 &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;div style=&#34;text-align: center&#34;&gt;
 	&lt;p&gt;
-    &lt;img src=&#34;https://raw.githubusercontent.com/mattiaudisio/piacerematthew/main/public/images/posts/libri2023.jpg&#34; id=&#34;imgArticle&#34;&gt;
+    &lt;img src=&#34;/posts/libri2023.jpg&#34; id=&#34;imgArticle&#34;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -596,7 +596,7 @@ Ormai stavo rivivendo tutti quei sentimenti che mi avevano portato ad una dispia
 &lt;/ul&gt;
 &lt;div style=&#34;text-align: center&#34;&gt;
 	&lt;p&gt;
-    &lt;img src=&#34;https://raw.githubusercontent.com/mattiaudisio/piacerematthew/main/public/images/posts/meditazione.jpg&#34; id=&#34;imgArticle&#34;&gt;
+    &lt;img src=&#34;/posts/meditazione.jpg&#34; id=&#34;imgArticle&#34;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -616,7 +616,12 @@ Le uniche differenze che posso avvertire a livello fisico è che ho smesso di se
 &lt;p&gt;Alla fine, la SNC mi è servita veramente, e non per mettermi in forma, perché mi ha aiutato veramente ad aprire gli occhi, a capire le cose che avevo attorno. Mi ha aiutato a capire che certi cibi dovrei limitarli, mi ha aiutato a capire che l&amp;rsquo;allenamento è una grande valvola di sfogo, che al mio corpo non bastano due giorni a settimana per far fuoriuscire tutto quello che mi porto dentro.&lt;!-- raw HTML omitted --&gt;
 Mi ha aiutato a capire che, se voglio migliorarmi, devo cominciare a migliorare la mia salute mentale, che devo cominciare a fare realmente quello che sento mio,  e che devo cominciare ad affrontare la solitudine che ho attorno, piuttosto che rifugiarmi in progetti che mi rubano solo tempo ed energia, non dando nient&amp;rsquo;altro.&lt;/p&gt;
 &lt;p&gt;Quindi grazie me di un mese fa che ha deciso di fare questa “Challenge”, in fondo ne sentivi veramente il bisogno.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;div style=&#34;text-align: center&#34;&gt;
+	&lt;p&gt;
+&lt;img src=&#34;/posts/scheda.jpg&#34; alt=&#34;la scheda a fine mese&#34; id=&#34;imgArticle&#34;&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
 </description>
 	</item>
 	
@@ -802,7 +807,7 @@ tutti e due si basano sui seguenti passagi:&lt;/p&gt;
 &lt;p&gt;Dopo aver cliccato sull&amp;rsquo;eseguibile scaricato e aver completato l&amp;rsquo;installazione di Node.JS, ti appariranno questi programmi:&lt;/p&gt;
 &lt;div style=&#34;text-align: center&#34;&gt;
 	&lt;p&gt;
-    &lt;img src=&#34;https://raw.githubusercontent.com/mattiaudisio/piacerematthew/main/public/images/posts/node1.png&#34; id=&#34;imgArticle&#34;&gt;
+    &lt;img src=&#34;/posts/node1.png&#34; id=&#34;imgArticle&#34;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -817,7 +822,7 @@ tutti e due si basano sui seguenti passagi:&lt;/p&gt;
 Ora, se andari dentro &lt;em&gt;Documenti&lt;/em&gt;, troverai tutte le cartelle che hai creato:&lt;/p&gt;
 &lt;div style=&#34;text-align: center&#34;&gt;
 	&lt;p&gt;
-    &lt;img src=&#34;https://raw.githubusercontent.com/mattiaudisio/piacerematthew/main/public/images/posts/node2.png&#34; id=&#34;imgArticle&#34;&gt;
+    &lt;img src=&#34;/posts/node2.png&#34; id=&#34;imgArticle&#34;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 

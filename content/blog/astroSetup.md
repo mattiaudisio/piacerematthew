@@ -15,7 +15,7 @@ Per utilizzare questo Framework, sarà necessario installare [Node.js](https://n
 Dopo aver cliccato sull'eseguibile scaricato e aver completato l'installazione di Node.JS, ti appariranno questi programmi:
 
 {{<center>}}
-    <img src="https://raw.githubusercontent.com/mattiaudisio/piacerematthew/main/public/images/posts/node1.png" id="imgArticle">
+    <img src="/posts/node1.png" id="imgArticle">
 {{</center>}}
 
 Quello che è stato installato è Node.JS e, insiseme, è stato installato _Node.Js command prompt_, quello che ci servirà in questo tutorial.
@@ -37,7 +37,7 @@ mi raccomando nei nomi delle directory, dette anche cartelle, e dei file non dov
 Ora, se andari dentro _Documenti_, troverai tutte le cartelle che hai creato:
 
 {{<center>}}
-    <img src="https://raw.githubusercontent.com/mattiaudisio/piacerematthew/main/public/images/posts/node2.png" id="imgArticle">
+    <img src="/posts/node2.png" id="imgArticle">
 {{</center>}}
 
 Ora, come ultimissima cosa prima di cominciare seriamente, ti faccio scaricare un Package Manager che può tornarti utile durante il lavoro, [Yarn](https://yarnpkg.com/). Quindi, sempre dal tuo prompt di Node, digita _npm i -g corepack_ e aspetta che venga installato.

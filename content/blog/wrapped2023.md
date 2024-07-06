@@ -55,7 +55,7 @@ Avevo fatto un post su PIXEL, dove ho mostrato tutti i libri che ho letto nel 20
 <br /><br />
 
 {{<center>}}
-    <img src="https://raw.githubusercontent.com/mattiaudisio/piacerematthew/main/public/images/posts/libri2023.jpg" id="imgArticle">
+    <img src="/posts/libri2023.jpg" id="imgArticle">
 {{</center>}}
 
 ## 🎮 Videogame
