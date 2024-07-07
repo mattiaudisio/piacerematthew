@@ -1,4 +1,4 @@
-baseURL = ''
+baseURL = 'https://mattiaudisio.github.io/piacerematthew'
 languageCode = 'it-it'
 title = 'Piacere, Matthew'
 theme = 'lugo'
