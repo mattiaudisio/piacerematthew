@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>Piacere, Matthew</title>
-	<link>https://example.org/tags/senza-meta/</link>
+	<link>https://mattiaudisio.github.io/piacerematthew.github.io/tags/senza-meta/</link>
 	<description>Recent content in 📔 Senza Meta on Piacere, Matthew</description>
 	<generator>Hugo -- gohugo.io</generator>
-	<language>en-us</language>
+	<language>it-it</language>
 	<lastBuildDate>Tue, 14 May 2024 17:31:05 +0200</lastBuildDate>
     
-        <atom:link href="https://example.org/tags/senza-meta/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://mattiaudisio.github.io/piacerematthew.github.io/tags/senza-meta/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
 		<title>Come ho installato localmente invidious</title>
-		<link>https://example.org/blog/invidious/</link>
+		<link>https://mattiaudisio.github.io/piacerematthew.github.io/blog/invidious/</link>
 		<pubDate>Mon, 03 Jun 2024 21:02:25 +0200</pubDate>
 		
-		<guid>https://example.org/blog/invidious/</guid>
+		<guid>https://mattiaudisio.github.io/piacerematthew.github.io/blog/invidious/</guid>
 		<description>&lt;p&gt;Piccolo articolo veloce per spiegare come installare localmente una propria istanza invidious, in modo da vedere i video dei tuoi youtuber preferiti senza essere tracciato da YouTube.&lt;/p&gt;
 &lt;h2 id=&#34;pacchetti-richiesti&#34;&gt;Pacchetti richiesti&lt;/h2&gt;
 &lt;p&gt;Invidious può essere installato sia tramite Docker che tramite Podman, ma in questo caso vedremo la seconda opzione.&lt;/p&gt;
@@ -148,10 +148,10 @@ services:
 	
 	<item>
 		<title>Considerazione nata dopo la visione di &#34;Il regno del pianeta delle scimmie&#34;</title>
-		<link>https://example.org/blog/pensieripianetadellescimmie/</link>
+		<link>https://mattiaudisio.github.io/piacerematthew.github.io/blog/pensieripianetadellescimmie/</link>
 		<pubDate>Tue, 14 May 2024 17:31:05 +0200</pubDate>
 		
-		<guid>https://example.org/blog/pensieripianetadellescimmie/</guid>
+		<guid>https://mattiaudisio.github.io/piacerematthew.github.io/blog/pensieripianetadellescimmie/</guid>
 		<description>&lt;p&gt;Il nuovo film del Pianeta della scimmie è un film inutile e medrioche,ma che m&amp;rsquo;ha fatto capire 2 cose..&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;la prima&lt;/em&gt;: mi sono stufato dei film americani, ho proprio l&amp;rsquo;eusarimento e la noia di vedere sti film che ha livello di tramam sono uno la copia sputata dell&amp;rsquo;altro con solo qualche effetto visivo in più o in meno.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;secondo&lt;/em&gt;: sto capendo Fada quando dice nelle reaction: &lt;em&gt;&lt;strong&gt;&amp;ldquo;Musica matematicamente perfetta&amp;rdquo;&lt;/strong&gt;&lt;/em&gt;, perchè sti film sono matematicamente perfetti ed è tutto fatto per essere così preciso e uguale a tutto quello che Hollywood ha vomitato nelle sale negli ultimi anni che ormai non ti danno nessuna emozione.&lt;/p&gt;
@@ -163,10 +163,10 @@ services:
 	
 	<item>
 		<title>Rendere il tuo telefono ＦＯＳＳ　往いぞ</title>
-		<link>https://example.org/blog/appfoss/</link>
+		<link>https://mattiaudisio.github.io/piacerematthew.github.io/blog/appfoss/</link>
 		<pubDate>Sun, 14 Apr 2024 20:12:07 +0200</pubDate>
 		
-		<guid>https://example.org/blog/appfoss/</guid>
+		<guid>https://mattiaudisio.github.io/piacerematthew.github.io/blog/appfoss/</guid>
 		<description>&lt;p&gt;&lt;em&gt;So che il titolo a livello tecnico non è scritto in modo corretto, ma per stavolta passatemi la svirgolata artistica&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Tempo fa sono incappato in questo &lt;a href=&#34;https://livellosegreto.it/@KSGamingLife/111849739328291726&#34;&gt;Threads&lt;/a&gt; di &lt;a href=&#34;https://livellosegreto.it/@KSGamingLife&#34;&gt;KSGamingLife&lt;/a&gt;, dove venivano elencate un paio di app FOSS (Free Open Source Software) da usare come alternativa alle app Google o a quelle più comuni.
 Spinto dalla curiosità ho cominciato ad annotarmi su foglio di testo tutte le app citate all&amp;rsquo;interno, creando così questa lista.&lt;!-- raw HTML omitted --&gt;
@@ -206,10 +206,10 @@ Inizalmente è stata fatta per comodità mia ma ho deciso di renderla pubblica a
 	
 	<item>
 		<title>Come ho installato Nextcloud su un Raspberry Pi 3</title>
-		<link>https://example.org/blog/raspberrynextcloud/</link>
+		<link>https://mattiaudisio.github.io/piacerematthew.github.io/blog/raspberrynextcloud/</link>
 		<pubDate>Sun, 14 Apr 2024 19:32:17 +0200</pubDate>
 		
-		<guid>https://example.org/blog/raspberrynextcloud/</guid>
+		<guid>https://mattiaudisio.github.io/piacerematthew.github.io/blog/raspberrynextcloud/</guid>
 		<description>&lt;p&gt;Qualche tempo fa ho perso un paio di neuroni dietro ad uno sfizio che mi avevo lì da un pò di tempo: Installare Nextcloud sopra il Raspberry Pi 3 che ho in casa.&lt;/p&gt;
 &lt;p&gt;Una roba semplicissima mi direte, peccato che ho avuto a che fare con un paio di problemi che mi hanno dato abbastanza da pelare e questo articolo serve proprio per questi problemi.&lt;/p&gt;
 &lt;p&gt;Tutto quello che c&amp;rsquo;è scritto qua dentro è una specie di cronologia che mi permetterà in futuro di rifare la stessa operazione senza avere ulteriori problemi (spero).&lt;/p&gt;
@@ -280,10 +280,10 @@ Inserite le credenziali appena create in MySQL:&lt;/p&gt;
 	
 	<item>
 		<title>Un pensiero su Sanremo</title>
-		<link>https://example.org/blog/sanremo2024/</link>
+		<link>https://mattiaudisio.github.io/piacerematthew.github.io/blog/sanremo2024/</link>
 		<pubDate>Sun, 11 Feb 2024 17:37:21 +0200</pubDate>
 		
-		<guid>https://example.org/blog/sanremo2024/</guid>
+		<guid>https://mattiaudisio.github.io/piacerematthew.github.io/blog/sanremo2024/</guid>
 		<description>&lt;p&gt;&lt;em&gt;articolo nato inizialmente come Toot su Livello Segreto&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Contento per Angelina Mango che ha fatto una bella canzone, niente da dire, però mi è sinceramente dispiaciuto per l&amp;rsquo;odio che si è preso Geolier.&lt;/p&gt;
 &lt;p&gt;Vedere un ragazzo che ha voluto portare al pubblico della televisione quelle che sono le sue culture (napoletana e rap) venire distrutto in questo modo dalla stampa è veramente brutto.&lt;/p&gt;
@@ -303,10 +303,10 @@ Lascio qua questo video con cui mi sono trovato d&amp;rsquo;accordo.&lt;!-- raw 
 	
 	<item>
 		<title>Usare Telegram come un lettore di Feed RSS</title>
-		<link>https://example.org/blog/telegramfeedrss/</link>
+		<link>https://mattiaudisio.github.io/piacerematthew.github.io/blog/telegramfeedrss/</link>
 		<pubDate>Wed, 31 Jan 2024 19:04:26 +0200</pubDate>
 		
-		<guid>https://example.org/blog/telegramfeedrss/</guid>
+		<guid>https://mattiaudisio.github.io/piacerematthew.github.io/blog/telegramfeedrss/</guid>
 		<description>&lt;p&gt;I feed RSS sono quelle cose che, durante la mia “carriera/vita” su internet, gira girato tornano a fare capolinea ogni tanto.&lt;/p&gt;
 &lt;p&gt;Il primo ricordo che ho con questi strumenti risalgono al lontano 2019 quando tentai, fallendo miseramente, di creare un bot Telegram che, dato i feed RSS di un paio di fansub, mi mandava una notifica ogni volta che usciva una nuova puntata sottotitolata. In questi 6 anni sono stati utilizzati dal sottoscritto in molti progetti, partendo dai più semplici (un pagina in php che mi leggeva il Feed RSS di un giornale e mi mostrava gli ultimi 10 articoli) fino a robe più malsane (Ricreare una copia della sezione “Seguiti” del mio profilo Tik Tok tramite feed RSS).&lt;/p&gt;
 &lt;h2 id=&#34;fluent-reader&#34;&gt;Fluent Reader&lt;/h2&gt;
@@ -339,10 +339,10 @@ Un saluto a tutti&lt;/p&gt;
 	
 	<item>
 		<title>Usare Thunderbird come backup per le mail di Gmail</title>
-		<link>https://example.org/blog/thunderbirdbackup/</link>
+		<link>https://mattiaudisio.github.io/piacerematthew.github.io/blog/thunderbirdbackup/</link>
 		<pubDate>Wed, 24 Jan 2024 21:50:21 +0200</pubDate>
 		
-		<guid>https://example.org/blog/thunderbirdbackup/</guid>
+		<guid>https://mattiaudisio.github.io/piacerematthew.github.io/blog/thunderbirdbackup/</guid>
 		<description>&lt;p&gt;In questi anni ho notato una tendenza che trovo particolare. Nel mondo del lavoro, molte persone, in particolare nelle piccole imprese, tendono ad usare utilizzare la propria mail personale.&lt;/p&gt;
 &lt;p&gt;Ora, lasciando da parte il dibattuto se questa scelta sia un ottima scelta &lt;em&gt;(non è un ottima scelta)&lt;/em&gt; oppure no &lt;em&gt;(cof. cof. &lt;strong&gt;è una scelta di merda&lt;/strong&gt; cof. cof.)&lt;/em&gt;, parliamo di un avvenimento capitato vicino a me ma che può essere d&amp;rsquo;aiuto a qualcuno&amp;hellip; &lt;strong&gt;il tuo account gmail ti segna 15GB su 15 GB utilizzati&lt;/strong&gt; (sì lo so può sembrare strano a qualcuno ma vi giuro che ho visto quella scritta con i miei occhi).&lt;/p&gt;
 &lt;p&gt;In questi casi però il caro e vecchio “cancella tutte le mail” non può venirci in aiuto, dato che la suddetta mail viene usata per un lavoro in cui servono documenti e queste mail sono piene di documenti che servono. La soluzione che ti consiglio: fare un backup in locale.&lt;/p&gt;
@@ -360,10 +360,10 @@ Un saluto a tutti&lt;/p&gt;
 	
 	<item>
 		<title>Recensioni randomiche non richieste su Film e Serie Tv</title>
-		<link>https://example.org/blog/recensioni/</link>
+		<link>https://mattiaudisio.github.io/piacerematthew.github.io/blog/recensioni/</link>
 		<pubDate>Mon, 01 Jan 2024 17:31:05 +0200</pubDate>
 		
-		<guid>https://example.org/blog/recensioni/</guid>
+		<guid>https://mattiaudisio.github.io/piacerematthew.github.io/blog/recensioni/</guid>
 		<description>&lt;p&gt;Un elenco non finito di recensioni randomiche che ho lascitato in giro per l&amp;rsquo;internet con account che ora non esistono più. &lt;strong&gt;Attenzione ci sono tanti spoiler&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;luxastra-s04e19--14042023&#34;&gt;Luxastra (S04|E19) | 14/04/2023&lt;/h2&gt;
 &lt;p&gt;QUest&amp;rsquo;episodio è la dimostrazione visiva di come in D&amp;amp;D tutto può cambiare o sparire in un nano secondo e che se ti metti contro il Master sei fottuto, soprattutto se sto Master si chiama Matt. Non ci resta che sperare nel gruppo A&lt;/p&gt;
@@ -384,10 +384,10 @@ Un saluto a tutti&lt;/p&gt;
 	
 	<item>
 		<title>Creare un intero podcast artificialmente</title>
-		<link>https://example.org/blog/podcastartificiales/</link>
+		<link>https://mattiaudisio.github.io/piacerematthew.github.io/blog/podcastartificiales/</link>
 		<pubDate>Wed, 20 Dec 2023 21:07:49 +0200</pubDate>
 		
-		<guid>https://example.org/blog/podcastartificiales/</guid>
+		<guid>https://mattiaudisio.github.io/piacerematthew.github.io/blog/podcastartificiales/</guid>
 		<description>&lt;p&gt;Ieri, mentre cazzeggiavo nella timeline locale, mi sono imbattuto in  &lt;a href=&#34;https://livellosegreto.it/@cesco/111606253044821035&#34;&gt;questo post&lt;/a&gt; di &lt;a href=&#34;https://livellosegreto.it/@cesco&#34;&gt;cesco&lt;/a&gt; che, per una persona a cui piace sperimentare scrivendo righe di codice, non dirà niente di nuovo&amp;hellip; a me invece sta cosa ha fatto scoreggiare il cervello.&lt;/p&gt;
 &lt;p&gt;Ok, lo so che può suonare strano agli smanettoni dell&amp;rsquo;IA, ma guardiamo un attimo cosa c&amp;rsquo;è:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; Riciclando del vecchio codice che avevo scritto e aggiungendo qualcosa di  nuovo, in 5 min e 
@@ -476,10 +476,10 @@ Tolto il fatto che ho dovuto creare un account openai per sto esperimento e so c
 	
 	<item>
 		<title>Wrapped 2023 (anche detto il meglio del 2023)</title>
-		<link>https://example.org/blog/wrapped2023/</link>
+		<link>https://mattiaudisio.github.io/piacerematthew.github.io/blog/wrapped2023/</link>
 		<pubDate>Fri, 15 Dec 2023 17:37:21 +0200</pubDate>
 		
-		<guid>https://example.org/blog/wrapped2023/</guid>
+		<guid>https://mattiaudisio.github.io/piacerematthew.github.io/blog/wrapped2023/</guid>
 		<description>&lt;p&gt;Qualche giorno fa sono incappato nell&amp;rsquo;&lt;a href=&#34;https://www.andreacorinti.com/posts/ita/2023/&#34;&gt;articolo&lt;/a&gt; del buon Andrea Corinti, conosciuto anche con i nickname di &lt;a href=&#34;https://livellosegreto.it/@xabacadabra&#34;&gt;Xab&lt;/a&gt; e di “Brava persona che fa cose belle a cui frego ogni tanto qualche idea”&amp;hellip; e, come si capisce da queste ultime parole, ho deciso di nuovo di grattare idee dal suo blog per scrivere quest&amp;rsquo;articolo.&lt;/p&gt;
 &lt;p&gt;Quindi ecco un mega riassunto di tutto quello che ho visto, letto, giocato e vissuto in questo 2023.&lt;/p&gt;
 &lt;h2 id=&#34;-film&#34;&gt;🎬​ Film&lt;/h2&gt;
@@ -516,7 +516,7 @@ Ho finito la terza stagione di &lt;strong&gt;“After Life”&lt;/strong&gt;, Se
 &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;div style=&#34;text-align: center&#34;&gt;
 	&lt;p&gt;
-    &lt;img src=&#34;https://example.org/posts/libri2023.jpg&#34; id=&#34;imgArticle&#34;&gt;
+    &lt;img src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/posts/libri2023.jpg&#34; id=&#34;imgArticle&#34;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -546,10 +546,10 @@ Dato che ormai son 2 anni che son lì un giovedì sera sì e un giovedì sera no
 	
 	<item>
 		<title>Un mese di sfida.. per diminuire  lo schifo verso me stesso</title>
-		<link>https://example.org/blog/challengenovembre/</link>
+		<link>https://mattiaudisio.github.io/piacerematthew.github.io/blog/challengenovembre/</link>
 		<pubDate>Fri, 01 Dec 2023 16:14:43 +0200</pubDate>
 		
-		<guid>https://example.org/blog/challengenovembre/</guid>
+		<guid>https://mattiaudisio.github.io/piacerematthew.github.io/blog/challengenovembre/</guid>
 		<description>&lt;h2 id=&#34;premessa&#34;&gt;Premessa&lt;/h2&gt;
 &lt;p&gt;Sono sempre stato un ragazzo che, nel bene o nel male, ha sempre cercato di fare attività fisica e di muoversi il più possibile, nonostante abbia passato periodi dove la parola pigrizia erano all&amp;rsquo;ordine del giorno.&lt;/p&gt;
 &lt;p&gt;Ma è da un pò di tempo di tempo che, nonostante tutti gli sforzi, mi sono abbastanza lasciato andare, in particolare con un dei miei vizi: il mangiare e bere schifezze.&lt;/p&gt;
@@ -596,7 +596,7 @@ Ormai stavo rivivendo tutti quei sentimenti che mi avevano portato ad una dispia
 &lt;/ul&gt;
 &lt;div style=&#34;text-align: center&#34;&gt;
 	&lt;p&gt;
-    &lt;img src=&#34;https://example.org/posts/meditazione.jpg&#34; id=&#34;imgArticle&#34;&gt;
+    &lt;img src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/posts/meditazione.jpg&#34; id=&#34;imgArticle&#34;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -618,7 +618,7 @@ Mi ha aiutato a capire che, se voglio migliorarmi, devo cominciare a migliorare 
 &lt;p&gt;Quindi grazie me di un mese fa che ha deciso di fare questa “Challenge”, in fondo ne sentivi veramente il bisogno.&lt;/p&gt;
 &lt;div style=&#34;text-align: center&#34;&gt;
 	&lt;p&gt;
-&lt;img src=&#34;https://example.org/posts/scheda.jpg&#34; alt=&#34;la scheda a fine mese&#34; id=&#34;imgArticle&#34;&gt;
+&lt;img src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/posts/scheda.jpg&#34; alt=&#34;la scheda a fine mese&#34; id=&#34;imgArticle&#34;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -627,10 +627,10 @@ Mi ha aiutato a capire che, se voglio migliorarmi, devo cominciare a migliorare 
 	
 	<item>
 		<title>Recensione &#34;Filosofia Giapponese, 4 libri in 1 Ikigai, Kaizen, Shinrin-yoku, Kintsukuroi&#34;</title>
-		<link>https://example.org/blog/recensionelibro/</link>
+		<link>https://mattiaudisio.github.io/piacerematthew.github.io/blog/recensionelibro/</link>
 		<pubDate>Sun, 08 Oct 2023 17:31:05 +0200</pubDate>
 		
-		<guid>https://example.org/blog/recensionelibro/</guid>
+		<guid>https://mattiaudisio.github.io/piacerematthew.github.io/blog/recensionelibro/</guid>
 		<description>&lt;p&gt;Avevo preso questo libro circa 2 anni fa, ma tra vari cambi nella mia vita con tanto di dimenticanza di avere questo libro nel mio scaffale, l&amp;rsquo;ho recuperato solo quest&amp;rsquo;anno.&lt;/p&gt;
 &lt;p&gt;Non posso dire che è un pessimo libro, anzi al suo interno ci sono informazioni molto interessanti, ma devo ammettere che ogni tanto la sensazione che questo libro sia stato scritto in giapponese poi tradotto con qualche traduttore online si palesava nei mie pensieri (magari errori passati in secondo piano durante la correzione, che però sta sensazione un pò la facevano venire).&lt;/p&gt;
 &lt;p&gt;Per il resto non sì è un libro interessante che tratta tanti, anzi troppi, argomenti. Capisco che questo è una raccolta di piccoli 4 libri, però bisogna ammettere che, se te lo leggi tutto dall&amp;rsquo;inizio alla fine, arrivi ad un certo punto che la quantità di informazioni è talmente alta che fai fatica ad andare avanti.&lt;/p&gt;
@@ -642,10 +642,10 @@ Mi ha aiutato a capire che, se voglio migliorarmi, devo cominciare a migliorare 
 	
 	<item>
 		<title>Come rendere vivibile YouTube grazie a queste estensioni</title>
-		<link>https://example.org/blog/youtubeestensioni/</link>
+		<link>https://mattiaudisio.github.io/piacerematthew.github.io/blog/youtubeestensioni/</link>
 		<pubDate>Wed, 23 Aug 2023 22:06:02 +0200</pubDate>
 		
-		<guid>https://example.org/blog/youtubeestensioni/</guid>
+		<guid>https://mattiaudisio.github.io/piacerematthew.github.io/blog/youtubeestensioni/</guid>
 		<description>&lt;p&gt;Youtube ormai è diventato un posto abbastanza anomalo dove soggiornare. Tolto gli utenti base della piattaforma, che accettano i vari cambiamenti che vengono fatti (se si accorgono di questi “aggiornamenti”) senza controbattere e battere ciglio, c&amp;rsquo;è gente che non vede di buon occhio la deriva presa. Molti infatti hanno cominicato a spostarsi anche su altri servizi, chi su Vimeo o Dailymotion (se esiste ancora) chi su PeerTube.&lt;/p&gt;
 &lt;p&gt;Molti altri invece, delusi da queste evoluzioni ma attaccati ancora ai contenuti che possono trovare al suo interno, decidono di non buttarsi nei servizi citati prima ma di rifugiarsi su un&amp;rsquo;istanza Invidious, un front-end alternativo per YouTube.&lt;/p&gt;
 &lt;p&gt;Ma tra questi c&amp;rsquo;è gente che, nonostante la delusione per l&amp;rsquo;evoluzione di YouTube, non ha deciso di gettarsi su altri servizi ma di tirarsi su le maniche per fare in modo che, grazie ad estensioni fatte ad hoc, la gente riesca a ritrovare lo YouTube che tanto amava.&lt;/p&gt;
@@ -667,10 +667,10 @@ Mi ha aiutato a capire che, se voglio migliorarmi, devo cominciare a migliorare 
 	
 	<item>
 		<title>Come pubblicare gratuitamente un sito web (statico o dinamico)</title>
-		<link>https://example.org/blog/pubblicaresitoweb/</link>
+		<link>https://mattiaudisio.github.io/piacerematthew.github.io/blog/pubblicaresitoweb/</link>
 		<pubDate>Thu, 19 Jan 2023 21:26:12 +0200</pubDate>
 		
-		<guid>https://example.org/blog/pubblicaresitoweb/</guid>
+		<guid>https://mattiaudisio.github.io/piacerematthew.github.io/blog/pubblicaresitoweb/</guid>
 		<description>&lt;p&gt;Stai realizzando il tuo sito web, l&amp;rsquo;hai praticamente completato e non vedi l&amp;rsquo;ora di pubblicarlo ma, purtroppo, non hai i soldi per prenderti per prendere un servizio di hosting dove caricarlo?&lt;/p&gt;
 &lt;p&gt;Tranquillo, so cosa vuol dire (anzi tutt&amp;rsquo;ora vivo sta situazione) e so che quando sei in questo stato ti metti a cercare qualsiasi sito disponibile e rischi di capitare sui peggio servizi. Ma tranquillo, è ora di risolvere questo problema, e come aiutante avrai me, il classico mr. nessuno di provincia che, dopo una serie di fregature una dietro l&amp;rsquo;altro, a trovato 2 metodi affidabili che ti aiutano a diminuire i costi per un hosting ed avere lo stesso il tuo sito online e pronto per essere visitato.&lt;/p&gt;
 &lt;p&gt;Partiamo da una piccola premessa.. Cosa intendo con &lt;strong&gt;gratuitamente&lt;/strong&gt;?&lt;/p&gt;
@@ -732,10 +732,10 @@ tutti e due si basano sui seguenti passagi:&lt;/p&gt;
 	
 	<item>
 		<title>Come migliorare la tua privacy online</title>
-		<link>https://example.org/blog/privacy/</link>
+		<link>https://mattiaudisio.github.io/piacerematthew.github.io/blog/privacy/</link>
 		<pubDate>Tue, 01 Nov 2022 21:15:06 +0200</pubDate>
 		
-		<guid>https://example.org/blog/privacy/</guid>
+		<guid>https://mattiaudisio.github.io/piacerematthew.github.io/blog/privacy/</guid>
 		<description>&lt;p&gt;Cinque semplici passi per migliorare la tua privacy online utilizzando servizi e software alternativi che tutelano i tuoi dati.&lt;/p&gt;
 &lt;p&gt;Negli ultimi anni l&amp;rsquo;argomento della privacy è diventato uno dei topic più chiaccherati e discussi da blog e forum. Ormai molti sviluppatori o appasionati di informatica e di tecnologia stanno piano piano migrando in servizi che la garantiscono. Oggi voglio consigliare a chi vuole entrare in questo mondo 5 semplici passi per migliorare la loro privacy.&lt;/p&gt;
 &lt;h2 id=&#34;01-servizi-email&#34;&gt;01. Servizi email&lt;/h2&gt;
@@ -796,10 +796,10 @@ tutti e due si basano sui seguenti passagi:&lt;/p&gt;
 	
 	<item>
 		<title>Astro Framework Setup Tutorial</title>
-		<link>https://example.org/blog/astrosetup/</link>
+		<link>https://mattiaudisio.github.io/piacerematthew.github.io/blog/astrosetup/</link>
 		<pubDate>Thu, 06 Oct 2022 20:19:50 +0200</pubDate>
 		
-		<guid>https://example.org/blog/astrosetup/</guid>
+		<guid>https://mattiaudisio.github.io/piacerematthew.github.io/blog/astrosetup/</guid>
 		<description>&lt;p&gt;Come installare il framework Astro all&amp;rsquo;interno del tuo sito web&lt;/p&gt;
 &lt;p&gt;Piccola guida sul come preparare il setup per realizzare il tuo sito web con il framework &lt;a href=&#34;https://astro.build/&#34;&gt;Astro&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Premessa&lt;/strong&gt;&lt;/p&gt;
@@ -807,7 +807,7 @@ tutti e due si basano sui seguenti passagi:&lt;/p&gt;
 &lt;p&gt;Dopo aver cliccato sull&amp;rsquo;eseguibile scaricato e aver completato l&amp;rsquo;installazione di Node.JS, ti appariranno questi programmi:&lt;/p&gt;
 &lt;div style=&#34;text-align: center&#34;&gt;
 	&lt;p&gt;
-    &lt;img src=&#34;https://example.org/posts/node1.png&#34; id=&#34;imgArticle&#34;&gt;
+    &lt;img src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/posts/node1.png&#34; id=&#34;imgArticle&#34;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -822,7 +822,7 @@ tutti e due si basano sui seguenti passagi:&lt;/p&gt;
 Ora, se andari dentro &lt;em&gt;Documenti&lt;/em&gt;, troverai tutte le cartelle che hai creato:&lt;/p&gt;
 &lt;div style=&#34;text-align: center&#34;&gt;
 	&lt;p&gt;
-    &lt;img src=&#34;https://example.org/posts/node2.png&#34; id=&#34;imgArticle&#34;&gt;
+    &lt;img src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/posts/node2.png&#34; id=&#34;imgArticle&#34;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -852,10 +852,10 @@ Se ti è uscito, bene! Ora apri il tuo browser e digita http://127.0.0.1:3000/ e
 	
 	<item>
 		<title>Come fare un Website Blocker con Python</title>
-		<link>https://example.org/blog/websiteblocker/</link>
+		<link>https://mattiaudisio.github.io/piacerematthew.github.io/blog/websiteblocker/</link>
 		<pubDate>Tue, 16 Aug 2022 22:02:53 +0200</pubDate>
 		
-		<guid>https://example.org/blog/websiteblocker/</guid>
+		<guid>https://mattiaudisio.github.io/piacerematthew.github.io/blog/websiteblocker/</guid>
 		<description>&lt;p&gt;Come creare un Website Blocker (un&amp;rsquo;applicazione che può essere usata per bloccare l&amp;rsquo;apertura di certi siti web) con Python e dargli anche una veste grafica grazie a tkinter. Questo è un programma molto utile per gli studenti che vogliono concentrarsi sugli studi e non vogliono altre distrazioni come i social media.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Premessa&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Prima di partire col progetto, bisogna abilitare i permessi di scrittura del file host, per questo, andare nel percorso &lt;em&gt;“C:\Windows\System32\drivers”&lt;/em&gt; e cambiare i permessi al file hosts.&lt;/p&gt;
@@ -1048,10 +1048,10 @@ La funzione blockwebsites, tramite l&amp;rsquo;array con i siti e dei for, scriv
 	
 	<item>
 		<title>08. Attivista (ENFP-A/ENFP-T)</title>
-		<link>https://example.org/attivista/</link>
+		<link>https://mattiaudisio.github.io/piacerematthew.github.io/attivista/</link>
 		<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 		
-		<guid>https://example.org/attivista/</guid>
+		<guid>https://mattiaudisio.github.io/piacerematthew.github.io/attivista/</guid>
 		<description>&lt;div style=&#34;text-align: center&#34;&gt;
 	&lt;p&gt;
 &lt;i&gt; Mi riferisco a &lt;a href=&#34;https://www.16personalities.com/enfp-personality&#34;&gt;questo&lt;/a&gt;&lt;/i&gt;
@@ -1285,10 +1285,10 @@ ORIAH MOUNTAIN DREAMER&lt;/p&gt;
 	
 	<item>
 		<title>L&#39;angolo dei consigli</title>
-		<link>https://example.org/angoloconsigli/</link>
+		<link>https://mattiaudisio.github.io/piacerematthew.github.io/angoloconsigli/</link>
 		<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 		
-		<guid>https://example.org/angoloconsigli/</guid>
+		<guid>https://mattiaudisio.github.io/piacerematthew.github.io/angoloconsigli/</guid>
 		<description>&lt;div style=&#34;text-align: center&#34;&gt;
 	&lt;p&gt;
 
@@ -1325,10 +1325,10 @@ Ed e qua che viene in aiuto questa pagina.. una lista di video, musica, libri e 
 	
 	<item>
 		<title>L&#39;odore dei podcast quando li butti via</title>
-		<link>https://example.org/podcast/</link>
+		<link>https://mattiaudisio.github.io/piacerematthew.github.io/podcast/</link>
 		<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 		
-		<guid>https://example.org/podcast/</guid>
+		<guid>https://mattiaudisio.github.io/piacerematthew.github.io/podcast/</guid>
 		<description>&lt;div style=&#34;text-align: center&#34;&gt;
 	&lt;p&gt;
 L&#39;odore dei podcast quando li butti via è un podcast/archivio, realizzato dal sottoscritto e cominiciato nel dicembre 2020 e concluso nel dicembre 2021 (togliendo lo special caricato nell&#39;ottobre 2022), usato principalmente come archivio pubblico dove si possono trovare 3 tipi di episodi:&lt;br  /&gt;&lt;br  /&gt;
@@ -1341,43 +1341,43 @@ L&#39;odore dei podcast quando li butti via è un podcast/archivio, realizzato d
 
 &lt;b&gt;P.S.&lt;/b&gt;: inizialmente, questo podcast era disponbile su anchor, spreaker, spotify... però ora è disponibile solo qua. Buon ascolto!
 &lt;br /&gt;&lt;br /&gt;
-&lt;a href=&#34;https://example.org/provetecnicheditrasmissione&#34;&gt;Prove tecniche di trasmissione (l’ultimo antro del podcast)&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;a href=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/provetecnicheditrasmissione&#34;&gt;Prove tecniche di trasmissione (l’ultimo antro del podcast)&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;hr /&gt;
 &lt;h1&gt;ICT LAB&lt;/h1&gt;
 
 &lt;b&gt;ICT LAB | Fondamenti concettuali di informatica - Dall&#39;informazione al programma&lt;/b&gt;&lt;br /&gt;
 &lt;i&gt;In questo primo episodio di ICT LAB cominciamo a vedere i fondamenti concettuali dell’informatica&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://example.org/audioPodcast/01.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/audioPodcast/01.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;b&gt;ICT LAB | Gli algoritmi&lt;/b&gt;&lt;br /&gt;
 &lt;i&gt;In questo secondo episodio di ICT LAB cominciamo a vedere che cos’è un algoritmo e le sue funzioni&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://example.org/audioPodcast/02.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/audioPodcast/02.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;b&gt;ICT LAB | Sistemi di numerazione&lt;/b&gt;&lt;br /&gt;
 &lt;i&gt;In questo terzo episodio di ICT LAB vediamo cosa sono i sistemi di numerazione ed a cosa servono&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://example.org/audioPodcast/03.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/audioPodcast/03.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;b&gt;ICT LAB | Rappresentazione dei caratteri (e nozione di bit e byte)&lt;/b&gt;&lt;br /&gt;
 &lt;i&gt;In questa puntata di ICT LAB vediamo la rappresentazione dei caratteri con qualche nozione su bit e byte.&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://example.org/audioPodcast/04.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/audioPodcast/04.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;b&gt;ICT LAB | Rappresentazione di Immagini&lt;/b&gt;&lt;br /&gt;
 &lt;i&gt;In questa puntata di ICT LAB vediamo la rappresentazione delle immagini e la differenza tra immagini rasterizzate e vettoriali&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://example.org/audioPodcast/05.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/audioPodcast/05.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;b&gt;ICT LAB | Il linguaggio macchina e i linguaggi simbolici&lt;/b&gt;&lt;br /&gt;
 &lt;i&gt;In questa puntata di ICT LAB vediamo il linguaggio macchina e i linguaggi simbolici&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://example.org/audioPodcast/06.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/audioPodcast/06.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;b&gt;ICT LAB | I connettivi logici&lt;/b&gt;&lt;br /&gt;
 &lt;i&gt;In questa puntata di ICT LAB vediamo i connettivi logici&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://example.org/audioPodcast/07.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/audioPodcast/07.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;b&gt;ICT LAB | Indirizzo IP e Mac Address&lt;/b&gt;&lt;br /&gt;
 &lt;i&gt;In questa puntata di ICT LAB vediamo cosa sono gli indirizzi IP e l’indirizzo MAC ed a cosa servono&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://example.org/audioPodcast/09.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/audioPodcast/09.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;b&gt;ICT LAB | DNS&lt;/b&gt;&lt;br /&gt;
 &lt;i&gt;In questa puntata di ICT LAB vediamo cos’è un DNS&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://example.org/audioPodcast/10.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/audioPodcast/10.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;b&gt;ICT LAB | Modello ISO/OSI&lt;/b&gt;&lt;br /&gt;
 &lt;i&gt;In questa puntata di ICT LAB vediamo il modello ISO/OSI&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://example.org/audioPodcast/11.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/audioPodcast/11.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;b&gt;ICT LAB | NAT&lt;/b&gt;&lt;br /&gt;
 &lt;i&gt;In questa puntata di ICT LAB vediamo il NAT&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://example.org/audioPodcast/12.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/audioPodcast/12.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;hr /&gt;
 
 &lt;h1&gt;Esercizio vocale&lt;/h1&gt;
@@ -1386,68 +1386,68 @@ L&#39;odore dei podcast quando li butti via è un podcast/archivio, realizzato d
 &lt;i&gt;Gli artisti devono immaginare il futuro, non arrugginirsi sul passato e negli Anni Venti del Covid ogni storia vale la pena di essere raccontata, non solo la propria, per non incorrere nelle ire o nell’indifferenza del pubblico, anch’esso cambiato dalla pandemia.&lt;br /&gt;
 ATTENZIONE&lt;br /&gt;
 Quello che state sentendo non è un testo scritto dal sottoscritto ma un’analisi, scritta da Simone Stefanini di Rockit.it, che ho utilizzato come “esercizio vocale” e quello che state sentendo è il risultato finale.Clicca &lt;a href=&#34;https://www.rockit.it/articolo/cantautori-covid-testi&#34;&gt;qua&lt;/a&gt; per leggere l’articolo&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://example.org/audioPodcast/08.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/audioPodcast/08.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;b&gt;Siete pronti all&#39;era del post prog?&lt;/b&gt;&lt;br /&gt;
 &lt;i&gt;Gli artisti devono immaginare il futuro, non arrugginirsi sul passato e negli Anni Venti del Covid ogni storia vale la pena di essere raccontata, non solo la propria, per non incorrere nelle ire o nell’indifferenza del pubblico, anch’esso cambiato dalla pandemia.&lt;br /&gt;
 ATTENZIONE&lt;br /&gt;
 Quello che state sentendo non è un testo scritto dal sottoscritto ma un’analisi, scritta da Simone Stefanini di Rockit.it, che ho utilizzato come “esercizio vocale” e quello che state sentendo è il risultato finale.Clicca &lt;a href=&#34;https://www.rockit.it/articolo/cantautorato-prog-anni-settanta&#34;&gt;qua&lt;/a&gt; per leggere l’articolo&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://example.org/audioPodcast/13.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/audioPodcast/13.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;b&gt;Rime urlate - è arrivato il momento dello Scream Rap in Italia&lt;/b&gt;&lt;br /&gt;
 &lt;i&gt;Con artisti come Radical, Sethu e Taxi B un nuovo stile di canto si impone nella trap. Nessuna eresia: i riferimenti del passato sono infiniti, da Kaos One a Salmo, fino ad arrivare alle influenze punk hardcore e allo screamo.&lt;br /&gt;
 ATTENZIONE&lt;br /&gt;
 Quello che state sentendo non è un testo scritto dal sottoscritto ma un’&lt;a href=&#34;https://www.rockit.it/articolo/rime-urlate-arrivato-momento-scream-rap-italia&#34;&gt;analisi&lt;/a&gt;, scritta da Marco Beltramelli di Rockit.it, che ho utilizzato come “esercizio vocale” e quello che state sentendo è il risultato finale.&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://example.org/audioPodcast/14.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/audioPodcast/14.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;b&gt;Rap metal all&#39;italiana - si può fare!&lt;/b&gt;&lt;br /&gt;
 &lt;i&gt;Un disco della metal band romana The Old Skull mette assieme tutta la scena hip hop più hardcore: da Danno a Rancore, da Lucci ai Dsa Commando. Un’esperimento da cui può nascere qualcosa di più.&lt;br /&gt;
 ATTENZIONE&lt;br /&gt;
 Quello che state sentendo non è un testo scritto dal sottoscritto ma un’analisi, scritta da Raffaele Lauretti di Rockit.it, che ho utilizzato come “esercizio vocale” e quello che state sentendo è il risultato finale.Clicca &lt;a href=&#34;https://www.rockit.it/articolo/rap-metal-allitaliana-ecco-disco-old-skull-assieme-danno-colle-der-fomento-rancore-tanti-altri&#34;&gt;qua&lt;/a&gt; per leggere l’articolo&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://example.org/audioPodcast/15.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/audioPodcast/15.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;b&gt;Ciao Nebbiolo, non ci hai fatto mancare davvero niente&lt;/b&gt;&lt;br /&gt;
 &lt;i&gt;Gwydion Destefanis era nato in una cascina in provincia di Alessandria e aveva passato 4 anni a bordo di un furgone per suonare in giro per l’Europa. La sua musica invecchiava bene come il buon vino, ma a 29 anni una malattia oggi ci priva dolorosamente di lui.&lt;br /&gt;
 ATTENZIONE&lt;br /&gt;
 Questo episodio vuole essere un tributo ad un grande artista che, proprio un anno fa, ci ha lasciati. Come sempre, per fare questo ho utilizzato un articolo di rockit.it che ho voluto riportare in formato audio.Clicca &lt;a href=&#34;https://www.rockit.it/news/nebbiolo-gwydion-destefanis-scomparsa&#34;&gt;qua&lt;/a&gt; per leggere l’articolo&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://example.org/audioPodcast/16.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/audioPodcast/16.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;b&gt;I 10 dischi rock italiani più importanti del decennio&lt;/b&gt;&lt;br /&gt;
 &lt;i&gt;Nel decennio che a detta di tutti celebra il funerale del genere, salta fuori una top ten molto interessante di chi pensa ancora che con la chitarra si possa fare qualcosa di notevole. Leggere per credere.&lt;br /&gt;
 ATTENZIONE&lt;br /&gt;
 Quello che state sentendo non è un testo scritto dal sottoscritto ma un’analisi, scritta da Simone Stefanini di Rockit.it, che ho utilizzato come “esercizio vocale” e quello che state sentendo è il risultato finale.Clicca &lt;a href=&#34;https://www.rockit.it/articolo/10-dischi-rock-italiani-piu-importanti-influenti-decennio-2010-2019&#34;&gt;qua&lt;/a&gt; per leggere l’articolo&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://example.org/audioPodcast/17.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/audioPodcast/17.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;b&gt;P**co C***to, offenditi - la bestemmia nella canzone italiana è ancora un tabù?&lt;/b&gt;&lt;br /&gt;
 &lt;i&gt;Non è solo una questione di paura della censura: ad esempio, in Italia esiste una legge nel codice penale che multa chi bestemmia. Ecco gli artisti che l’hanno sfidata.&lt;br /&gt;
 ATTENZIONE&lt;br /&gt;
 Quello che state sentendo non è un testo scritto dal sottoscritto ma un’analisi, scritta da Letizia Bognanni di Rockit.it, che ho utilizzato come “esercizio vocale” e quello che state sentendo è il risultato finale.Clicca &lt;a href=&#34;https://www.rockit.it/articolo/bestemmia-musica-italiana-canzoni&#34;&gt;qua&lt;/a&gt; per leggere l’articolo&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://example.org/audioPodcast/18.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/audioPodcast/18.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;b&gt;Nairobi D è l&#39;anima elettronica del chitarrista dei PTN&lt;/b&gt;&lt;br /&gt;
 &lt;i&gt;Nairobi D è Nicola Buttafuco, chitarrista dei Pinguini Tattici Nucleari: ha dato vita al suo progetto solista prima di entrare a far parte della band e “Fields” è il suo secondo EP, con cui conferma l’amore per la musica elettronica, arricchita dalla contaminazione di suoni di culture diverse.&lt;br /&gt;
 ATTENZIONE&lt;br /&gt;
 Quello che state sentendo non è un testo scritto dal sottoscritto ma un’analisi, scritta da Enrica Barbieri di Rockit.it, che ho utilizzato come “esercizio vocale” e quello che state sentendo è il risultato finale.Clicca &lt;a href=&#34;https://www.rockit.it/intervista/nairobi-d-chitarrista-pinguini-tattici-nucleari&#34;&gt;qua&lt;/a&gt; per leggere l’articolo&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://example.org/audioPodcast/19.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/audioPodcast/19.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;b&gt;10 album che compiono 10 anni nel 2019&lt;/b&gt;&lt;br /&gt;
 &lt;i&gt;Teatro degli Orrori, Zen, FBYC, Ministri, Dente, Brunori etc., che annata il 2009.&lt;br /&gt;
 ATTENZIONE&lt;br /&gt;
 Quello che state sentendo non è un testo scritto dal sottoscritto ma un’analisi, scritta da Rockit.it, che ho utilizzato come “esercizio vocale” e quello che state sentendo è il risultato finale.Clicca &lt;a href=&#34;https://www.rockit.it/articolo/10-dischi-2009-10-anni&#34;&gt;qua&lt;/a&gt; per leggere l’articolo&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://example.org/audioPodcast/20.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/audioPodcast/20.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;b&gt;Il culo di Mario - fare schifo è un&#39;arte&lt;/b&gt;&lt;br /&gt;
 &lt;i&gt;La band “importantissima per pochissimi” torna a 5 anni dallo scazzo che ne pose fine all’esistenza. Ora un nuovo disco di cover orrende e testi creati con Google Translate, per dire che dobbiamo tutti “SUCARE”.&lt;br /&gt;
 ATTENZIONE&lt;br /&gt;
 Quello che state sentendo non è un testo scritto dal sottoscritto ma un’analisi, scritta da Rockit.it, che ho utilizzato come “esercizio vocale” e quello che state sentendo è il risultato finale.Clicca &lt;a href=&#34;https://www.rockit.it/articolo/culo-di-mario-dovete-tutti-sucare&#34;&gt;qua&lt;/a&gt; per leggere l’articolo&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://example.org/audioPodcast/21.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/audioPodcast/21.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;b&gt;Con Gianpace la musica è un viaggio psichedelico&lt;/b&gt;&lt;br /&gt;
 &lt;i&gt;Il producer Giulio Fonseca, noto come Go Dugong, è uno psiconauta, un viaggiatore mentale. Ci parla del suo nuovo progetto correlato all’LSD e altre sostanze lisergiche, del singolo “Golden Teacher” scritto con l’amico Mace e di come non esista un bad trip, ma solo un’esperienza da cui imparare.&lt;br /&gt;
 ATTENZIONE&lt;br /&gt;
 Quello che state sentendo non è un testo scritto dal sottoscritto ma un’analisi, scritta da Simone Stefanini di Rockit.it, che ho utilizzato come “esercizio vocale” e quello che state sentendo è il risultato finale.Clicca &lt;a href=&#34;https://www.rockit.it/articolo/gianpace-go-dugong-rinascimento-psichedelico&#34;&gt;qua&lt;/a&gt; per leggere l’articolo&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://example.org/audioPodcast/22.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/audioPodcast/22.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;b&gt;Minerva, tra i manga e la mitologia classica&lt;/b&gt;&lt;br /&gt;
 &lt;i&gt;Come in un racconto di Stephen King, ma con un’edera al posto dei clown, la 18enne Letizia Simioni from Treviso prova a raccontare le paura della sua generazione. Con la passione per l’hip hop lo-fi e il cuore rivolto al Giappone.&lt;br /&gt;
 ATTENZIONE&lt;br /&gt;
 Quello che state sentendo non è un testo scritto dal sottoscritto ma un’analisi, scritta da Marco Beltramelli di Rockit.it, che ho utilizzato come “esercizio vocale” e quello che state sentendo è il risultato finale.Clicca &lt;a href=&#34;https://www.rockit.it/intervista/minerva-edera-nuovo-singolo&#34;&gt;qua&lt;/a&gt; per leggere l’articolo&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://example.org/audioPodcast/23.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/audioPodcast/23.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;hr /&gt;
 
 &lt;h1&gt;Speciale&lt;/h1&gt;
 &lt;b&gt;SIMPSON - TOP LA PAURA FA 90 [TREEHOUSE OF HORROR HALLOWEEN SPECIAL] | REMAKE 2022&lt;/b&gt;&lt;br /&gt;
 &lt;i&gt;Piccolo remake obbligatorio di un video a cui ero molto legato ma che non è uscito chissà quanto bene, buona ascolto!&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://example.org/audioPodcast/24.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;audio controls=&#34;&#34; autoplay=&#34;&#34;&gt;&lt;source src=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/audioPodcast/24.mp3&#34; type=&#34;audio/ogg&#34;&gt;&lt;/audio&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -1456,10 +1456,10 @@ Quello che state sentendo non è un testo scritto dal sottoscritto ma un’anali
 	
 	<item>
 		<title>Libri</title>
-		<link>https://example.org/libri/</link>
+		<link>https://mattiaudisio.github.io/piacerematthew.github.io/libri/</link>
 		<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 		
-		<guid>https://example.org/libri/</guid>
+		<guid>https://mattiaudisio.github.io/piacerematthew.github.io/libri/</guid>
 		<description>&lt;div style=&#34;text-align: center&#34;&gt;
 	&lt;p&gt;
 &lt;h3&gt;Tutti i libri&lt;/h3&gt;
@@ -1536,10 +1536,10 @@ Ora ho una pagina di questo sito dedicato a questo.
 	
 	<item>
 		<title>Prove tecniche di trasmissione (l’ultimo antro del podcast)</title>
-		<link>https://example.org/provetecnicheditrasmissione/</link>
+		<link>https://mattiaudisio.github.io/piacerematthew.github.io/provetecnicheditrasmissione/</link>
 		<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 		
-		<guid>https://example.org/provetecnicheditrasmissione/</guid>
+		<guid>https://mattiaudisio.github.io/piacerematthew.github.io/provetecnicheditrasmissione/</guid>
 		<description>&lt;div style=&#34;text-align: center&#34;&gt;
 	&lt;p&gt;
 &lt;span style=&#34;color: #eb5757;&#34;&gt;“L&#39;odore dei podcast quando li butti via è un podcast/archivio, realizzato dal 
@@ -1632,17 +1632,17 @@ Ciao ODPQLBV, e grazie per tutto.
 &lt;li&gt;🎮 &lt;a href=&#34;https://www.rollingstone.it/cultura/gaming/un-programmatore-misterioso-ha-fatto-mario-64-per-pc/515650/&#34;&gt;Un programmatore misterioso ha fatto Mario 64 per PC&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;💻 &lt;a href=&#34;https://www.vice.com/it/article/y3dda7/effetti-negativi-computer-salute&#34;&gt;Come il computer ha distrutto il corpo umano&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;💻 &lt;a href=&#34;https://www.vice.com/it/article/9k4x8p/ho-sfidato-apple-e-ho-riparato-il-mio-mac-da-solo&#34;&gt;Ho sfidato Apple e ho riparato il mio Mac da solo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🧠 &lt;a href=&#34;https://example.org/attivista&#34;&gt;08. Attivista (ENFP-A/ENFP-T)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🧠 &lt;a href=&#34;https://mattiaudisio.github.io/piacerematthew.github.io/attivista&#34;&gt;08. Attivista (ENFP-A/ENFP-T)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
 	</item>
 	
 	<item>
 		<title>Tracker</title>
-		<link>https://example.org/tracker/</link>
+		<link>https://mattiaudisio.github.io/piacerematthew.github.io/tracker/</link>
 		<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 		
-		<guid>https://example.org/tracker/</guid>
+		<guid>https://mattiaudisio.github.io/piacerematthew.github.io/tracker/</guid>
 		<description></description>
 	</item>
 	
