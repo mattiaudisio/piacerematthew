@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Usare Telegram Come Un Lettore Di Feed RSS | My New Hugo Site</title>
+	<link rel="canonical" href="https://example.org/">
+	<link rel='alternate' type='application/rss+xml' title="My New Hugo Site RSS" href='/index.xml'>
+	<link rel='stylesheet' type='text/css' href='/style.css'>
+	<link rel="icon" href="/favicon.ico">
+	<meta name="description" content="I feed RSS sono quelle cose che, durante la mia “carriera/vita” su internet, gira girato tornano a fare capolinea ogni tanto.
+Il primo ricordo che ho con questi strumenti risalgono al lontano 2019 quando tentai, fallendo miseramente, di creare un bot Telegram che, dato i feed RSS di un paio di fansub, mi mandava una notifica ogni volta che usciva una nuova puntata sottotitolata. In questi 6 anni sono stati utilizzati dal sottoscritto in molti progetti, partendo dai più semplici (un pagina in php che mi leggeva il Feed RSS di un giornale e mi mostrava gli ultimi 10 articoli) fino a robe più malsane (Ricreare una copia della sezione “Seguiti” del mio profilo Tik Tok tramite feed RSS).">
+	<meta name="keywords" content="👨‍💻 Echo 404">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+</head>
+<body>
+<main>
+<header><h1 id="tag_Usare Telegram come un lettore di Feed RSS">Usare Telegram come un lettore di Feed RSS</h1></header>
+<article>
+
+<p>I feed RSS sono quelle cose che, durante la mia “carriera/vita” su internet, gira girato tornano a fare capolinea ogni tanto.</p>
+<p>Il primo ricordo che ho con questi strumenti risalgono al lontano 2019 quando tentai, fallendo miseramente, di creare un bot Telegram che, dato i feed RSS di un paio di fansub, mi mandava una notifica ogni volta che usciva una nuova puntata sottotitolata. In questi 6 anni sono stati utilizzati dal sottoscritto in molti progetti, partendo dai più semplici (un pagina in php che mi leggeva il Feed RSS di un giornale e mi mostrava gli ultimi 10 articoli) fino a robe più malsane (Ricreare una copia della sezione “Seguiti” del mio profilo Tik Tok tramite feed RSS).</p>
+<h2 id="fluent-reader">Fluent Reader</h2>
+<p>Ma è da solo un anno, all&rsquo;incirca aprile 2023, che i feed RSS sono diventati parte della mia quotidianità. In quel periodo sono venuto a conoscenza di <a href="https://github.com/yang991178/fluent-reader">Fluent Reader</a> che, nel giro di poche settimane, diventò il mio compagno di giornate, colui che mi teneva aggiornato sulle ultime notizie, degli ultimi dischi usciti e, per un periodo, mi teneva aggiornato anche sulle uscite dei canali YouTube.</p>
+<p>Un programma fighissimo, non c&rsquo;è niente da dire, ma, da persona fissata con l&rsquo;essere minimalista su internet, il fatto di dover avere installato un applicazione apposta sul mio pc per fare una cosa non mi andava tanto a genio (sì lo so è una roba strana da gente non proprio a posto, ma che ci posso fare sono fatto così).</p>
+<p>Per questo ogni tanto cercavo in giro se c&rsquo;erano soluzioni che potevano interessarmi e spingermi ad abbandonare Fluent Reader, però non trovavo mai niente&hellip;. fino a questa settimana.</p>
+<p>Per chi non è su LS o per chi non si è accorto, questo lunedì, sul <a href="https://log.livellosegreto.it/edmael/">blog di Ed</a>, è uscito <a href="https://log.livellosegreto.it/edmael/feed-rss-torniamo-a-scegliere-i-nostri-contenuti">questo articolo</a>, dove si parlava di feed RSS e di cosa ha deciso di utilizzare per averli sempre con se&hellip; ed è lì che ho trovato la risposta ai miei quesiti.</p>
+<h2 id="telegram">Telegram</h2>
+<p>“<a href="https://github.com/Rongronggg9/RSS-to-Telegram-Bot">RSS to Telegram Bot</a>” è un bot di Telegram che fa praticamente quello che ho detto fino ad adesso, ovvero leggere i feed RSS e mandarti un messaggio quando esce un nuovo articolo. Finalmente la svolta che volevo trovare.</p>
+<p>Mi sono messo sotto e, leggendo un attimo in giro, sono riuscito a realizzare quello che sto usando adesso: <em>un intera cartella chat con all&rsquo;interno tutti i feed RSS che avevo suddivisi per argomento/categoria.</em></p>
+<p>Ma come ho fatto?</p>
+<h2 id="istruzioni-guidate">Istruzioni guidate</h2>
+<p>Per realizzare quello che per ora è il mio lettore di Feed RSS su Telegram, ho fatto queste poche azioni che posso riassumere in 3 passaggi:</p>
+<ol>
+<li>
+<p>Ho creato un canale Telegram privato per ogni categoria che mi interessa <em><strong>(Politica, Musica, Tecnologia, Blog, Notifiche dei video PeerTube, Intrattenimento)</strong></em> ed ho aggiunto “RSS to Telegram Bot” come moderatore in tutti i canali</p>
+</li>
+<li>
+<p>Sono tornato sul bot è ho composto il seguente messaggio: <em>/sub @ID-Canale linkFeedRSS1 linkFeedRSS2 linkFeedRSS3</em> in modo da collegare quei determinati feed a quel determinato canale. Per trovare l&rsquo;ID del canale privato bisogna andare sulla versione web di Telegram, cliccare sul canale e, dalla barra di ricerca, prendere il numero finale che inizia con <strong>-100</strong> <em>(es. -10010000000000)</em></p>
+</li>
+<li>
+<p>Ho creato una cartella, chiamata “My Feed”, dove all&rsquo;interno ho messo tutti i canali e il bot. Se non sai creare delle cartelle su Telegram clicca <a href="https://telegram.org/tour/chat-folders/it">qua</a></p>
+</li>
+</ol>
+<p>E questo è tutto.</p>
+<p>Per concludere, voglio ringrazie <!-- raw HTML omitted -->Ed<!-- raw HTML omitted --> per avermi ispirato in questo progetto.<!-- raw HTML omitted -->
+Un saluto a tutti</p>
+
+
+<div id="nextprev">
+<a href="/blog/thunderbirdbackup/"><div id="prevart">Previous:<br>Usare Thunderbird come backup per le mail di Gmail</div></a>
+<a href="/blog/sanremo2024/"><div id="nextart">Next:<br>Un pensiero su Sanremo</div></a>
+</div>
+<div style="clear:both" class=taglist>Related<br><a id="tag_👨‍💻 echo 404" href="https://example.org/tags/echo-404">👨‍💻 Echo 404</a></div>
+</article>
+</main>
+
+<footer>
+	<a href="https://example.org/">https://example.org/</a><br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>
+</footer>
+
+</body>
+</html>
