@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Come Ho Installato Nextcloud Su Un Raspberry Pi 3 | Piacere, Matthew</title>
+	<link rel="canonical" href="https://example.org/">
+	<link rel='alternate' type='application/rss+xml' title="Piacere, Matthew RSS" href='/index.xml'>
+	<link rel='stylesheet' type='text/css' href='/style.css'>
+	<link rel="icon" href="/favicon.ico">
+	<meta name="description" content="Qualche tempo fa ho perso un paio di neuroni dietro ad uno sfizio che mi avevo lì da un pò di tempo: Installare Nextcloud sopra il Raspberry Pi 3 che ho in casa.
+Una roba semplicissima mi direte, peccato che ho avuto a che fare con un paio di problemi che mi hanno dato abbastanza da pelare e questo articolo serve proprio per questi problemi.
+Tutto quello che c&rsquo;è scritto qua dentro è una specie di cronologia che mi permetterà in futuro di rifare la stessa operazione senza avere ulteriori problemi (spero).">
+	<meta name="keywords" content="👨‍💻 Echo 404">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+</head>
+<body>
+<main>
+<header><h1 id="tag_Come ho installato Nextcloud su un Raspberry Pi 3">Come ho installato Nextcloud su un Raspberry Pi 3</h1></header>
+<article>
+
+<p>Qualche tempo fa ho perso un paio di neuroni dietro ad uno sfizio che mi avevo lì da un pò di tempo: Installare Nextcloud sopra il Raspberry Pi 3 che ho in casa.</p>
+<p>Una roba semplicissima mi direte, peccato che ho avuto a che fare con un paio di problemi che mi hanno dato abbastanza da pelare e questo articolo serve proprio per questi problemi.</p>
+<p>Tutto quello che c&rsquo;è scritto qua dentro è una specie di cronologia che mi permetterà in futuro di rifare la stessa operazione senza avere ulteriori problemi (spero).</p>
+<h2 id="installare-nextcloud">Installare Nextcloud</h2>
+<p>Prima di installare NextCloud, è necessario disporre di alcuni prerequisiti sul sistema. NextCloud ha bisogno di un server web con Apache, MySQL (MariaDB) e PHP, in particolare di alcuni moduli PHP.</p>
+<pre tabindex="0"><code> sudo apt install apache2 mariadb-server libapache2-mod-php
+ sudo apt install php-gd php-json php-mysql php-curl php-mbstring php-intl php-imagick php-xml php-zip
+</code></pre><p>Attendi qualche minuto per il completamento dell&rsquo;installazione e riavviare Apache per caricare i nuovi moduli PHP:</p>
+<pre tabindex="0"><code>
+ sudo service apache2 restart
+</code></pre><p>Per installare Nextcloud bisogna andare nelle cartelle di Apache web e installare l&rsquo;ultima releas di Nextcloud</p>
+<pre tabindex="0"><code> cd /var/www/html
+ sudo wget https://download.nextcloud.com/server/releases/latest.zip
+ sudo unzip latest.zip
+</code></pre><p>Se ti da dei problemi ad estrarre i file devi modificare i permessi della cartella per consentire ad Apache di accedervi</p>
+<pre tabindex="0"><code> sudo chmod 750 nextcloud -R
+ sudo chown www-data:www-data nextcloud -R
+</code></pre><p>NextCloud è quasi pronto per essere utilizzato, ma dobbiamo prima creare un database MySQL per memorizzare i suoi dati.</p>
+<h2 id="configura-mysql">Configura MYSQL</h2>
+<p>Dopo l&rsquo;installazione del server MariaDB, viene creato un utente root che può essere utilizzato solo dalla riga di comando. Connettiti a MYSQl tramite <code>sudo mysql</code> e copia questo file sql</p>
+<pre tabindex="0"><code>
+ -- Create the new user
+ CREATE USER &#39;nextcloud&#39; IDENTIFIED BY &#39;password&#39;;
+ -- Create the new database
+ CREATE DATABASE nextcloud;
+ -- Give all permissions
+ GRANT ALL PRIVILEGES ON nextcloud.* TO &#39;nextcloud&#39;@localhost IDENTIFIED BY &#39;password&#39;;
+ FLUSH PRIVILEGES;
+ quit
+</code></pre><p>Il database è pronto e possiamo finire l&rsquo;installazione di NextCloud.</p>
+<h2 id="errori">Errori</h2>
+<p>Ora, se hai provato ad accedere a questo link https://IP/nextcloud e ti escono degli errori rimani in questa sezione, altrimenti puoi tranquillamente andare avanti.
+Il problema mi usciva colpa la versione di PHP che avevo installato. Ho risolto così:</p>
+<p>installo PHP 8.3</p>
+<pre tabindex="0"><code> sudo wget -qO /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
+ echo &#34;deb https://packages.sury.org/php/ $(lsb_release -sc) main&#34; | sudo tee /etc/apt/sources.list.d/php.list
+ sudo apt update
+ sudo apt install -y php8.3-common php8.3-cli
+</code></pre><p>Poi ho cambiato la versione di Default con questi comandi:</p>
+<pre tabindex="0"><code> sudo a2dismod php* 
+ sudo a2enmod php8.3 
+ sudo systemctl restart apache2 
+</code></pre><h2 id="configura-nextcloud">Configura Nextcloud</h2>
+<p>Ora è possibile accedere alla pagina di configurazione di NextCloud e completare la configurazione.</p>
+<p>Apri il seguente URL nel browser: https://IP/nextcloud. sostitusci &ldquo;IP&rdquo; con l&rsquo;indirizzo IP di Raspberry Pi.</p>
+<p>Viene visualizzato un modulo in cui scegliere un nome utente e una password per NextCloud.</p>
+<p>La seconda parte chiede dove si desidera memorizzare i file di NextCloud.
+È possibile mantenere il valore predefinito se si dispone di una sola partizione principale, oppure modificarlo per utilizzare, ad esempio, un&rsquo;unità USB esterna.</p>
+<p>La terza parte è la configurazione del database.
+Inserite le credenziali appena create in MySQL:</p>
+<ul>
+<li>-Utente: nextcloud</li>
+<li>-Password: &ldquo;password&rdquo; (la password che avete usato nei comandi di MySQL)</li>
+<li>-Database: nextcloud</li>
+<li>-Host: localhost</li>
+</ul>
+<p>Quindi fare clic su &ldquo;Installa&rdquo; e attendere qualche minuto.</p>
+<p>Riapri il seguente URL nel browser: https://IP/nextcloud e ti troverai davanti al form di login.</p>
+<h2 id="le-fontih">Le Fontih!</h2>
+<p>Guida/articolo/bozza realizzata grazie a questi tre articoli:</p>
+<ol>
+<li><a href="https://raspberrytips.com/install-nextcloud-raspberry-pi/">Installing NextCloud on Your Raspberry Pi (2 ways)</a></li>
+<li><a href="https://lindevs.com/install-php-on-raspberry-pi">Install PHP 8.3 on Raspberry Pi</a></li>
+<li><a href="https://tecadmin.net/switch-between-multiple-php-version-on-ubuntu/">How to Change Default PHP Version on Ubuntu</a></li>
+</ol>
+
+
+<div id="nextprev">
+<a href="/blog/sanremo2024/"><div id="prevart">Previous:<br>Un pensiero su Sanremo</div></a>
+<a href="/blog/appfoss/"><div id="nextart">Next:<br>Rendere il tuo telefono ＦＯＳＳ　往いぞ</div></a>
+</div>
+<div style="clear:both" class=taglist>Related<br><a id="tag_👨‍💻 echo 404" href="https://example.org/tags/echo-404">👨‍💻 Echo 404</a></div>
+</article>
+</main>
+
+<footer>
+	<a href="https://example.org/">https://example.org/</a><br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>
+</footer>
+
+</body>
+</html>
