@@ -1,68 +1,7 @@
-@font-face {
-  font-family:FontTitoli;
-  src:url(DK_Lemon_Yellow_Sun.6KvRhFLA.otf)
-}
-
 body {
-	font-family: sans serif;
+	font-family: sans-serif ;
+	background: #110000 ;
 	color: #ccc ;
-	/*text-align: center;*/
-	background: url(background.png) no-repeat center center fixed;
-}
-
-#anchorHeader{
-	text-decoration: none;
-}
-
-#topicBlog {
-	clear: both;
-	padding: 0;
-	border-radius: 10px;
-	text-align: center;
-	margin: 0 auto;
-	border: solid 1px;
-	  border-top-style: solid;
-	  border-right-style: solid;
-	  border-bottom-style: solid;
-	  border-left-style: solid;
-	border-style: dashed;
-	list-style: none;
-}
-
-#topicBlog li {
-	display: inline-block;
-	padding: 2%;
-  }
-
-#link {
-  list-style: none;
-  text-align: center;
-  font-size: 48pt;
-  margin: 0;
-}
-
-#link li {
-  display: inline;
-  padding: .1em;
-  margin: .1em;
-}
-
-#link img{
-	max-height: 8em;
-	max-width: 0.8em;
-	vertical-align: middle;
-}
-
-.titleimg {
-	box-align: center ;
-	padding-bottom:20px;
-}
-
-.titleimg img {
-	margin: auto ;
-	max-width: 90% ;
-	max-height: 400px ;
-	display: block ;
 }
 
 main {
@@ -70,47 +9,12 @@ main {
 	margin: auto ;
 }
 
-time {
-	font-family: monospace;
-	color: #888;
-	font-size: 10pt;
-  }
-
-blockquote{
-	font-family: monospace;
-	color: #888;
-	font-size: 12pt;
+img {
+	max-width: 100% ;
 }
-  
-#imgArticle{
-	margin: auto ;
-	max-width: 90% ;
-	max-height: 600px ;
-	display: block ;
-}
-
 
 header h1 {
 	text-align: center ;
-	color: #f08d49;
-	font-family:FontTitoli;
-}
-
-h1{
-	text-align: center;
-	color: #f08d49;
-	font-weight: bold;
-	font-size: xx-large;
-	font-family: FontTitoli;
-}
-
-h3 {
-	color: #7ec699;
-}
-
-a{
-	text-decoration: underline;
-	color: inherit;
 }
 
 footer {
@@ -124,6 +28,10 @@ footer {
 	clear: both ;
 }
 
+/* For NEXTPREV.HTML */
+#nextprev {
+	/* The container for both the previous and next articles. */
+}
 #prevart {
 	float: left ;
 	text-align: left ;
