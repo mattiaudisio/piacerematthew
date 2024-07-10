@@ -86,4 +86,4 @@ Ciao ODPQLBV, e grazie per tutto.
 - 🎮 [Un programmatore misterioso ha fatto Mario 64 per PC](https://www.rollingstone.it/cultura/gaming/un-programmatore-misterioso-ha-fatto-mario-64-per-pc/515650/)
 - 💻 [Come il computer ha distrutto il corpo umano](https://www.vice.com/it/article/y3dda7/effetti-negativi-computer-salute)
 - 💻 [Ho sfidato Apple e ho riparato il mio Mac da solo](https://www.vice.com/it/article/9k4x8p/ho-sfidato-apple-e-ho-riparato-il-mio-mac-da-solo)
-- 🧠 [08. Attivista (ENFP-A/ENFP-T)](/attivista)
+- 🧠 [08. Attivista (ENFP-A/ENFP-T)](attivista/)
