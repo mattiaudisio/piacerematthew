@@ -2,6 +2,7 @@
 title = 'Un mese di sfida.. per diminuire  lo schifo verso me stesso'
 date = 2023-12-01T16:14:43+02:00
 tags = ['📔 Senza Meta']
+layout = "articoli"
 +++
 ## Premessa
 

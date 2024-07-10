@@ -2,6 +2,7 @@
 title = 'Usare Thunderbird come backup per le mail di Gmail'
 date = 2024-01-24T21:50:21+02:00
 tags = ['👨‍💻 Echo 404']
+layout = "articoli"
 +++
 
 In questi anni ho notato una tendenza che trovo particolare. Nel mondo del lavoro, molte persone, in particolare nelle piccole imprese, tendono ad usare utilizzare la propria mail personale.

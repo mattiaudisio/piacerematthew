@@ -2,6 +2,7 @@
 title = 'Come fare un Website Blocker con Python'
 date = 2022-08-16T22:02:53+02:00
 tags = ['👨‍💻 Echo 404']
+layout = "articoli"
 +++
 
 Come creare un Website Blocker (un'applicazione che può essere usata per bloccare l'apertura di certi siti web) con Python e dargli anche una veste grafica grazie a tkinter. Questo è un programma molto utile per gli studenti che vogliono concentrarsi sugli studi e non vogliono altre distrazioni come i social media.

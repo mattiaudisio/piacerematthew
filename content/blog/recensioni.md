@@ -2,6 +2,7 @@
 title = 'Recensioni randomiche non richieste su Film e Serie Tv'
 date = 2024-01-01T17:31:05+02:00
 tags = ['📔 Senza Meta']
+layout = "articoli"
 +++
 
 Un elenco non finito di recensioni randomiche che ho lascitato in giro per l'internet con account che ora non esistono più. **Attenzione ci sono tanti spoiler**

@@ -2,6 +2,7 @@
 title = 'Un pensiero su Sanremo'
 date = 2024-02-11T17:37:21+02:00
 tags = ['📔 Senza Meta']
+layout = "articoli"
 +++
 
 _articolo nato inizialmente come Toot su Livello Segreto_

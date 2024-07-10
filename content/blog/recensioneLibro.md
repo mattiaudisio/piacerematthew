@@ -2,6 +2,7 @@
 title = 'Recensione "Filosofia Giapponese, 4 libri in 1 Ikigai, Kaizen, Shinrin-yoku, Kintsukuroi"'
 date = 2023-10-08T17:31:05+02:00
 tags = ['📔 Senza Meta']
+layout = "articoli"
 +++
 
 Avevo preso questo libro circa 2 anni fa, ma tra vari cambi nella mia vita con tanto di dimenticanza di avere questo libro nel mio scaffale, l'ho recuperato solo quest'anno.

@@ -2,6 +2,7 @@
 title = 'Come migliorare la tua privacy online'
 date = 2022-11-01T21:15:06+02:00
 tags = ['👨‍💻 Echo 404']
+layout = "articoli"
 +++
 
 Cinque semplici passi per migliorare la tua privacy online utilizzando servizi e software alternativi che tutelano i tuoi dati.

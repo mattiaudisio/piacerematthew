@@ -2,6 +2,7 @@
 title = 'Usare Telegram come un lettore di Feed RSS'
 date = 2024-01-31T19:04:26+02:00
 tags = ['👨‍💻 Echo 404']
+layout = "articoli"
 +++
 
 I feed RSS sono quelle cose che, durante la mia “carriera/vita” su internet, gira girato tornano a fare capolinea ogni tanto.

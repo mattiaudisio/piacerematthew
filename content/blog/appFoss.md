@@ -2,6 +2,7 @@
 title = 'Rendere il tuo telefono ＦＯＳＳ　往いぞ'
 date = 2024-04-14T20:12:07+02:00
 tags = ['👨‍💻 Echo 404']
+layout = "articoli"
 +++
 
 _So che il titolo a livello tecnico non è scritto in modo corretto, ma per stavolta passatemi la svirgolata artistica_

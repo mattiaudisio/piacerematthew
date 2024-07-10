@@ -2,6 +2,7 @@
 title = 'Astro Framework Setup Tutorial'
 date = 2022-10-06T20:19:50+02:00
 tags = ['👨‍💻 Echo 404']
+layout = "articoli"
 +++
 
 Come installare il framework Astro all'interno del tuo sito web

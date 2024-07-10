@@ -2,6 +2,7 @@
 title = 'Considerazione nata dopo la visione di "Il regno del pianeta delle scimmie"'
 date = 2024-05-14T17:31:05+02:00
 tags = ['📔 Senza Meta']
+layout = "articoli"
 +++
 
 Il nuovo film del Pianeta della scimmie è un film inutile e medrioche,ma che m'ha fatto capire 2 cose..

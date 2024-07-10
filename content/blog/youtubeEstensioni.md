@@ -2,6 +2,7 @@
 title = 'Come rendere vivibile YouTube grazie a queste estensioni'
 date = 2023-08-23T22:06:02+02:00
 tags = ['👨‍💻 Echo 404']
+layout = "articoli"
 +++
 
 Youtube ormai è diventato un posto abbastanza anomalo dove soggiornare. Tolto gli utenti base della piattaforma, che accettano i vari cambiamenti che vengono fatti (se si accorgono di questi “aggiornamenti”) senza controbattere e battere ciglio, c'è gente che non vede di buon occhio la deriva presa. Molti infatti hanno cominicato a spostarsi anche su altri servizi, chi su Vimeo o Dailymotion (se esiste ancora) chi su PeerTube.
