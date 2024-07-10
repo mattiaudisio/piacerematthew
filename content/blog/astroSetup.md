@@ -16,7 +16,7 @@ Per utilizzare questo Framework, sarà necessario installare [Node.js](https://n
 Dopo aver cliccato sull'eseguibile scaricato e aver completato l'installazione di Node.JS, ti appariranno questi programmi:
 
 {{<center>}}
-    <img src="/posts/node1.png" id="imgArticle">
+    <img src="../../posts/node1.png" id="imgArticle">
 {{</center>}}
 
 Quello che è stato installato è Node.JS e, insiseme, è stato installato _Node.Js command prompt_, quello che ci servirà in questo tutorial.
