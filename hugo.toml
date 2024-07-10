@@ -1,5 +1,5 @@
 baseURL = 'https://mattiaudisio.github.io/piacerematthew.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Piacere, Matthew'
 theme = 'lugo'
 custom_css = ['css/custom.css']
