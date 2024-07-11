@@ -22,6 +22,9 @@
 {{ block "main" . }}
 {{ .Content }}
 {{ end }}
+
+<hr />
+
 {{ if .Param "nextprev" }}{{ partial "nextprev.html" . -}}{{ end -}}
 {{ if .Param "taglist" }}{{ partial "taglist.html" . }}{{ end -}}
 </article>
