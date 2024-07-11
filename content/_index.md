@@ -20,7 +20,7 @@ Benvenuto. Sentiti libero di curiosare e di leggere gli articoli che scrivo.<br 
 Faccio parte della generazione Z <i>(non mi metto qua a dirti quanti anni ho, ti faccio fare il conto da tranquillo)</i>, tecnicamente un perito informatico che ha fatto di tutto tranne l'informatico (tolto alcune esperienze da web developer ma da autonomo amatoriale).<br /><br />
 Di solito riassumo la mia vita in "Faccio cose al computer", dove cose possono essere: siti web, video, grafiche, post, podcast.<br />
 Faccio teatro da più di 10 anni, utilizzo Fedora Linux come OS principale e nel tempo libero mi trovi o in montagna o in bici o in palestra.<br /><br />
-Per quanto riguarda il mondo videogames vi lascio il mio account <a href="https://steamcommunity.com/id/matthew_matt/">Steam</a>. Non possiedo nessun account Epic Games, Blizard, EA, GOG e Ubisoft. Possiedo una Playstation 4 ma non ho nessun account.<br /><br />
+Per quanto riguarda il mondo videogames vi lascio il mio account non possiedo nessun account Steam, Epic Games, Blizard, EA, GOG e Ubisoft. Possiedo una Playstation 4 ma non ho nessun account.<br /><br />
 Per i libri, basta accedere alla sezione <a href="/libri">Libri</a> del mio sito<br /><br />
 
 <hr />
