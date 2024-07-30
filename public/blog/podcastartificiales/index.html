@@ -5,9 +5,10 @@
 	<link rel="canonical" href="https://piacerematthew.xyz">
 	<link rel='alternate' type='application/rss+xml' title="Piacere, Matthew RSS" href='index.xml'>
 	<link rel='stylesheet' type='text/css' href='../../css/style.css'>
+		<link rel="icon" href="../../favicon.ico">
 	<meta name="description" content="Ieri, mentre cazzeggiavo nella timeline locale, mi sono imbattuto in questo post di cesco che, per una persona a cui piace sperimentare scrivendo righe di codice, non dirà niente di nuovo&hellip; a me invece sta cosa ha fatto scoreggiare il cervello.
 Ok, lo so che può suonare strano agli smanettoni dell&rsquo;IA, ma guardiamo un attimo cosa c&rsquo;è:
-Riciclando del vecchio codice che avevo scritto e aggiungendo qualcosa di nuovo, in 5 min e 38 righe di codice ho messo in piedi uno script in python che: – Scarica un articolo da una famosa testata giornalistica – Lo riassume in breve – Fa il TTS trasformandolo in un articolo letto da una voce sintetizzata.">
+ Riciclando del vecchio codice che avevo scritto e aggiungendo qualcosa di nuovo, in 5 min e 38 righe di codice ho messo in piedi uno script in python che: – Scarica un articolo da una famosa testata giornalistica – Lo riassume in breve – Fa il TTS trasformandolo in un articolo letto da una voce sintetizzata.">
 	<meta name="keywords" content="👨‍💻 Echo 404">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="index, follow">
@@ -63,28 +64,28 @@ Tolto il fatto che ho dovuto creare un account openai per sto esperimento e so c
  from bs4 import BeautifulSoup
  import requests
 
- # Url dell&#39;articolo
- url_articolo = &#34;https://www.rollingstone.it/cultura/gaming/un-programmatore-misterioso-ha-fatto-mario-64-per-pc/515650/&#34;
+ # Url dell'articolo
+ url_articolo = &quot;https://www.rollingstone.it/cultura/gaming/un-programmatore-misterioso-ha-fatto-mario-64-per-pc/515650/&quot;
 
- # Scarica il contenuto dell&#39;articolo
+ # Scarica il contenuto dell'articolo
  response = requests.get(url_articolo)
- soup = BeautifulSoup(response.content, &#39;html.parser&#39;)
- article_content = soup.find(&#34;div&#34;,class_=&#34;l-article-content&#34;)
+ soup = BeautifulSoup(response.content, 'html.parser')
+ article_content = soup.find(&quot;div&quot;,class_=&quot;l-article-content&quot;)
 
- # Estrai il testo dall&#39;inzio
+ # Estrai il testo dall'inzio
  article_text = article_content.get_text()
 
  # Genera laudio TSS
- response = openai.OpenAI(api_key=&#34;ciuppaNonLascioIlMio&#34;).audio.speech.create(
-     model=&#34;tts-1&#34;,
-     voice=&#34;alloy&#34;,
+ response = openai.OpenAI(api_key=&quot;ciuppaNonLascioIlMio&quot;).audio.speech.create(
+     model=&quot;tts-1&quot;,
+     voice=&quot;alloy&quot;,
      input=article_text   
  )
 
- # Salva l&#39;audio in un file MP3
- response.stream_to_file(&#34;articolo_mario64.mp3&#34;) 
+ # Salva l'audio in un file MP3
+ response.stream_to_file(&quot;articolo_mario64.mp3&quot;) 
 
- print(&#34;Contenuto scaricato con successo!&#34;)
+ print(&quot;Contenuto scaricato con successo!&quot;)
 </code></pre><p>Qua c&rsquo;è il risultato finale</p>
 <div style="text-align: center">
 	<p>
@@ -106,11 +107,16 @@ Tolto il fatto che ho dovuto creare un account openai per sto esperimento e so c
 
 <hr />
 
+<div id="nextprev">
+<a href="/blog/wrapped2023/"><div id="prevart">Previous:<br>Wrapped 2023 (anche detto il meglio del 2023)</div></a>
+<a href="/blog/recensioni/"><div id="nextart">Next:<br>Recensioni randomiche non richieste su Film, Serie Tv, Videogiochi</div></a>
+</div>
+<div style="clear:both" class=taglist>Related<br><a id="tag_👨‍💻 echo 404" href="https://piacerematthew.xyz/tags/echo-404">👨‍💻 Echo 404</a></div>
 </article>
 </main>
 
 <footer>
-	<a href="https://piacerematthew.xyz">https://piacerematthew.xyz</a>
+	<a href="https://piacerematthew.xyz">https://piacerematthew.xyz</a><br><br><a href="../index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>
 </footer>
 
 </body>

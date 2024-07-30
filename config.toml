@@ -3,4 +3,3 @@ languageCode = 'it-it'
 title = 'Piacere, Matthew'
 theme = 'lugo'
 custom_css = ['css/custom.css']
-disableKinds = ["taxonomy", "term"]

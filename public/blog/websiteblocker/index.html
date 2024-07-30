@@ -5,6 +5,7 @@
 	<link rel="canonical" href="https://piacerematthew.xyz">
 	<link rel='alternate' type='application/rss+xml' title="Piacere, Matthew RSS" href='index.xml'>
 	<link rel='stylesheet' type='text/css' href='../../css/style.css'>
+		<link rel="icon" href="../../favicon.ico">
 	<meta name="description" content="Come creare un Website Blocker (un&rsquo;applicazione che può essere usata per bloccare l&rsquo;apertura di certi siti web) con Python e dargli anche una veste grafica grazie a tkinter. Questo è un programma molto utile per gli studenti che vogliono concentrarsi sugli studi e non vogliono altre distrazioni come i social media.
 Premessa
 Prima di partire col progetto, bisogna abilitare i permessi di scrittura del file host, per questo, andare nel percorso “C:\Windows\System32\drivers” e cambiare i permessi al file hosts.">
@@ -27,8 +28,9 @@ Prima di partire col progetto, bisogna abilitare i permessi di scrittura del fil
  from tkinter import *
  from PIL import Image, ImageTk
 
- hosts_path = r&#34;C:\Windows\System32\drivers\etc\hosts&#34;
- redirect_IP = &#34;127.0.0.1&#34;  # localhost&#39;s IP Address
+ hosts_path = r&quot;C:\Windows\System32\drivers\etc\hosts&quot;
+ redirect_IP = &quot;127.0.0.1&quot;  # localhost's IP Address
+
 </code></pre><p>Ora, sovente sono abituato a utilizzare classi e oggetti dell&rsquo;OOP (programmazione ad oggetti) quando realizzo progetti con tkinter, e anche in questo caso ho scritto il codice seguendo questa mia abitudine, ma è opzionale come cosa.</p>
 <p>Creiamo la Classe Blocker, inizializzando gli attributi per creare tramite tkinter il “rettangolo” del programma, l&rsquo;array in cui verranno inseriti i link da bloccare e i vari bottoni a lato con cui bloccare/sbloccare i siti.</p>
 <pre tabindex="0"><code> class Blocker:
@@ -36,29 +38,29 @@ Prima di partire col progetto, bisogna abilitare i permessi di scrittura del fil
      def __init__(self):
         # Create Window
         self.root = Tk()
-        self.root.title(&#39;Python Website Blocker&#39;)
-        self.root.geometry(&#34;500x350&#34;)
-        self.root.configure(background=&#39;white&#39;)
+        self.root.title('Python Website Blocker')
+        self.root.geometry(&quot;500x350&quot;)
+        self.root.configure(background='white')
         self.root.resizable(False, False)
-        self.root.wm_iconphoto(False, ImageTk.PhotoImage(Image.open(&#39;img/favicon.png&#39;)))
+        self.root.wm_iconphoto(False, ImageTk.PhotoImage(Image.open('img/favicon.png')))
         self.larghezza = self.root.winfo_screenwidth()
         self.site_to_block = []
 
         # Create Frame and Button
-        self.frame1 = Frame(self.root, width=250, height=self.root.winfo_screenheight(), background=&#39;white&#39;)
-        self.frame2 = Frame(self.root, width=250, height=self.root.winfo_screenheight(), background=&#39;white&#39;)
+        self.frame1 = Frame(self.root, width=250, height=self.root.winfo_screenheight(), background='white')
+        self.frame2 = Frame(self.root, width=250, height=self.root.winfo_screenheight(), background='white')
         self.frame1.grid(row=0, column=0, rowspan=2)
         self.frame2.grid(row=1, column=1, rowspan=2)
 
         # Create Image Column
-        self.image = ImageTk.PhotoImage(file=&#34;img/img.png&#34;)
-        self.label1 = Label(self.frame1, image=self.image, width=250, height=300, padx=5, background=&#39;white&#39;, pady=20)
+        self.image = ImageTk.PhotoImage(file=&quot;img/img.png&quot;)
+        self.label1 = Label(self.frame1, image=self.image, width=250, height=300, padx=5, background='white', pady=20)
         self.label1.grid(row=1, column=1)
 
         # Create Button
-        self.button1 = Button(self.frame2, text=&#34;Blocca Social&#34;, width=30, height=5, command=self.blockSocial)
+        self.button1 = Button(self.frame2, text=&quot;Blocca Social&quot;, width=30, height=5, command=self.blockSocial)
         self.button1.grid(row=0, column=0, padx=15, pady=15)
-        self.button3 = Button(self.frame2, text=&#34;Blocca Tutto&#34;, width=30, height=5, command=self.blockAll)
+        self.button3 = Button(self.frame2, text=&quot;Blocca Tutto&quot;, width=30, height=5, command=self.blockAll)
         self.button3.grid(row=2, column=0, padx=15, pady=15)
 </code></pre><p>Ora creiamo una funzione start, in modo che all&rsquo;esecuzione del programma venga creata la finestra con i parametri settati in precedenza</p>
 <pre tabindex="0"><code> def start(self):
@@ -66,27 +68,27 @@ Prima di partire col progetto, bisogna abilitare i permessi di scrittura del fil
 </code></pre><h2 id="parte-2-creiamo-la-funzioni">Parte 2: creiamo la funzioni</h2>
 <p>Come avrai notato, i tre bottoni permettono di bloccare tre tipi di siti: social networrk, siti porno, le due opzioni precedenti. Quindi ora la nostra attenzione deve concentrarsi su 3 importanti funzioni: blocca social, blocca porno, blocca tutto. Le 2 funzioni blocca social e blocca porno hanno al loro interno un array che contiene dei link (i siti da bloccare) e un controllo che modifica la scritta dei due bottoni da blocca * a sblocca * e, a seconda se il titolo del bottone a un testo o l&rsquo;altro, vengono chiamate le funzioni per bloccare e sbloccare i siti. la funzione blocca tutto richiama le due funzioni citate prima</p>
 <pre tabindex="0"><code> def blockSocial(self):
-    site = [&#39;www.instagram.com&#39;, &#39;instagram.com&#39;, &#39;tiktok.com&#39;, &#39;www.tiktok.com&#39;, &#39;twitter.com&#39;]
+    site = ['www.instagram.com', 'instagram.com', 'tiktok.com', 'www.tiktok.com', 'twitter.com']
     self.site_to_block.extend(site)
-    if self.button1[&#39;text&#39;] == &#34;Blocca Social&#34;:
-        self.button1.configure(text=&#34;Sblocca Social&#34;)
+    if self.button1['text'] == &quot;Blocca Social&quot;:
+        self.button1.configure(text=&quot;Sblocca Social&quot;)
         self.block_websites()
     else:
-        self.button1.configure(text=&#34;Blocca Social&#34;)
+        self.button1.configure(text=&quot;Blocca Social&quot;)
         self.unblock_website()
 
 
  def blockAll(self):
-    if self.button3[&#39;text&#39;] == &#34;Blocca Tutto&#34;:
+    if self.button3['text'] == &quot;Blocca Tutto&quot;:
         self.blockSocial()
-        self.button1.configure(text=&#34;Sblocca Social&#34;)
-        self.button3.configure(text=&#34;Sblocca Tutto&#34;)
+        self.button1.configure(text=&quot;Sblocca Social&quot;)
+        self.button3.configure(text=&quot;Sblocca Tutto&quot;)
         self.block_websites()
     else:
         self.blockSocial()
         self.blockPorn()
-        self.button1.configure(text=&#34;Blocca Social&#34;)
-        self.button3.configure(text=&#34;Blocca Tutto&#34;)
+        self.button1.configure(text=&quot;Blocca Social&quot;)
+        self.button3.configure(text=&quot;Blocca Tutto&quot;)
         self.unblock_website()     
 </code></pre><p>Per finire, creiamo le due funzioni che creano il cuore di questo programma, le funzioni blockwebsites e unblockwebsites.
 La funzione blockwebsites, tramite l&rsquo;array con i siti e dei for, scrive sul file host l&rsquo;url del sito, mentre unblockwebsite li toglie.</p>
@@ -97,20 +99,21 @@ La funzione blockwebsites, tramite l&rsquo;array con i siti e dei for, scrive su
  for i in self.site_to_block:
    if i not in result:
     result.append(i)
- with open(hosts_path, &#39;r+&#39;) as hostfile:
+ with open(hosts_path, 'r+') as hostfile:
  hosts_content = hostfile.read()
  for site in self.site_to_block:  # for site in  sites_to_block:
     if site not in hosts_content:
-        hostfile.write(redirect_IP + &#39; &#39; + site + &#39;\n&#39;)
+        hostfile.write(redirect_IP + ' ' + site + '\n')
 
  def unblock_website(self):
- with open(hosts_path, &#39;r+&#39;) as hostfile:
+ with open(hosts_path, 'r+') as hostfile:
  lines = hostfile.readlines()
  hostfile.seek(0)
  for line in lines:
     if not any(site in line for site in self.site_to_block):
         hostfile.write(line)
     hostfile.truncate()
+
 </code></pre><p>Per terminare, creiamo un oggetto Blocker e chiamiamo la funzione start.</p>
 <pre tabindex="0"><code> app = Blocker()
  app.start()
@@ -120,8 +123,8 @@ La funzione blockwebsites, tramite l&rsquo;array con i siti e dei for, scrive su
  from tkinter import *
  from PIL import Image, ImageTk
 
- hosts_path = r&#34;C:\Windows\System32\drivers\etc\hosts&#34;
- redirect_IP = &#34;127.0.0.1&#34;  # localhost&#39;s IP Address
+ hosts_path = r&quot;C:\Windows\System32\drivers\etc\hosts&quot;
+ redirect_IP = &quot;127.0.0.1&quot;  # localhost's IP Address
 
 
  class Blocker:
@@ -129,56 +132,56 @@ La funzione blockwebsites, tramite l&rsquo;array con i siti e dei for, scrive su
     def __init__(self):
         # Create Window
         self.root = Tk()
-        self.root.title(&#39;Python Website Blocker&#39;)
-        self.root.geometry(&#34;500x350&#34;)
-        self.root.configure(background=&#39;white&#39;)
+        self.root.title('Python Website Blocker')
+        self.root.geometry(&quot;500x350&quot;)
+        self.root.configure(background='white')
         self.root.resizable(False, False)
-        self.root.wm_iconphoto(False, ImageTk.PhotoImage(Image.open(&#39;img/favicon.png&#39;)))
+        self.root.wm_iconphoto(False, ImageTk.PhotoImage(Image.open('img/favicon.png')))
         self.larghezza = self.root.winfo_screenwidth()
         self.site_to_block = []
 
         # Create Frame and Button
-        self.frame1 = Frame(self.root, width=250, height=self.root.winfo_screenheight(), background=&#39;white&#39;)
-        self.frame2 = Frame(self.root, width=250, height=self.root.winfo_screenheight(), background=&#39;white&#39;)
+        self.frame1 = Frame(self.root, width=250, height=self.root.winfo_screenheight(), background='white')
+        self.frame2 = Frame(self.root, width=250, height=self.root.winfo_screenheight(), background='white')
         self.frame1.grid(row=0, column=0, rowspan=2)
         self.frame2.grid(row=1, column=1, rowspan=2)
 
         # Create Image Column
-        self.image = ImageTk.PhotoImage(file=&#34;img/img.png&#34;)
-        self.label1 = Label(self.frame1, image=self.image, width=250, height=300, padx=5, background=&#39;white&#39;, pady=20)
+        self.image = ImageTk.PhotoImage(file=&quot;img/img.png&quot;)
+        self.label1 = Label(self.frame1, image=self.image, width=250, height=300, padx=5, background='white', pady=20)
         self.label1.grid(row=1, column=1)
 
         # Create Button
-        self.button1 = Button(self.frame2, text=&#34;Blocca Social&#34;, width=30, height=5, command=self.blockSocial)
+        self.button1 = Button(self.frame2, text=&quot;Blocca Social&quot;, width=30, height=5, command=self.blockSocial)
         self.button1.grid(row=0, column=0, padx=15, pady=15)
-        self.button3 = Button(self.frame2, text=&#34;Blocca Tutto&#34;, width=30, height=5, command=self.blockAll)
+        self.button3 = Button(self.frame2, text=&quot;Blocca Tutto&quot;, width=30, height=5, command=self.blockAll)
         self.button3.grid(row=2, column=0, padx=15, pady=15)
 
     def start(self):
         self.root.mainloop()
 
     def blockSocial(self):
-        site = [&#39;www.instagram.com&#39;, &#39;instagram.com&#39;, &#39;tiktok.com&#39;, &#39;www.tiktok.com&#39;, &#39;twitter.com&#39;]
+        site = ['www.instagram.com', 'instagram.com', 'tiktok.com', 'www.tiktok.com', 'twitter.com']
         self.site_to_block.extend(site)
-        if self.button1[&#39;text&#39;] == &#34;Blocca Social&#34;:
-            self.button1.configure(text=&#34;Sblocca Social&#34;)
+        if self.button1['text'] == &quot;Blocca Social&quot;:
+            self.button1.configure(text=&quot;Sblocca Social&quot;)
             self.block_websites()
         else:
-            self.button1.configure(text=&#34;Blocca Social&#34;)
+            self.button1.configure(text=&quot;Blocca Social&quot;)
             self.unblock_website()
 
     def blockAll(self):
-        if self.button3[&#39;text&#39;] == &#34;Blocca Tutto&#34;:
+        if self.button3['text'] == &quot;Blocca Tutto&quot;:
             self.blockSocial()
             self.blockPorn()
-            self.button1.configure(text=&#34;Sblocca Social&#34;)
-            self.button3.configure(text=&#34;Sblocca Tutto&#34;)
+            self.button1.configure(text=&quot;Sblocca Social&quot;)
+            self.button3.configure(text=&quot;Sblocca Tutto&quot;)
             self.block_websites()
         else:
             self.blockSocial()
             self.blockPorn()
-            self.button1.configure(text=&#34;Blocca Social&#34;)
-            self.button3.configure(text=&#34;Blocca Tutto&#34;)
+            self.button1.configure(text=&quot;Blocca Social&quot;)
+            self.button3.configure(text=&quot;Blocca Tutto&quot;)
             self.unblock_website()
 
     def block_websites(self):
@@ -186,14 +189,14 @@ La funzione blockwebsites, tramite l&rsquo;array con i siti e dei for, scrive su
         for i in self.site_to_block:
             if i not in result:
                 result.append(i)
-        with open(hosts_path, &#39;r+&#39;) as hostfile:
+        with open(hosts_path, 'r+') as hostfile:
             hosts_content = hostfile.read()
             for site in self.site_to_block:  # for site in  sites_to_block:
                 if site not in hosts_content:
-                    hostfile.write(redirect_IP + &#39; &#39; + site + &#39;\n&#39;)
+                    hostfile.write(redirect_IP + ' ' + site + '\n')
 
     def unblock_website(self):
-        with open(hosts_path, &#39;r+&#39;) as hostfile:
+        with open(hosts_path, 'r+') as hostfile:
             lines = hostfile.readlines()
             hostfile.seek(0)
             for line in lines:
@@ -204,17 +207,23 @@ La funzione blockwebsites, tramite l&rsquo;array con i siti e dei for, scrive su
 
  app = Blocker()
  app.start()
+
 </code></pre><p>E questo è tutto. Ora hai il tuo website blocker personale!</p>
 
 
 
 <hr />
 
+<div id="nextprev">
+<a href="/attivista/"><div id="prevart">Previous:<br>08. Attivista (ENFP-A/ENFP-T)</div></a>
+<a href="/blog/astrosetup/"><div id="nextart">Next:<br>Astro Framework Setup Tutorial</div></a>
+</div>
+<div style="clear:both" class=taglist>Related<br><a id="tag_👨‍💻 echo 404" href="https://piacerematthew.xyz/tags/echo-404">👨‍💻 Echo 404</a></div>
 </article>
 </main>
 
 <footer>
-	<a href="https://piacerematthew.xyz">https://piacerematthew.xyz</a>
+	<a href="https://piacerematthew.xyz">https://piacerematthew.xyz</a><br><br><a href="../index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>
 </footer>
 
 </body>

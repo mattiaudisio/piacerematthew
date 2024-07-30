@@ -5,6 +5,7 @@
 	<link rel="canonical" href="https://piacerematthew.xyz">
 	<link rel='alternate' type='application/rss+xml' title="Piacere, Matthew RSS" href='index.xml'>
 	<link rel='stylesheet' type='text/css' href='../../css/style.css'>
+		<link rel="icon" href="../../favicon.ico">
 	<meta name="description" content="Qualche tempo fa ho perso un paio di neuroni dietro ad uno sfizio che mi avevo lì da un pò di tempo: Installare Nextcloud sopra il Raspberry Pi 3 che ho in casa.
 Una roba semplicissima mi direte, peccato che ho avuto a che fare con un paio di problemi che mi hanno dato abbastanza da pelare e questo articolo serve proprio per questi problemi.
 Tutto quello che c&rsquo;è scritto qua dentro è una specie di cronologia che mi permetterà in futuro di rifare la stessa operazione senza avere ulteriori problemi (spero).">
@@ -28,10 +29,12 @@ Tutto quello che c&rsquo;è scritto qua dentro è una specie di cronologia che m
 </code></pre><p>Attendi qualche minuto per il completamento dell&rsquo;installazione e riavviare Apache per caricare i nuovi moduli PHP:</p>
 <pre tabindex="0"><code>
  sudo service apache2 restart
+
 </code></pre><p>Per installare Nextcloud bisogna andare nelle cartelle di Apache web e installare l&rsquo;ultima releas di Nextcloud</p>
 <pre tabindex="0"><code> cd /var/www/html
  sudo wget https://download.nextcloud.com/server/releases/latest.zip
  sudo unzip latest.zip
+
 </code></pre><p>Se ti da dei problemi ad estrarre i file devi modificare i permessi della cartella per consentire ad Apache di accedervi</p>
 <pre tabindex="0"><code> sudo chmod 750 nextcloud -R
  sudo chown www-data:www-data nextcloud -R
@@ -40,20 +43,21 @@ Tutto quello che c&rsquo;è scritto qua dentro è una specie di cronologia che m
 <p>Dopo l&rsquo;installazione del server MariaDB, viene creato un utente root che può essere utilizzato solo dalla riga di comando. Connettiti a MYSQl tramite <code>sudo mysql</code> e copia questo file sql</p>
 <pre tabindex="0"><code>
  -- Create the new user
- CREATE USER &#39;nextcloud&#39; IDENTIFIED BY &#39;password&#39;;
+ CREATE USER 'nextcloud' IDENTIFIED BY 'password';
  -- Create the new database
  CREATE DATABASE nextcloud;
  -- Give all permissions
- GRANT ALL PRIVILEGES ON nextcloud.* TO &#39;nextcloud&#39;@localhost IDENTIFIED BY &#39;password&#39;;
+ GRANT ALL PRIVILEGES ON nextcloud.* TO 'nextcloud'@localhost IDENTIFIED BY 'password';
  FLUSH PRIVILEGES;
  quit
+
 </code></pre><p>Il database è pronto e possiamo finire l&rsquo;installazione di NextCloud.</p>
 <h2 id="errori">Errori</h2>
 <p>Ora, se hai provato ad accedere a questo link https://IP/nextcloud e ti escono degli errori rimani in questa sezione, altrimenti puoi tranquillamente andare avanti.
 Il problema mi usciva colpa la versione di PHP che avevo installato. Ho risolto così:</p>
 <p>installo PHP 8.3</p>
 <pre tabindex="0"><code> sudo wget -qO /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
- echo &#34;deb https://packages.sury.org/php/ $(lsb_release -sc) main&#34; | sudo tee /etc/apt/sources.list.d/php.list
+ echo &quot;deb https://packages.sury.org/php/ $(lsb_release -sc) main&quot; | sudo tee /etc/apt/sources.list.d/php.list
  sudo apt update
  sudo apt install -y php8.3-common php8.3-cli
 </code></pre><p>Poi ho cambiato la versione di Default con questi comandi:</p>
@@ -88,11 +92,16 @@ Inserite le credenziali appena create in MySQL:</p>
 
 <hr />
 
+<div id="nextprev">
+<a href="/blog/sanremo2024/"><div id="prevart">Previous:<br>Un pensiero su Sanremo</div></a>
+<a href="/blog/appfoss/"><div id="nextart">Next:<br>Rendere il tuo telefono ＦＯＳＳ　往いぞ</div></a>
+</div>
+<div style="clear:both" class=taglist>Related<br><a id="tag_👨‍💻 echo 404" href="https://piacerematthew.xyz/tags/echo-404">👨‍💻 Echo 404</a></div>
 </article>
 </main>
 
 <footer>
-	<a href="https://piacerematthew.xyz">https://piacerematthew.xyz</a>
+	<a href="https://piacerematthew.xyz">https://piacerematthew.xyz</a><br><br><a href="../index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>
 </footer>
 
 </body>

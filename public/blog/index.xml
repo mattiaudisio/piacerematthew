@@ -220,10 +220,12 @@ Inizalmente è stata fatta per comodità mia ma ho deciso di renderla pubblica a
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Attendi qualche minuto per il completamento dell&amp;rsquo;installazione e riavviare Apache per caricare i nuovi moduli PHP:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
  sudo service apache2 restart
+
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Per installare Nextcloud bisogna andare nelle cartelle di Apache web e installare l&amp;rsquo;ultima releas di Nextcloud&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; cd /var/www/html
  sudo wget https://download.nextcloud.com/server/releases/latest.zip
  sudo unzip latest.zip
+
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Se ti da dei problemi ad estrarre i file devi modificare i permessi della cartella per consentire ad Apache di accedervi&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; sudo chmod 750 nextcloud -R
  sudo chown www-data:www-data nextcloud -R
@@ -232,20 +234,21 @@ Inizalmente è stata fatta per comodità mia ma ho deciso di renderla pubblica a
 &lt;p&gt;Dopo l&amp;rsquo;installazione del server MariaDB, viene creato un utente root che può essere utilizzato solo dalla riga di comando. Connettiti a MYSQl tramite &lt;code&gt;sudo mysql&lt;/code&gt; e copia questo file sql&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
  -- Create the new user
- CREATE USER &amp;#39;nextcloud&amp;#39; IDENTIFIED BY &amp;#39;password&amp;#39;;
+ CREATE USER &#39;nextcloud&#39; IDENTIFIED BY &#39;password&#39;;
  -- Create the new database
  CREATE DATABASE nextcloud;
  -- Give all permissions
- GRANT ALL PRIVILEGES ON nextcloud.* TO &amp;#39;nextcloud&amp;#39;@localhost IDENTIFIED BY &amp;#39;password&amp;#39;;
+ GRANT ALL PRIVILEGES ON nextcloud.* TO &#39;nextcloud&#39;@localhost IDENTIFIED BY &#39;password&#39;;
  FLUSH PRIVILEGES;
  quit
+
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Il database è pronto e possiamo finire l&amp;rsquo;installazione di NextCloud.&lt;/p&gt;
 &lt;h2 id=&#34;errori&#34;&gt;Errori&lt;/h2&gt;
 &lt;p&gt;Ora, se hai provato ad accedere a questo link https://IP/nextcloud e ti escono degli errori rimani in questa sezione, altrimenti puoi tranquillamente andare avanti.
 Il problema mi usciva colpa la versione di PHP che avevo installato. Ho risolto così:&lt;/p&gt;
 &lt;p&gt;installo PHP 8.3&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; sudo wget -qO /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
- echo &amp;#34;deb https://packages.sury.org/php/ $(lsb_release -sc) main&amp;#34; | sudo tee /etc/apt/sources.list.d/php.list
+ echo &amp;quot;deb https://packages.sury.org/php/ $(lsb_release -sc) main&amp;quot; | sudo tee /etc/apt/sources.list.d/php.list
  sudo apt update
  sudo apt install -y php8.3-common php8.3-cli
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Poi ho cambiato la versione di Default con questi comandi:&lt;/p&gt;
@@ -444,28 +447,28 @@ Tolto il fatto che ho dovuto creare un account openai per sto esperimento e so c
  from bs4 import BeautifulSoup
  import requests
 
- # Url dell&amp;#39;articolo
- url_articolo = &amp;#34;https://www.rollingstone.it/cultura/gaming/un-programmatore-misterioso-ha-fatto-mario-64-per-pc/515650/&amp;#34;
+ # Url dell&#39;articolo
+ url_articolo = &amp;quot;https://www.rollingstone.it/cultura/gaming/un-programmatore-misterioso-ha-fatto-mario-64-per-pc/515650/&amp;quot;
 
- # Scarica il contenuto dell&amp;#39;articolo
+ # Scarica il contenuto dell&#39;articolo
  response = requests.get(url_articolo)
- soup = BeautifulSoup(response.content, &amp;#39;html.parser&amp;#39;)
- article_content = soup.find(&amp;#34;div&amp;#34;,class_=&amp;#34;l-article-content&amp;#34;)
+ soup = BeautifulSoup(response.content, &#39;html.parser&#39;)
+ article_content = soup.find(&amp;quot;div&amp;quot;,class_=&amp;quot;l-article-content&amp;quot;)
 
- # Estrai il testo dall&amp;#39;inzio
+ # Estrai il testo dall&#39;inzio
  article_text = article_content.get_text()
 
  # Genera laudio TSS
- response = openai.OpenAI(api_key=&amp;#34;ciuppaNonLascioIlMio&amp;#34;).audio.speech.create(
-     model=&amp;#34;tts-1&amp;#34;,
-     voice=&amp;#34;alloy&amp;#34;,
+ response = openai.OpenAI(api_key=&amp;quot;ciuppaNonLascioIlMio&amp;quot;).audio.speech.create(
+     model=&amp;quot;tts-1&amp;quot;,
+     voice=&amp;quot;alloy&amp;quot;,
      input=article_text   
  )
 
- # Salva l&amp;#39;audio in un file MP3
- response.stream_to_file(&amp;#34;articolo_mario64.mp3&amp;#34;) 
+ # Salva l&#39;audio in un file MP3
+ response.stream_to_file(&amp;quot;articolo_mario64.mp3&amp;quot;) 
 
- print(&amp;#34;Contenuto scaricato con successo!&amp;#34;)
+ print(&amp;quot;Contenuto scaricato con successo!&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Qua c&amp;rsquo;è il risultato finale&lt;/p&gt;
 &lt;div style=&#34;text-align: center&#34;&gt;
 	&lt;p&gt;
@@ -491,7 +494,7 @@ Tolto il fatto che ho dovuto creare un account openai per sto esperimento e so c
 		<pubDate>Fri, 15 Dec 2023 17:37:21 +0200</pubDate>
 		
 		<guid>https://piacerematthew.xyz/blog/wrapped2023/</guid>
-		<description>&lt;p&gt;Qualche giorno fa sono incappato nell&amp;rsquo;&lt;a href=&#34;https://www.andreacorinti.com/posts/ita/2023/&#34;&gt;articolo&lt;/a&gt; del buon Andrea Corinti, conosciuto anche con i nickname di &lt;a href=&#34;https://livellosegreto.it/@xabacadabra&#34;&gt;Xab&lt;/a&gt; e di “Brava persona che fa cose belle a cui frego ogni tanto qualche idea”&amp;hellip; e, come si capisce da queste ultime parole, ho deciso di nuovo di grattare idee dal suo blog per scrivere quest&amp;rsquo;articolo.&lt;/p&gt;
+		<description>&lt;p&gt;Qualche giorno fa sono incappato nell&#39;&lt;a href=&#34;https://www.andreacorinti.com/posts/ita/2023/&#34;&gt;articolo&lt;/a&gt; del buon Andrea Corinti, conosciuto anche con i nickname di &lt;a href=&#34;https://livellosegreto.it/@xabacadabra&#34;&gt;Xab&lt;/a&gt; e di “Brava persona che fa cose belle a cui frego ogni tanto qualche idea”&amp;hellip; e, come si capisce da queste ultime parole, ho deciso di nuovo di grattare idee dal suo blog per scrivere quest&amp;rsquo;articolo.&lt;/p&gt;
 &lt;p&gt;Quindi ecco un mega riassunto di tutto quello che ho visto, letto, giocato e vissuto in questo 2023.&lt;/p&gt;
 &lt;h2 id=&#34;-film&#34;&gt;🎬​ Film&lt;/h2&gt;
 &lt;!-- raw HTML omitted --&gt;
@@ -702,12 +705,14 @@ Mi ha aiutato a capire che, se voglio migliorarmi, devo cominciare a migliorare 
  185.199.109.153
  185.199.110.153
  185.199.111.153
+
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;AAA&lt;/strong&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
  2606:50c0:8000::153
  2606:50c0:8001::153
  2606:50c0:8002::153
  2606:50c0:8003::153
+
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;È ora il tuo sito è &lt;strong&gt;online&lt;/strong&gt;!&lt;/p&gt;
 &lt;h2 id=&#34;pubblicare-un-sito-dinamico&#34;&gt;Pubblicare un sito dinamico&lt;/h2&gt;
 &lt;p&gt;Volendo fare i professori si può copiare una qualsiasi parte di testo che trovi online dove si dice &lt;em&gt;“i siti dinamici hanno pagine web il cui contenuto viene generato in tempo reale e che ciò è reso possibile grazie all&amp;rsquo;utilizzo di un linguaggio di scripting come ad esempio il PHP, e a MySQL, un database per la memorizzazione di dati”&lt;/em&gt; però deduco che se sei in sto pezzo del post da benissimo cosa è e da cosa è formato un sito dinamico.&lt;/p&gt;
@@ -846,6 +851,7 @@ Ora, se andari dentro &lt;em&gt;Documenti&lt;/em&gt;, troverai tutte le cartelle
  Welcome to Astro! (create-astro v1.1.0)
  Lets walk through setting up your new Astro project.
  ? Where would you like to create your new project? &amp;gt;&amp;gt; nomeDelSito
+
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Dopo il nome, ti verrà chiesto che template vorresti usare (se vuoi creare qualcosa da zero basterà cliccare su &lt;em&gt;Empty Project&lt;/em&gt;). Per questo esempio useremo un template &lt;em&gt;Portfolio&lt;/em&gt;, quindi va su e giù con le frecciete e premi invio per scegliere. Dopo aver copiato il Template nel progetto, Astro ti chiederà se vuoi utilizzare i pacchetti di npm; Non mi metterò qua a spiegarti &lt;a href=&#34;https://it.wikipedia.org/wiki/Npm_(software)&#34;&gt;cosa sono&lt;/a&gt;, a te basta digitare Y. La stessa cosa la fai per Git. Infine ti chiederà che vuoi settare TypeScript, io ti consiglio Strict.&lt;/p&gt;
 &lt;p&gt;Bene, a questo punto hai installato Astro dentro il tuo sito, veloce no come procedimento 😀&lt;/p&gt;
 &lt;p&gt;Se sei ancora incerto che abbia installato qualcosa, vai dentro la cartella developer e guarda se ti ha creato una cartella con il nome che hai inserito; Altrimenti digita &lt;em&gt;cd nomeDelSito&lt;/em&gt; e digita &lt;em&gt;yarn start&lt;/em&gt;, ti è uscito una cosa del genere?&lt;/p&gt;
@@ -855,6 +861,7 @@ Ora, se andari dentro &lt;em&gt;Documenti&lt;/em&gt;, troverai tutte le cartelle
     astro  v1.4.2 started in 49ms
    ┃ Local    http://127.0.0.1:3000/
    ┃ Network  use --host to expose
+
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Se non ti è uscito&amp;hellip; controlla cosa ti è uscito, perché di solito ti dice cosa c&amp;rsquo;è che non va (poi al massimo copia su Google l&amp;rsquo;errore che ti esce).
 Se ti è uscito, bene! Ora apri il tuo browser e digita http://127.0.0.1:3000/ e Tac, ecco il tuo sito con il template di default.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;BUON DIVERTIMENTO!&lt;/strong&gt;&lt;/p&gt;
@@ -876,8 +883,9 @@ Se ti è uscito, bene! Ora apri il tuo browser e digita http://127.0.0.1:3000/ e
  from tkinter import *
  from PIL import Image, ImageTk
 
- hosts_path = r&amp;#34;C:\Windows\System32\drivers\etc\hosts&amp;#34;
- redirect_IP = &amp;#34;127.0.0.1&amp;#34;  # localhost&amp;#39;s IP Address
+ hosts_path = r&amp;quot;C:\Windows\System32\drivers\etc\hosts&amp;quot;
+ redirect_IP = &amp;quot;127.0.0.1&amp;quot;  # localhost&#39;s IP Address
+
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Ora, sovente sono abituato a utilizzare classi e oggetti dell&amp;rsquo;OOP (programmazione ad oggetti) quando realizzo progetti con tkinter, e anche in questo caso ho scritto il codice seguendo questa mia abitudine, ma è opzionale come cosa.&lt;/p&gt;
 &lt;p&gt;Creiamo la Classe Blocker, inizializzando gli attributi per creare tramite tkinter il “rettangolo” del programma, l&amp;rsquo;array in cui verranno inseriti i link da bloccare e i vari bottoni a lato con cui bloccare/sbloccare i siti.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; class Blocker:
@@ -885,29 +893,29 @@ Se ti è uscito, bene! Ora apri il tuo browser e digita http://127.0.0.1:3000/ e
      def __init__(self):
         # Create Window
         self.root = Tk()
-        self.root.title(&amp;#39;Python Website Blocker&amp;#39;)
-        self.root.geometry(&amp;#34;500x350&amp;#34;)
-        self.root.configure(background=&amp;#39;white&amp;#39;)
+        self.root.title(&#39;Python Website Blocker&#39;)
+        self.root.geometry(&amp;quot;500x350&amp;quot;)
+        self.root.configure(background=&#39;white&#39;)
         self.root.resizable(False, False)
-        self.root.wm_iconphoto(False, ImageTk.PhotoImage(Image.open(&amp;#39;img/favicon.png&amp;#39;)))
+        self.root.wm_iconphoto(False, ImageTk.PhotoImage(Image.open(&#39;img/favicon.png&#39;)))
         self.larghezza = self.root.winfo_screenwidth()
         self.site_to_block = []
 
         # Create Frame and Button
-        self.frame1 = Frame(self.root, width=250, height=self.root.winfo_screenheight(), background=&amp;#39;white&amp;#39;)
-        self.frame2 = Frame(self.root, width=250, height=self.root.winfo_screenheight(), background=&amp;#39;white&amp;#39;)
+        self.frame1 = Frame(self.root, width=250, height=self.root.winfo_screenheight(), background=&#39;white&#39;)
+        self.frame2 = Frame(self.root, width=250, height=self.root.winfo_screenheight(), background=&#39;white&#39;)
         self.frame1.grid(row=0, column=0, rowspan=2)
         self.frame2.grid(row=1, column=1, rowspan=2)
 
         # Create Image Column
-        self.image = ImageTk.PhotoImage(file=&amp;#34;img/img.png&amp;#34;)
-        self.label1 = Label(self.frame1, image=self.image, width=250, height=300, padx=5, background=&amp;#39;white&amp;#39;, pady=20)
+        self.image = ImageTk.PhotoImage(file=&amp;quot;img/img.png&amp;quot;)
+        self.label1 = Label(self.frame1, image=self.image, width=250, height=300, padx=5, background=&#39;white&#39;, pady=20)
         self.label1.grid(row=1, column=1)
 
         # Create Button
-        self.button1 = Button(self.frame2, text=&amp;#34;Blocca Social&amp;#34;, width=30, height=5, command=self.blockSocial)
+        self.button1 = Button(self.frame2, text=&amp;quot;Blocca Social&amp;quot;, width=30, height=5, command=self.blockSocial)
         self.button1.grid(row=0, column=0, padx=15, pady=15)
-        self.button3 = Button(self.frame2, text=&amp;#34;Blocca Tutto&amp;#34;, width=30, height=5, command=self.blockAll)
+        self.button3 = Button(self.frame2, text=&amp;quot;Blocca Tutto&amp;quot;, width=30, height=5, command=self.blockAll)
         self.button3.grid(row=2, column=0, padx=15, pady=15)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Ora creiamo una funzione start, in modo che all&amp;rsquo;esecuzione del programma venga creata la finestra con i parametri settati in precedenza&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; def start(self):
@@ -915,27 +923,27 @@ Se ti è uscito, bene! Ora apri il tuo browser e digita http://127.0.0.1:3000/ e
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;parte-2-creiamo-la-funzioni&#34;&gt;Parte 2: creiamo la funzioni&lt;/h2&gt;
 &lt;p&gt;Come avrai notato, i tre bottoni permettono di bloccare tre tipi di siti: social networrk, siti porno, le due opzioni precedenti. Quindi ora la nostra attenzione deve concentrarsi su 3 importanti funzioni: blocca social, blocca porno, blocca tutto. Le 2 funzioni blocca social e blocca porno hanno al loro interno un array che contiene dei link (i siti da bloccare) e un controllo che modifica la scritta dei due bottoni da blocca * a sblocca * e, a seconda se il titolo del bottone a un testo o l&amp;rsquo;altro, vengono chiamate le funzioni per bloccare e sbloccare i siti. la funzione blocca tutto richiama le due funzioni citate prima&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; def blockSocial(self):
-    site = [&amp;#39;www.instagram.com&amp;#39;, &amp;#39;instagram.com&amp;#39;, &amp;#39;tiktok.com&amp;#39;, &amp;#39;www.tiktok.com&amp;#39;, &amp;#39;twitter.com&amp;#39;]
+    site = [&#39;www.instagram.com&#39;, &#39;instagram.com&#39;, &#39;tiktok.com&#39;, &#39;www.tiktok.com&#39;, &#39;twitter.com&#39;]
     self.site_to_block.extend(site)
-    if self.button1[&amp;#39;text&amp;#39;] == &amp;#34;Blocca Social&amp;#34;:
-        self.button1.configure(text=&amp;#34;Sblocca Social&amp;#34;)
+    if self.button1[&#39;text&#39;] == &amp;quot;Blocca Social&amp;quot;:
+        self.button1.configure(text=&amp;quot;Sblocca Social&amp;quot;)
         self.block_websites()
     else:
-        self.button1.configure(text=&amp;#34;Blocca Social&amp;#34;)
+        self.button1.configure(text=&amp;quot;Blocca Social&amp;quot;)
         self.unblock_website()
 
 
  def blockAll(self):
-    if self.button3[&amp;#39;text&amp;#39;] == &amp;#34;Blocca Tutto&amp;#34;:
+    if self.button3[&#39;text&#39;] == &amp;quot;Blocca Tutto&amp;quot;:
         self.blockSocial()
-        self.button1.configure(text=&amp;#34;Sblocca Social&amp;#34;)
-        self.button3.configure(text=&amp;#34;Sblocca Tutto&amp;#34;)
+        self.button1.configure(text=&amp;quot;Sblocca Social&amp;quot;)
+        self.button3.configure(text=&amp;quot;Sblocca Tutto&amp;quot;)
         self.block_websites()
     else:
         self.blockSocial()
         self.blockPorn()
-        self.button1.configure(text=&amp;#34;Blocca Social&amp;#34;)
-        self.button3.configure(text=&amp;#34;Blocca Tutto&amp;#34;)
+        self.button1.configure(text=&amp;quot;Blocca Social&amp;quot;)
+        self.button3.configure(text=&amp;quot;Blocca Tutto&amp;quot;)
         self.unblock_website()     
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Per finire, creiamo le due funzioni che creano il cuore di questo programma, le funzioni blockwebsites e unblockwebsites.
 La funzione blockwebsites, tramite l&amp;rsquo;array con i siti e dei for, scrive sul file host l&amp;rsquo;url del sito, mentre unblockwebsite li toglie.&lt;/p&gt;
@@ -946,20 +954,21 @@ La funzione blockwebsites, tramite l&amp;rsquo;array con i siti e dei for, scriv
  for i in self.site_to_block:
    if i not in result:
     result.append(i)
- with open(hosts_path, &amp;#39;r+&amp;#39;) as hostfile:
+ with open(hosts_path, &#39;r+&#39;) as hostfile:
  hosts_content = hostfile.read()
  for site in self.site_to_block:  # for site in  sites_to_block:
     if site not in hosts_content:
-        hostfile.write(redirect_IP + &amp;#39; &amp;#39; + site + &amp;#39;\n&amp;#39;)
+        hostfile.write(redirect_IP + &#39; &#39; + site + &#39;\n&#39;)
 
  def unblock_website(self):
- with open(hosts_path, &amp;#39;r+&amp;#39;) as hostfile:
+ with open(hosts_path, &#39;r+&#39;) as hostfile:
  lines = hostfile.readlines()
  hostfile.seek(0)
  for line in lines:
     if not any(site in line for site in self.site_to_block):
         hostfile.write(line)
     hostfile.truncate()
+
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Per terminare, creiamo un oggetto Blocker e chiamiamo la funzione start.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; app = Blocker()
  app.start()
@@ -969,8 +978,8 @@ La funzione blockwebsites, tramite l&amp;rsquo;array con i siti e dei for, scriv
  from tkinter import *
  from PIL import Image, ImageTk
 
- hosts_path = r&amp;#34;C:\Windows\System32\drivers\etc\hosts&amp;#34;
- redirect_IP = &amp;#34;127.0.0.1&amp;#34;  # localhost&amp;#39;s IP Address
+ hosts_path = r&amp;quot;C:\Windows\System32\drivers\etc\hosts&amp;quot;
+ redirect_IP = &amp;quot;127.0.0.1&amp;quot;  # localhost&#39;s IP Address
 
 
  class Blocker:
@@ -978,56 +987,56 @@ La funzione blockwebsites, tramite l&amp;rsquo;array con i siti e dei for, scriv
     def __init__(self):
         # Create Window
         self.root = Tk()
-        self.root.title(&amp;#39;Python Website Blocker&amp;#39;)
-        self.root.geometry(&amp;#34;500x350&amp;#34;)
-        self.root.configure(background=&amp;#39;white&amp;#39;)
+        self.root.title(&#39;Python Website Blocker&#39;)
+        self.root.geometry(&amp;quot;500x350&amp;quot;)
+        self.root.configure(background=&#39;white&#39;)
         self.root.resizable(False, False)
-        self.root.wm_iconphoto(False, ImageTk.PhotoImage(Image.open(&amp;#39;img/favicon.png&amp;#39;)))
+        self.root.wm_iconphoto(False, ImageTk.PhotoImage(Image.open(&#39;img/favicon.png&#39;)))
         self.larghezza = self.root.winfo_screenwidth()
         self.site_to_block = []
 
         # Create Frame and Button
-        self.frame1 = Frame(self.root, width=250, height=self.root.winfo_screenheight(), background=&amp;#39;white&amp;#39;)
-        self.frame2 = Frame(self.root, width=250, height=self.root.winfo_screenheight(), background=&amp;#39;white&amp;#39;)
+        self.frame1 = Frame(self.root, width=250, height=self.root.winfo_screenheight(), background=&#39;white&#39;)
+        self.frame2 = Frame(self.root, width=250, height=self.root.winfo_screenheight(), background=&#39;white&#39;)
         self.frame1.grid(row=0, column=0, rowspan=2)
         self.frame2.grid(row=1, column=1, rowspan=2)
 
         # Create Image Column
-        self.image = ImageTk.PhotoImage(file=&amp;#34;img/img.png&amp;#34;)
-        self.label1 = Label(self.frame1, image=self.image, width=250, height=300, padx=5, background=&amp;#39;white&amp;#39;, pady=20)
+        self.image = ImageTk.PhotoImage(file=&amp;quot;img/img.png&amp;quot;)
+        self.label1 = Label(self.frame1, image=self.image, width=250, height=300, padx=5, background=&#39;white&#39;, pady=20)
         self.label1.grid(row=1, column=1)
 
         # Create Button
-        self.button1 = Button(self.frame2, text=&amp;#34;Blocca Social&amp;#34;, width=30, height=5, command=self.blockSocial)
+        self.button1 = Button(self.frame2, text=&amp;quot;Blocca Social&amp;quot;, width=30, height=5, command=self.blockSocial)
         self.button1.grid(row=0, column=0, padx=15, pady=15)
-        self.button3 = Button(self.frame2, text=&amp;#34;Blocca Tutto&amp;#34;, width=30, height=5, command=self.blockAll)
+        self.button3 = Button(self.frame2, text=&amp;quot;Blocca Tutto&amp;quot;, width=30, height=5, command=self.blockAll)
         self.button3.grid(row=2, column=0, padx=15, pady=15)
 
     def start(self):
         self.root.mainloop()
 
     def blockSocial(self):
-        site = [&amp;#39;www.instagram.com&amp;#39;, &amp;#39;instagram.com&amp;#39;, &amp;#39;tiktok.com&amp;#39;, &amp;#39;www.tiktok.com&amp;#39;, &amp;#39;twitter.com&amp;#39;]
+        site = [&#39;www.instagram.com&#39;, &#39;instagram.com&#39;, &#39;tiktok.com&#39;, &#39;www.tiktok.com&#39;, &#39;twitter.com&#39;]
         self.site_to_block.extend(site)
-        if self.button1[&amp;#39;text&amp;#39;] == &amp;#34;Blocca Social&amp;#34;:
-            self.button1.configure(text=&amp;#34;Sblocca Social&amp;#34;)
+        if self.button1[&#39;text&#39;] == &amp;quot;Blocca Social&amp;quot;:
+            self.button1.configure(text=&amp;quot;Sblocca Social&amp;quot;)
             self.block_websites()
         else:
-            self.button1.configure(text=&amp;#34;Blocca Social&amp;#34;)
+            self.button1.configure(text=&amp;quot;Blocca Social&amp;quot;)
             self.unblock_website()
 
     def blockAll(self):
-        if self.button3[&amp;#39;text&amp;#39;] == &amp;#34;Blocca Tutto&amp;#34;:
+        if self.button3[&#39;text&#39;] == &amp;quot;Blocca Tutto&amp;quot;:
             self.blockSocial()
             self.blockPorn()
-            self.button1.configure(text=&amp;#34;Sblocca Social&amp;#34;)
-            self.button3.configure(text=&amp;#34;Sblocca Tutto&amp;#34;)
+            self.button1.configure(text=&amp;quot;Sblocca Social&amp;quot;)
+            self.button3.configure(text=&amp;quot;Sblocca Tutto&amp;quot;)
             self.block_websites()
         else:
             self.blockSocial()
             self.blockPorn()
-            self.button1.configure(text=&amp;#34;Blocca Social&amp;#34;)
-            self.button3.configure(text=&amp;#34;Blocca Tutto&amp;#34;)
+            self.button1.configure(text=&amp;quot;Blocca Social&amp;quot;)
+            self.button3.configure(text=&amp;quot;Blocca Tutto&amp;quot;)
             self.unblock_website()
 
     def block_websites(self):
@@ -1035,14 +1044,14 @@ La funzione blockwebsites, tramite l&amp;rsquo;array con i siti e dei for, scriv
         for i in self.site_to_block:
             if i not in result:
                 result.append(i)
-        with open(hosts_path, &amp;#39;r+&amp;#39;) as hostfile:
+        with open(hosts_path, &#39;r+&#39;) as hostfile:
             hosts_content = hostfile.read()
             for site in self.site_to_block:  # for site in  sites_to_block:
                 if site not in hosts_content:
-                    hostfile.write(redirect_IP + &amp;#39; &amp;#39; + site + &amp;#39;\n&amp;#39;)
+                    hostfile.write(redirect_IP + &#39; &#39; + site + &#39;\n&#39;)
 
     def unblock_website(self):
-        with open(hosts_path, &amp;#39;r+&amp;#39;) as hostfile:
+        with open(hosts_path, &#39;r+&#39;) as hostfile:
             lines = hostfile.readlines()
             hostfile.seek(0)
             for line in lines:
@@ -1053,6 +1062,7 @@ La funzione blockwebsites, tramite l&amp;rsquo;array con i siti e dei for, scriv
 
  app = Blocker()
  app.start()
+
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;E questo è tutto. Ora hai il tuo website blocker personale!&lt;/p&gt;
 </description>
 	</item>

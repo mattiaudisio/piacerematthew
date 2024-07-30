@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>Piacere, Matthew</title>
-	<link>https://mattiaudisio.github.io/piacerematthew/tags/echo-404/</link>
+	<link>https://piacerematthew.xyz/tags/echo-404/</link>
 	<description>Recent content in 👨‍💻 Echo 404 on Piacere, Matthew</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>it-it</language>
 	<lastBuildDate>Mon, 03 Jun 2024 21:02:25 +0200</lastBuildDate>
     
-        <atom:link href="https://mattiaudisio.github.io/piacerematthew/tags/echo-404/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://piacerematthew.xyz/tags/echo-404/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
 		<title>Come ho installato localmente invidious</title>
-		<link>https://mattiaudisio.github.io/piacerematthew/blog/invidious/</link>
+		<link>https://piacerematthew.xyz/blog/invidious/</link>
 		<pubDate>Mon, 03 Jun 2024 21:02:25 +0200</pubDate>
 		
-		<guid>https://mattiaudisio.github.io/piacerematthew/blog/invidious/</guid>
+		<guid>https://piacerematthew.xyz/blog/invidious/</guid>
 		<description>&lt;p&gt;Piccolo articolo veloce per spiegare come installare localmente una propria istanza invidious, in modo da vedere i video dei tuoi youtuber preferiti senza essere tracciato da YouTube.&lt;/p&gt;
 &lt;h2 id=&#34;pacchetti-richiesti&#34;&gt;Pacchetti richiesti&lt;/h2&gt;
 &lt;p&gt;Invidious può essere installato sia tramite Docker che tramite Podman, ma in questo caso vedremo la seconda opzione.&lt;/p&gt;
@@ -148,10 +148,10 @@ services:
 	
 	<item>
 		<title>Considerazione nata dopo la visione di &#34;Il regno del pianeta delle scimmie&#34;</title>
-		<link>https://mattiaudisio.github.io/piacerematthew/blog/pensieripianetadellescimmie/</link>
+		<link>https://piacerematthew.xyz/blog/pensieripianetadellescimmie/</link>
 		<pubDate>Tue, 14 May 2024 17:31:05 +0200</pubDate>
 		
-		<guid>https://mattiaudisio.github.io/piacerematthew/blog/pensieripianetadellescimmie/</guid>
+		<guid>https://piacerematthew.xyz/blog/pensieripianetadellescimmie/</guid>
 		<description>&lt;p&gt;Il nuovo film del Pianeta della scimmie è un film inutile e medrioche,ma che m&amp;rsquo;ha fatto capire 2 cose..&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;la prima&lt;/em&gt;: mi sono stufato dei film americani, ho proprio l&amp;rsquo;eusarimento e la noia di vedere sti film che ha livello di tramam sono uno la copia sputata dell&amp;rsquo;altro con solo qualche effetto visivo in più o in meno.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;secondo&lt;/em&gt;: sto capendo Fada quando dice nelle reaction: &lt;em&gt;&lt;strong&gt;&amp;ldquo;Musica matematicamente perfetta&amp;rdquo;&lt;/strong&gt;&lt;/em&gt;, perchè sti film sono matematicamente perfetti ed è tutto fatto per essere così preciso e uguale a tutto quello che Hollywood ha vomitato nelle sale negli ultimi anni che ormai non ti danno nessuna emozione.&lt;/p&gt;
@@ -163,10 +163,10 @@ services:
 	
 	<item>
 		<title>Rendere il tuo telefono ＦＯＳＳ　往いぞ</title>
-		<link>https://mattiaudisio.github.io/piacerematthew/blog/appfoss/</link>
+		<link>https://piacerematthew.xyz/blog/appfoss/</link>
 		<pubDate>Sun, 14 Apr 2024 20:12:07 +0200</pubDate>
 		
-		<guid>https://mattiaudisio.github.io/piacerematthew/blog/appfoss/</guid>
+		<guid>https://piacerematthew.xyz/blog/appfoss/</guid>
 		<description>&lt;p&gt;&lt;em&gt;So che il titolo a livello tecnico non è scritto in modo corretto, ma per stavolta passatemi la svirgolata artistica&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Tempo fa sono incappato in questo &lt;a href=&#34;https://livellosegreto.it/@KSGamingLife/111849739328291726&#34;&gt;Threads&lt;/a&gt; di &lt;a href=&#34;https://livellosegreto.it/@KSGamingLife&#34;&gt;KSGamingLife&lt;/a&gt;, dove venivano elencate un paio di app FOSS (Free Open Source Software) da usare come alternativa alle app Google o a quelle più comuni.
 Spinto dalla curiosità ho cominciato ad annotarmi su foglio di testo tutte le app citate all&amp;rsquo;interno, creando così questa lista.&lt;!-- raw HTML omitted --&gt;
@@ -206,10 +206,10 @@ Inizalmente è stata fatta per comodità mia ma ho deciso di renderla pubblica a
 	
 	<item>
 		<title>Come ho installato Nextcloud su un Raspberry Pi 3</title>
-		<link>https://mattiaudisio.github.io/piacerematthew/blog/raspberrynextcloud/</link>
+		<link>https://piacerematthew.xyz/blog/raspberrynextcloud/</link>
 		<pubDate>Sun, 14 Apr 2024 19:32:17 +0200</pubDate>
 		
-		<guid>https://mattiaudisio.github.io/piacerematthew/blog/raspberrynextcloud/</guid>
+		<guid>https://piacerematthew.xyz/blog/raspberrynextcloud/</guid>
 		<description>&lt;p&gt;Qualche tempo fa ho perso un paio di neuroni dietro ad uno sfizio che mi avevo lì da un pò di tempo: Installare Nextcloud sopra il Raspberry Pi 3 che ho in casa.&lt;/p&gt;
 &lt;p&gt;Una roba semplicissima mi direte, peccato che ho avuto a che fare con un paio di problemi che mi hanno dato abbastanza da pelare e questo articolo serve proprio per questi problemi.&lt;/p&gt;
 &lt;p&gt;Tutto quello che c&amp;rsquo;è scritto qua dentro è una specie di cronologia che mi permetterà in futuro di rifare la stessa operazione senza avere ulteriori problemi (spero).&lt;/p&gt;
@@ -220,10 +220,12 @@ Inizalmente è stata fatta per comodità mia ma ho deciso di renderla pubblica a
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Attendi qualche minuto per il completamento dell&amp;rsquo;installazione e riavviare Apache per caricare i nuovi moduli PHP:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
  sudo service apache2 restart
+
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Per installare Nextcloud bisogna andare nelle cartelle di Apache web e installare l&amp;rsquo;ultima releas di Nextcloud&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; cd /var/www/html
  sudo wget https://download.nextcloud.com/server/releases/latest.zip
  sudo unzip latest.zip
+
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Se ti da dei problemi ad estrarre i file devi modificare i permessi della cartella per consentire ad Apache di accedervi&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; sudo chmod 750 nextcloud -R
  sudo chown www-data:www-data nextcloud -R
@@ -232,20 +234,21 @@ Inizalmente è stata fatta per comodità mia ma ho deciso di renderla pubblica a
 &lt;p&gt;Dopo l&amp;rsquo;installazione del server MariaDB, viene creato un utente root che può essere utilizzato solo dalla riga di comando. Connettiti a MYSQl tramite &lt;code&gt;sudo mysql&lt;/code&gt; e copia questo file sql&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
  -- Create the new user
- CREATE USER &amp;#39;nextcloud&amp;#39; IDENTIFIED BY &amp;#39;password&amp;#39;;
+ CREATE USER &#39;nextcloud&#39; IDENTIFIED BY &#39;password&#39;;
  -- Create the new database
  CREATE DATABASE nextcloud;
  -- Give all permissions
- GRANT ALL PRIVILEGES ON nextcloud.* TO &amp;#39;nextcloud&amp;#39;@localhost IDENTIFIED BY &amp;#39;password&amp;#39;;
+ GRANT ALL PRIVILEGES ON nextcloud.* TO &#39;nextcloud&#39;@localhost IDENTIFIED BY &#39;password&#39;;
  FLUSH PRIVILEGES;
  quit
+
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Il database è pronto e possiamo finire l&amp;rsquo;installazione di NextCloud.&lt;/p&gt;
 &lt;h2 id=&#34;errori&#34;&gt;Errori&lt;/h2&gt;
 &lt;p&gt;Ora, se hai provato ad accedere a questo link https://IP/nextcloud e ti escono degli errori rimani in questa sezione, altrimenti puoi tranquillamente andare avanti.
 Il problema mi usciva colpa la versione di PHP che avevo installato. Ho risolto così:&lt;/p&gt;
 &lt;p&gt;installo PHP 8.3&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; sudo wget -qO /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
- echo &amp;#34;deb https://packages.sury.org/php/ $(lsb_release -sc) main&amp;#34; | sudo tee /etc/apt/sources.list.d/php.list
+ echo &amp;quot;deb https://packages.sury.org/php/ $(lsb_release -sc) main&amp;quot; | sudo tee /etc/apt/sources.list.d/php.list
  sudo apt update
  sudo apt install -y php8.3-common php8.3-cli
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Poi ho cambiato la versione di Default con questi comandi:&lt;/p&gt;
@@ -280,10 +283,10 @@ Inserite le credenziali appena create in MySQL:&lt;/p&gt;
 	
 	<item>
 		<title>Un pensiero su Sanremo</title>
-		<link>https://mattiaudisio.github.io/piacerematthew/blog/sanremo2024/</link>
+		<link>https://piacerematthew.xyz/blog/sanremo2024/</link>
 		<pubDate>Sun, 11 Feb 2024 17:37:21 +0200</pubDate>
 		
-		<guid>https://mattiaudisio.github.io/piacerematthew/blog/sanremo2024/</guid>
+		<guid>https://piacerematthew.xyz/blog/sanremo2024/</guid>
 		<description>&lt;p&gt;&lt;em&gt;articolo nato inizialmente come Toot su Livello Segreto&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Contento per Angelina Mango che ha fatto una bella canzone, niente da dire, però mi è sinceramente dispiaciuto per l&amp;rsquo;odio che si è preso Geolier.&lt;/p&gt;
 &lt;p&gt;Vedere un ragazzo che ha voluto portare al pubblico della televisione quelle che sono le sue culture (napoletana e rap) venire distrutto in questo modo dalla stampa è veramente brutto.&lt;/p&gt;
@@ -303,10 +306,10 @@ Lascio qua questo video con cui mi sono trovato d&amp;rsquo;accordo.&lt;!-- raw 
 	
 	<item>
 		<title>Usare Telegram come un lettore di Feed RSS</title>
-		<link>https://mattiaudisio.github.io/piacerematthew/blog/telegramfeedrss/</link>
+		<link>https://piacerematthew.xyz/blog/telegramfeedrss/</link>
 		<pubDate>Wed, 31 Jan 2024 19:04:26 +0200</pubDate>
 		
-		<guid>https://mattiaudisio.github.io/piacerematthew/blog/telegramfeedrss/</guid>
+		<guid>https://piacerematthew.xyz/blog/telegramfeedrss/</guid>
 		<description>&lt;p&gt;I feed RSS sono quelle cose che, durante la mia “carriera/vita” su internet, gira girato tornano a fare capolinea ogni tanto.&lt;/p&gt;
 &lt;p&gt;Il primo ricordo che ho con questi strumenti risalgono al lontano 2019 quando tentai, fallendo miseramente, di creare un bot Telegram che, dato i feed RSS di un paio di fansub, mi mandava una notifica ogni volta che usciva una nuova puntata sottotitolata. In questi 6 anni sono stati utilizzati dal sottoscritto in molti progetti, partendo dai più semplici (un pagina in php che mi leggeva il Feed RSS di un giornale e mi mostrava gli ultimi 10 articoli) fino a robe più malsane (Ricreare una copia della sezione “Seguiti” del mio profilo Tik Tok tramite feed RSS).&lt;/p&gt;
 &lt;h2 id=&#34;fluent-reader&#34;&gt;Fluent Reader&lt;/h2&gt;
@@ -339,10 +342,10 @@ Un saluto a tutti&lt;/p&gt;
 	
 	<item>
 		<title>Usare Thunderbird come backup per le mail di Gmail</title>
-		<link>https://mattiaudisio.github.io/piacerematthew/blog/thunderbirdbackup/</link>
+		<link>https://piacerematthew.xyz/blog/thunderbirdbackup/</link>
 		<pubDate>Wed, 24 Jan 2024 21:50:21 +0200</pubDate>
 		
-		<guid>https://mattiaudisio.github.io/piacerematthew/blog/thunderbirdbackup/</guid>
+		<guid>https://piacerematthew.xyz/blog/thunderbirdbackup/</guid>
 		<description>&lt;p&gt;In questi anni ho notato una tendenza che trovo particolare. Nel mondo del lavoro, molte persone, in particolare nelle piccole imprese, tendono ad usare utilizzare la propria mail personale.&lt;/p&gt;
 &lt;p&gt;Ora, lasciando da parte il dibattuto se questa scelta sia un ottima scelta &lt;em&gt;(non è un ottima scelta)&lt;/em&gt; oppure no &lt;em&gt;(cof. cof. &lt;strong&gt;è una scelta di merda&lt;/strong&gt; cof. cof.)&lt;/em&gt;, parliamo di un avvenimento capitato vicino a me ma che può essere d&amp;rsquo;aiuto a qualcuno&amp;hellip; &lt;strong&gt;il tuo account gmail ti segna 15GB su 15 GB utilizzati&lt;/strong&gt; (sì lo so può sembrare strano a qualcuno ma vi giuro che ho visto quella scritta con i miei occhi).&lt;/p&gt;
 &lt;p&gt;In questi casi però il caro e vecchio “cancella tutte le mail” non può venirci in aiuto, dato che la suddetta mail viene usata per un lavoro in cui servono documenti e queste mail sono piene di documenti che servono. La soluzione che ti consiglio: fare un backup in locale.&lt;/p&gt;
@@ -360,10 +363,10 @@ Un saluto a tutti&lt;/p&gt;
 	
 	<item>
 		<title>Recensioni randomiche non richieste su Film, Serie Tv, Videogiochi</title>
-		<link>https://mattiaudisio.github.io/piacerematthew/blog/recensioni/</link>
+		<link>https://piacerematthew.xyz/blog/recensioni/</link>
 		<pubDate>Mon, 01 Jan 2024 17:31:05 +0200</pubDate>
 		
-		<guid>https://mattiaudisio.github.io/piacerematthew/blog/recensioni/</guid>
+		<guid>https://piacerematthew.xyz/blog/recensioni/</guid>
 		<description>&lt;p&gt;Un elenco non finito di recensioni randomiche che ho lascitato in giro per l&amp;rsquo;internet con account che ora non esistono più. &lt;strong&gt;Attenzione ci sono tanti spoiler&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;the-suicide-of-rachel-fosterhttpsstoresteampoweredcomapp1057750the_suicide_of_rachel_foster--27072021&#34;&gt;&lt;a href=&#34;https://store.steampowered.com/app/1057750/The_Suicide_of_Rachel_Foster/&#34;&gt;The suicide of Rachel Foster&lt;/a&gt; | 27/07/2021&lt;/h2&gt;
 &lt;p&gt;Visto tempo fa in uno spezzone di live di uno streamer (&lt;a href=&#34;https://www.youtube.com/watch?v=cBt0QeDqb2s&#34;&gt;ilGattoSulTubo&lt;/a&gt;) e già mi aveva attirato per grafica e suoni, più il fatto che sia un videogioco realizzato da italiani, ma quando l&amp;rsquo;ho cominciato sono stato rapito anche dalla trama.&lt;/p&gt;
@@ -395,10 +398,10 @@ Un saluto a tutti&lt;/p&gt;
 	
 	<item>
 		<title>Creare un intero podcast artificialmente</title>
-		<link>https://mattiaudisio.github.io/piacerematthew/blog/podcastartificiales/</link>
+		<link>https://piacerematthew.xyz/blog/podcastartificiales/</link>
 		<pubDate>Wed, 20 Dec 2023 21:07:49 +0200</pubDate>
 		
-		<guid>https://mattiaudisio.github.io/piacerematthew/blog/podcastartificiales/</guid>
+		<guid>https://piacerematthew.xyz/blog/podcastartificiales/</guid>
 		<description>&lt;p&gt;Ieri, mentre cazzeggiavo nella timeline locale, mi sono imbattuto in  &lt;a href=&#34;https://livellosegreto.it/@cesco/111606253044821035&#34;&gt;questo post&lt;/a&gt; di &lt;a href=&#34;https://livellosegreto.it/@cesco&#34;&gt;cesco&lt;/a&gt; che, per una persona a cui piace sperimentare scrivendo righe di codice, non dirà niente di nuovo&amp;hellip; a me invece sta cosa ha fatto scoreggiare il cervello.&lt;/p&gt;
 &lt;p&gt;Ok, lo so che può suonare strano agli smanettoni dell&amp;rsquo;IA, ma guardiamo un attimo cosa c&amp;rsquo;è:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; Riciclando del vecchio codice che avevo scritto e aggiungendo qualcosa di  nuovo, in 5 min e 
@@ -444,28 +447,28 @@ Tolto il fatto che ho dovuto creare un account openai per sto esperimento e so c
  from bs4 import BeautifulSoup
  import requests
 
- # Url dell&amp;#39;articolo
- url_articolo = &amp;#34;https://www.rollingstone.it/cultura/gaming/un-programmatore-misterioso-ha-fatto-mario-64-per-pc/515650/&amp;#34;
+ # Url dell&#39;articolo
+ url_articolo = &amp;quot;https://www.rollingstone.it/cultura/gaming/un-programmatore-misterioso-ha-fatto-mario-64-per-pc/515650/&amp;quot;
 
- # Scarica il contenuto dell&amp;#39;articolo
+ # Scarica il contenuto dell&#39;articolo
  response = requests.get(url_articolo)
- soup = BeautifulSoup(response.content, &amp;#39;html.parser&amp;#39;)
- article_content = soup.find(&amp;#34;div&amp;#34;,class_=&amp;#34;l-article-content&amp;#34;)
+ soup = BeautifulSoup(response.content, &#39;html.parser&#39;)
+ article_content = soup.find(&amp;quot;div&amp;quot;,class_=&amp;quot;l-article-content&amp;quot;)
 
- # Estrai il testo dall&amp;#39;inzio
+ # Estrai il testo dall&#39;inzio
  article_text = article_content.get_text()
 
  # Genera laudio TSS
- response = openai.OpenAI(api_key=&amp;#34;ciuppaNonLascioIlMio&amp;#34;).audio.speech.create(
-     model=&amp;#34;tts-1&amp;#34;,
-     voice=&amp;#34;alloy&amp;#34;,
+ response = openai.OpenAI(api_key=&amp;quot;ciuppaNonLascioIlMio&amp;quot;).audio.speech.create(
+     model=&amp;quot;tts-1&amp;quot;,
+     voice=&amp;quot;alloy&amp;quot;,
      input=article_text   
  )
 
- # Salva l&amp;#39;audio in un file MP3
- response.stream_to_file(&amp;#34;articolo_mario64.mp3&amp;#34;) 
+ # Salva l&#39;audio in un file MP3
+ response.stream_to_file(&amp;quot;articolo_mario64.mp3&amp;quot;) 
 
- print(&amp;#34;Contenuto scaricato con successo!&amp;#34;)
+ print(&amp;quot;Contenuto scaricato con successo!&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Qua c&amp;rsquo;è il risultato finale&lt;/p&gt;
 &lt;div style=&#34;text-align: center&#34;&gt;
 	&lt;p&gt;
@@ -487,11 +490,11 @@ Tolto il fatto che ho dovuto creare un account openai per sto esperimento e so c
 	
 	<item>
 		<title>Wrapped 2023 (anche detto il meglio del 2023)</title>
-		<link>https://mattiaudisio.github.io/piacerematthew/blog/wrapped2023/</link>
+		<link>https://piacerematthew.xyz/blog/wrapped2023/</link>
 		<pubDate>Fri, 15 Dec 2023 17:37:21 +0200</pubDate>
 		
-		<guid>https://mattiaudisio.github.io/piacerematthew/blog/wrapped2023/</guid>
-		<description>&lt;p&gt;Qualche giorno fa sono incappato nell&amp;rsquo;&lt;a href=&#34;https://www.andreacorinti.com/posts/ita/2023/&#34;&gt;articolo&lt;/a&gt; del buon Andrea Corinti, conosciuto anche con i nickname di &lt;a href=&#34;https://livellosegreto.it/@xabacadabra&#34;&gt;Xab&lt;/a&gt; e di “Brava persona che fa cose belle a cui frego ogni tanto qualche idea”&amp;hellip; e, come si capisce da queste ultime parole, ho deciso di nuovo di grattare idee dal suo blog per scrivere quest&amp;rsquo;articolo.&lt;/p&gt;
+		<guid>https://piacerematthew.xyz/blog/wrapped2023/</guid>
+		<description>&lt;p&gt;Qualche giorno fa sono incappato nell&#39;&lt;a href=&#34;https://www.andreacorinti.com/posts/ita/2023/&#34;&gt;articolo&lt;/a&gt; del buon Andrea Corinti, conosciuto anche con i nickname di &lt;a href=&#34;https://livellosegreto.it/@xabacadabra&#34;&gt;Xab&lt;/a&gt; e di “Brava persona che fa cose belle a cui frego ogni tanto qualche idea”&amp;hellip; e, come si capisce da queste ultime parole, ho deciso di nuovo di grattare idee dal suo blog per scrivere quest&amp;rsquo;articolo.&lt;/p&gt;
 &lt;p&gt;Quindi ecco un mega riassunto di tutto quello che ho visto, letto, giocato e vissuto in questo 2023.&lt;/p&gt;
 &lt;h2 id=&#34;-film&#34;&gt;🎬​ Film&lt;/h2&gt;
 &lt;!-- raw HTML omitted --&gt;
@@ -557,10 +560,10 @@ Dato che ormai son 2 anni che son lì un giovedì sera sì e un giovedì sera no
 	
 	<item>
 		<title>Un mese di sfida.. per diminuire  lo schifo verso me stesso</title>
-		<link>https://mattiaudisio.github.io/piacerematthew/blog/challengenovembre/</link>
+		<link>https://piacerematthew.xyz/blog/challengenovembre/</link>
 		<pubDate>Fri, 01 Dec 2023 16:14:43 +0200</pubDate>
 		
-		<guid>https://mattiaudisio.github.io/piacerematthew/blog/challengenovembre/</guid>
+		<guid>https://piacerematthew.xyz/blog/challengenovembre/</guid>
 		<description>&lt;h2 id=&#34;premessa&#34;&gt;Premessa&lt;/h2&gt;
 &lt;p&gt;Sono sempre stato un ragazzo che, nel bene o nel male, ha sempre cercato di fare attività fisica e di muoversi il più possibile, nonostante abbia passato periodi dove la parola pigrizia erano all&amp;rsquo;ordine del giorno.&lt;/p&gt;
 &lt;p&gt;Ma è da un pò di tempo di tempo che, nonostante tutti gli sforzi, mi sono abbastanza lasciato andare, in particolare con un dei miei vizi: il mangiare e bere schifezze.&lt;/p&gt;
@@ -638,10 +641,10 @@ Mi ha aiutato a capire che, se voglio migliorarmi, devo cominciare a migliorare 
 	
 	<item>
 		<title>Recensione &#34;Filosofia Giapponese, 4 libri in 1 Ikigai, Kaizen, Shinrin-yoku, Kintsukuroi&#34;</title>
-		<link>https://mattiaudisio.github.io/piacerematthew/blog/recensionelibro/</link>
+		<link>https://piacerematthew.xyz/blog/recensionelibro/</link>
 		<pubDate>Sun, 08 Oct 2023 17:31:05 +0200</pubDate>
 		
-		<guid>https://mattiaudisio.github.io/piacerematthew/blog/recensionelibro/</guid>
+		<guid>https://piacerematthew.xyz/blog/recensionelibro/</guid>
 		<description>&lt;p&gt;Avevo preso questo libro circa 2 anni fa, ma tra vari cambi nella mia vita con tanto di dimenticanza di avere questo libro nel mio scaffale, l&amp;rsquo;ho recuperato solo quest&amp;rsquo;anno.&lt;/p&gt;
 &lt;p&gt;Non posso dire che è un pessimo libro, anzi al suo interno ci sono informazioni molto interessanti, ma devo ammettere che ogni tanto la sensazione che questo libro sia stato scritto in giapponese poi tradotto con qualche traduttore online si palesava nei mie pensieri (magari errori passati in secondo piano durante la correzione, che però sta sensazione un pò la facevano venire).&lt;/p&gt;
 &lt;p&gt;Per il resto non sì è un libro interessante che tratta tanti, anzi troppi, argomenti. Capisco che questo è una raccolta di piccoli 4 libri, però bisogna ammettere che, se te lo leggi tutto dall&amp;rsquo;inizio alla fine, arrivi ad un certo punto che la quantità di informazioni è talmente alta che fai fatica ad andare avanti.&lt;/p&gt;
@@ -653,10 +656,10 @@ Mi ha aiutato a capire che, se voglio migliorarmi, devo cominciare a migliorare 
 	
 	<item>
 		<title>Come rendere vivibile YouTube grazie a queste estensioni</title>
-		<link>https://mattiaudisio.github.io/piacerematthew/blog/youtubeestensioni/</link>
+		<link>https://piacerematthew.xyz/blog/youtubeestensioni/</link>
 		<pubDate>Wed, 23 Aug 2023 22:06:02 +0200</pubDate>
 		
-		<guid>https://mattiaudisio.github.io/piacerematthew/blog/youtubeestensioni/</guid>
+		<guid>https://piacerematthew.xyz/blog/youtubeestensioni/</guid>
 		<description>&lt;p&gt;Youtube ormai è diventato un posto abbastanza anomalo dove soggiornare. Tolto gli utenti base della piattaforma, che accettano i vari cambiamenti che vengono fatti (se si accorgono di questi “aggiornamenti”) senza controbattere e battere ciglio, c&amp;rsquo;è gente che non vede di buon occhio la deriva presa. Molti infatti hanno cominicato a spostarsi anche su altri servizi, chi su Vimeo o Dailymotion (se esiste ancora) chi su PeerTube.&lt;/p&gt;
 &lt;p&gt;Molti altri invece, delusi da queste evoluzioni ma attaccati ancora ai contenuti che possono trovare al suo interno, decidono di non buttarsi nei servizi citati prima ma di rifugiarsi su un&amp;rsquo;istanza Invidious, un front-end alternativo per YouTube.&lt;/p&gt;
 &lt;p&gt;Ma tra questi c&amp;rsquo;è gente che, nonostante la delusione per l&amp;rsquo;evoluzione di YouTube, non ha deciso di gettarsi su altri servizi ma di tirarsi su le maniche per fare in modo che, grazie ad estensioni fatte ad hoc, la gente riesca a ritrovare lo YouTube che tanto amava.&lt;/p&gt;
@@ -678,10 +681,10 @@ Mi ha aiutato a capire che, se voglio migliorarmi, devo cominciare a migliorare 
 	
 	<item>
 		<title>Come pubblicare gratuitamente un sito web (statico o dinamico)</title>
-		<link>https://mattiaudisio.github.io/piacerematthew/blog/pubblicaresitoweb/</link>
+		<link>https://piacerematthew.xyz/blog/pubblicaresitoweb/</link>
 		<pubDate>Thu, 19 Jan 2023 21:26:12 +0200</pubDate>
 		
-		<guid>https://mattiaudisio.github.io/piacerematthew/blog/pubblicaresitoweb/</guid>
+		<guid>https://piacerematthew.xyz/blog/pubblicaresitoweb/</guid>
 		<description>&lt;p&gt;Stai realizzando il tuo sito web, l&amp;rsquo;hai praticamente completato e non vedi l&amp;rsquo;ora di pubblicarlo ma, purtroppo, non hai i soldi per prenderti per prendere un servizio di hosting dove caricarlo?&lt;/p&gt;
 &lt;p&gt;Tranquillo, so cosa vuol dire (anzi tutt&amp;rsquo;ora vivo sta situazione) e so che quando sei in questo stato ti metti a cercare qualsiasi sito disponibile e rischi di capitare sui peggio servizi. Ma tranquillo, è ora di risolvere questo problema, e come aiutante avrai me, il classico mr. nessuno di provincia che, dopo una serie di fregature una dietro l&amp;rsquo;altro, a trovato 2 metodi affidabili che ti aiutano a diminuire i costi per un hosting ed avere lo stesso il tuo sito online e pronto per essere visitato.&lt;/p&gt;
 &lt;p&gt;Partiamo da una piccola premessa.. Cosa intendo con &lt;strong&gt;gratuitamente&lt;/strong&gt;?&lt;/p&gt;
@@ -702,12 +705,14 @@ Mi ha aiutato a capire che, se voglio migliorarmi, devo cominciare a migliorare 
  185.199.109.153
  185.199.110.153
  185.199.111.153
+
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;AAA&lt;/strong&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
  2606:50c0:8000::153
  2606:50c0:8001::153
  2606:50c0:8002::153
  2606:50c0:8003::153
+
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;È ora il tuo sito è &lt;strong&gt;online&lt;/strong&gt;!&lt;/p&gt;
 &lt;h2 id=&#34;pubblicare-un-sito-dinamico&#34;&gt;Pubblicare un sito dinamico&lt;/h2&gt;
 &lt;p&gt;Volendo fare i professori si può copiare una qualsiasi parte di testo che trovi online dove si dice &lt;em&gt;“i siti dinamici hanno pagine web il cui contenuto viene generato in tempo reale e che ciò è reso possibile grazie all&amp;rsquo;utilizzo di un linguaggio di scripting come ad esempio il PHP, e a MySQL, un database per la memorizzazione di dati”&lt;/em&gt; però deduco che se sei in sto pezzo del post da benissimo cosa è e da cosa è formato un sito dinamico.&lt;/p&gt;
@@ -743,10 +748,10 @@ tutti e due si basano sui seguenti passagi:&lt;/p&gt;
 	
 	<item>
 		<title>Come migliorare la tua privacy online</title>
-		<link>https://mattiaudisio.github.io/piacerematthew/blog/privacy/</link>
+		<link>https://piacerematthew.xyz/blog/privacy/</link>
 		<pubDate>Tue, 01 Nov 2022 21:15:06 +0200</pubDate>
 		
-		<guid>https://mattiaudisio.github.io/piacerematthew/blog/privacy/</guid>
+		<guid>https://piacerematthew.xyz/blog/privacy/</guid>
 		<description>&lt;p&gt;Cinque semplici passi per migliorare la tua privacy online utilizzando servizi e software alternativi che tutelano i tuoi dati.&lt;/p&gt;
 &lt;p&gt;Negli ultimi anni l&amp;rsquo;argomento della privacy è diventato uno dei topic più chiaccherati e discussi da blog e forum. Ormai molti sviluppatori o appasionati di informatica e di tecnologia stanno piano piano migrando in servizi che la garantiscono. Oggi voglio consigliare a chi vuole entrare in questo mondo 5 semplici passi per migliorare la loro privacy.&lt;/p&gt;
 &lt;h2 id=&#34;01-servizi-email&#34;&gt;01. Servizi email&lt;/h2&gt;
@@ -807,10 +812,10 @@ tutti e due si basano sui seguenti passagi:&lt;/p&gt;
 	
 	<item>
 		<title>Astro Framework Setup Tutorial</title>
-		<link>https://mattiaudisio.github.io/piacerematthew/blog/astrosetup/</link>
+		<link>https://piacerematthew.xyz/blog/astrosetup/</link>
 		<pubDate>Thu, 06 Oct 2022 20:19:50 +0200</pubDate>
 		
-		<guid>https://mattiaudisio.github.io/piacerematthew/blog/astrosetup/</guid>
+		<guid>https://piacerematthew.xyz/blog/astrosetup/</guid>
 		<description>&lt;p&gt;Come installare il framework Astro all&amp;rsquo;interno del tuo sito web&lt;/p&gt;
 &lt;p&gt;Piccola guida sul come preparare il setup per realizzare il tuo sito web con il framework &lt;a href=&#34;https://astro.build/&#34;&gt;Astro&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Premessa&lt;/strong&gt;&lt;/p&gt;
@@ -833,7 +838,7 @@ tutti e due si basano sui seguenti passagi:&lt;/p&gt;
 Ora, se andari dentro &lt;em&gt;Documenti&lt;/em&gt;, troverai tutte le cartelle che hai creato:&lt;/p&gt;
 &lt;div style=&#34;text-align: center&#34;&gt;
 	&lt;p&gt;
-    &lt;img src=&#34;https://mattiaudisio.github.io/piacerematthew/posts/node2.png&#34; id=&#34;imgArticle&#34;&gt;
+    &lt;img src=&#34;https://piacerematthew.xyz/posts/node2.png&#34; id=&#34;imgArticle&#34;&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -846,6 +851,7 @@ Ora, se andari dentro &lt;em&gt;Documenti&lt;/em&gt;, troverai tutte le cartelle
  Welcome to Astro! (create-astro v1.1.0)
  Lets walk through setting up your new Astro project.
  ? Where would you like to create your new project? &amp;gt;&amp;gt; nomeDelSito
+
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Dopo il nome, ti verrà chiesto che template vorresti usare (se vuoi creare qualcosa da zero basterà cliccare su &lt;em&gt;Empty Project&lt;/em&gt;). Per questo esempio useremo un template &lt;em&gt;Portfolio&lt;/em&gt;, quindi va su e giù con le frecciete e premi invio per scegliere. Dopo aver copiato il Template nel progetto, Astro ti chiederà se vuoi utilizzare i pacchetti di npm; Non mi metterò qua a spiegarti &lt;a href=&#34;https://it.wikipedia.org/wiki/Npm_(software)&#34;&gt;cosa sono&lt;/a&gt;, a te basta digitare Y. La stessa cosa la fai per Git. Infine ti chiederà che vuoi settare TypeScript, io ti consiglio Strict.&lt;/p&gt;
 &lt;p&gt;Bene, a questo punto hai installato Astro dentro il tuo sito, veloce no come procedimento 😀&lt;/p&gt;
 &lt;p&gt;Se sei ancora incerto che abbia installato qualcosa, vai dentro la cartella developer e guarda se ti ha creato una cartella con il nome che hai inserito; Altrimenti digita &lt;em&gt;cd nomeDelSito&lt;/em&gt; e digita &lt;em&gt;yarn start&lt;/em&gt;, ti è uscito una cosa del genere?&lt;/p&gt;
@@ -855,6 +861,7 @@ Ora, se andari dentro &lt;em&gt;Documenti&lt;/em&gt;, troverai tutte le cartelle
     astro  v1.4.2 started in 49ms
    ┃ Local    http://127.0.0.1:3000/
    ┃ Network  use --host to expose
+
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Se non ti è uscito&amp;hellip; controlla cosa ti è uscito, perché di solito ti dice cosa c&amp;rsquo;è che non va (poi al massimo copia su Google l&amp;rsquo;errore che ti esce).
 Se ti è uscito, bene! Ora apri il tuo browser e digita http://127.0.0.1:3000/ e Tac, ecco il tuo sito con il template di default.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;BUON DIVERTIMENTO!&lt;/strong&gt;&lt;/p&gt;
@@ -863,10 +870,10 @@ Se ti è uscito, bene! Ora apri il tuo browser e digita http://127.0.0.1:3000/ e
 	
 	<item>
 		<title>Come fare un Website Blocker con Python</title>
-		<link>https://mattiaudisio.github.io/piacerematthew/blog/websiteblocker/</link>
+		<link>https://piacerematthew.xyz/blog/websiteblocker/</link>
 		<pubDate>Tue, 16 Aug 2022 22:02:53 +0200</pubDate>
 		
-		<guid>https://mattiaudisio.github.io/piacerematthew/blog/websiteblocker/</guid>
+		<guid>https://piacerematthew.xyz/blog/websiteblocker/</guid>
 		<description>&lt;p&gt;Come creare un Website Blocker (un&amp;rsquo;applicazione che può essere usata per bloccare l&amp;rsquo;apertura di certi siti web) con Python e dargli anche una veste grafica grazie a tkinter. Questo è un programma molto utile per gli studenti che vogliono concentrarsi sugli studi e non vogliono altre distrazioni come i social media.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Premessa&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Prima di partire col progetto, bisogna abilitare i permessi di scrittura del file host, per questo, andare nel percorso &lt;em&gt;“C:\Windows\System32\drivers”&lt;/em&gt; e cambiare i permessi al file hosts.&lt;/p&gt;
@@ -876,8 +883,9 @@ Se ti è uscito, bene! Ora apri il tuo browser e digita http://127.0.0.1:3000/ e
  from tkinter import *
  from PIL import Image, ImageTk
 
- hosts_path = r&amp;#34;C:\Windows\System32\drivers\etc\hosts&amp;#34;
- redirect_IP = &amp;#34;127.0.0.1&amp;#34;  # localhost&amp;#39;s IP Address
+ hosts_path = r&amp;quot;C:\Windows\System32\drivers\etc\hosts&amp;quot;
+ redirect_IP = &amp;quot;127.0.0.1&amp;quot;  # localhost&#39;s IP Address
+
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Ora, sovente sono abituato a utilizzare classi e oggetti dell&amp;rsquo;OOP (programmazione ad oggetti) quando realizzo progetti con tkinter, e anche in questo caso ho scritto il codice seguendo questa mia abitudine, ma è opzionale come cosa.&lt;/p&gt;
 &lt;p&gt;Creiamo la Classe Blocker, inizializzando gli attributi per creare tramite tkinter il “rettangolo” del programma, l&amp;rsquo;array in cui verranno inseriti i link da bloccare e i vari bottoni a lato con cui bloccare/sbloccare i siti.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; class Blocker:
@@ -885,29 +893,29 @@ Se ti è uscito, bene! Ora apri il tuo browser e digita http://127.0.0.1:3000/ e
      def __init__(self):
         # Create Window
         self.root = Tk()
-        self.root.title(&amp;#39;Python Website Blocker&amp;#39;)
-        self.root.geometry(&amp;#34;500x350&amp;#34;)
-        self.root.configure(background=&amp;#39;white&amp;#39;)
+        self.root.title(&#39;Python Website Blocker&#39;)
+        self.root.geometry(&amp;quot;500x350&amp;quot;)
+        self.root.configure(background=&#39;white&#39;)
         self.root.resizable(False, False)
-        self.root.wm_iconphoto(False, ImageTk.PhotoImage(Image.open(&amp;#39;img/favicon.png&amp;#39;)))
+        self.root.wm_iconphoto(False, ImageTk.PhotoImage(Image.open(&#39;img/favicon.png&#39;)))
         self.larghezza = self.root.winfo_screenwidth()
         self.site_to_block = []
 
         # Create Frame and Button
-        self.frame1 = Frame(self.root, width=250, height=self.root.winfo_screenheight(), background=&amp;#39;white&amp;#39;)
-        self.frame2 = Frame(self.root, width=250, height=self.root.winfo_screenheight(), background=&amp;#39;white&amp;#39;)
+        self.frame1 = Frame(self.root, width=250, height=self.root.winfo_screenheight(), background=&#39;white&#39;)
+        self.frame2 = Frame(self.root, width=250, height=self.root.winfo_screenheight(), background=&#39;white&#39;)
         self.frame1.grid(row=0, column=0, rowspan=2)
         self.frame2.grid(row=1, column=1, rowspan=2)
 
         # Create Image Column
-        self.image = ImageTk.PhotoImage(file=&amp;#34;img/img.png&amp;#34;)
-        self.label1 = Label(self.frame1, image=self.image, width=250, height=300, padx=5, background=&amp;#39;white&amp;#39;, pady=20)
+        self.image = ImageTk.PhotoImage(file=&amp;quot;img/img.png&amp;quot;)
+        self.label1 = Label(self.frame1, image=self.image, width=250, height=300, padx=5, background=&#39;white&#39;, pady=20)
         self.label1.grid(row=1, column=1)
 
         # Create Button
-        self.button1 = Button(self.frame2, text=&amp;#34;Blocca Social&amp;#34;, width=30, height=5, command=self.blockSocial)
+        self.button1 = Button(self.frame2, text=&amp;quot;Blocca Social&amp;quot;, width=30, height=5, command=self.blockSocial)
         self.button1.grid(row=0, column=0, padx=15, pady=15)
-        self.button3 = Button(self.frame2, text=&amp;#34;Blocca Tutto&amp;#34;, width=30, height=5, command=self.blockAll)
+        self.button3 = Button(self.frame2, text=&amp;quot;Blocca Tutto&amp;quot;, width=30, height=5, command=self.blockAll)
         self.button3.grid(row=2, column=0, padx=15, pady=15)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Ora creiamo una funzione start, in modo che all&amp;rsquo;esecuzione del programma venga creata la finestra con i parametri settati in precedenza&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; def start(self):
@@ -915,27 +923,27 @@ Se ti è uscito, bene! Ora apri il tuo browser e digita http://127.0.0.1:3000/ e
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;parte-2-creiamo-la-funzioni&#34;&gt;Parte 2: creiamo la funzioni&lt;/h2&gt;
 &lt;p&gt;Come avrai notato, i tre bottoni permettono di bloccare tre tipi di siti: social networrk, siti porno, le due opzioni precedenti. Quindi ora la nostra attenzione deve concentrarsi su 3 importanti funzioni: blocca social, blocca porno, blocca tutto. Le 2 funzioni blocca social e blocca porno hanno al loro interno un array che contiene dei link (i siti da bloccare) e un controllo che modifica la scritta dei due bottoni da blocca * a sblocca * e, a seconda se il titolo del bottone a un testo o l&amp;rsquo;altro, vengono chiamate le funzioni per bloccare e sbloccare i siti. la funzione blocca tutto richiama le due funzioni citate prima&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; def blockSocial(self):
-    site = [&amp;#39;www.instagram.com&amp;#39;, &amp;#39;instagram.com&amp;#39;, &amp;#39;tiktok.com&amp;#39;, &amp;#39;www.tiktok.com&amp;#39;, &amp;#39;twitter.com&amp;#39;]
+    site = [&#39;www.instagram.com&#39;, &#39;instagram.com&#39;, &#39;tiktok.com&#39;, &#39;www.tiktok.com&#39;, &#39;twitter.com&#39;]
     self.site_to_block.extend(site)
-    if self.button1[&amp;#39;text&amp;#39;] == &amp;#34;Blocca Social&amp;#34;:
-        self.button1.configure(text=&amp;#34;Sblocca Social&amp;#34;)
+    if self.button1[&#39;text&#39;] == &amp;quot;Blocca Social&amp;quot;:
+        self.button1.configure(text=&amp;quot;Sblocca Social&amp;quot;)
         self.block_websites()
     else:
-        self.button1.configure(text=&amp;#34;Blocca Social&amp;#34;)
+        self.button1.configure(text=&amp;quot;Blocca Social&amp;quot;)
         self.unblock_website()
 
 
  def blockAll(self):
-    if self.button3[&amp;#39;text&amp;#39;] == &amp;#34;Blocca Tutto&amp;#34;:
+    if self.button3[&#39;text&#39;] == &amp;quot;Blocca Tutto&amp;quot;:
         self.blockSocial()
-        self.button1.configure(text=&amp;#34;Sblocca Social&amp;#34;)
-        self.button3.configure(text=&amp;#34;Sblocca Tutto&amp;#34;)
+        self.button1.configure(text=&amp;quot;Sblocca Social&amp;quot;)
+        self.button3.configure(text=&amp;quot;Sblocca Tutto&amp;quot;)
         self.block_websites()
     else:
         self.blockSocial()
         self.blockPorn()
-        self.button1.configure(text=&amp;#34;Blocca Social&amp;#34;)
-        self.button3.configure(text=&amp;#34;Blocca Tutto&amp;#34;)
+        self.button1.configure(text=&amp;quot;Blocca Social&amp;quot;)
+        self.button3.configure(text=&amp;quot;Blocca Tutto&amp;quot;)
         self.unblock_website()     
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Per finire, creiamo le due funzioni che creano il cuore di questo programma, le funzioni blockwebsites e unblockwebsites.
 La funzione blockwebsites, tramite l&amp;rsquo;array con i siti e dei for, scrive sul file host l&amp;rsquo;url del sito, mentre unblockwebsite li toglie.&lt;/p&gt;
@@ -946,20 +954,21 @@ La funzione blockwebsites, tramite l&amp;rsquo;array con i siti e dei for, scriv
  for i in self.site_to_block:
    if i not in result:
     result.append(i)
- with open(hosts_path, &amp;#39;r+&amp;#39;) as hostfile:
+ with open(hosts_path, &#39;r+&#39;) as hostfile:
  hosts_content = hostfile.read()
  for site in self.site_to_block:  # for site in  sites_to_block:
     if site not in hosts_content:
-        hostfile.write(redirect_IP + &amp;#39; &amp;#39; + site + &amp;#39;\n&amp;#39;)
+        hostfile.write(redirect_IP + &#39; &#39; + site + &#39;\n&#39;)
 
  def unblock_website(self):
- with open(hosts_path, &amp;#39;r+&amp;#39;) as hostfile:
+ with open(hosts_path, &#39;r+&#39;) as hostfile:
  lines = hostfile.readlines()
  hostfile.seek(0)
  for line in lines:
     if not any(site in line for site in self.site_to_block):
         hostfile.write(line)
     hostfile.truncate()
+
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Per terminare, creiamo un oggetto Blocker e chiamiamo la funzione start.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; app = Blocker()
  app.start()
@@ -969,8 +978,8 @@ La funzione blockwebsites, tramite l&amp;rsquo;array con i siti e dei for, scriv
  from tkinter import *
  from PIL import Image, ImageTk
 
- hosts_path = r&amp;#34;C:\Windows\System32\drivers\etc\hosts&amp;#34;
- redirect_IP = &amp;#34;127.0.0.1&amp;#34;  # localhost&amp;#39;s IP Address
+ hosts_path = r&amp;quot;C:\Windows\System32\drivers\etc\hosts&amp;quot;
+ redirect_IP = &amp;quot;127.0.0.1&amp;quot;  # localhost&#39;s IP Address
 
 
  class Blocker:
@@ -978,56 +987,56 @@ La funzione blockwebsites, tramite l&amp;rsquo;array con i siti e dei for, scriv
     def __init__(self):
         # Create Window
         self.root = Tk()
-        self.root.title(&amp;#39;Python Website Blocker&amp;#39;)
-        self.root.geometry(&amp;#34;500x350&amp;#34;)
-        self.root.configure(background=&amp;#39;white&amp;#39;)
+        self.root.title(&#39;Python Website Blocker&#39;)
+        self.root.geometry(&amp;quot;500x350&amp;quot;)
+        self.root.configure(background=&#39;white&#39;)
         self.root.resizable(False, False)
-        self.root.wm_iconphoto(False, ImageTk.PhotoImage(Image.open(&amp;#39;img/favicon.png&amp;#39;)))
+        self.root.wm_iconphoto(False, ImageTk.PhotoImage(Image.open(&#39;img/favicon.png&#39;)))
         self.larghezza = self.root.winfo_screenwidth()
         self.site_to_block = []
 
         # Create Frame and Button
-        self.frame1 = Frame(self.root, width=250, height=self.root.winfo_screenheight(), background=&amp;#39;white&amp;#39;)
-        self.frame2 = Frame(self.root, width=250, height=self.root.winfo_screenheight(), background=&amp;#39;white&amp;#39;)
+        self.frame1 = Frame(self.root, width=250, height=self.root.winfo_screenheight(), background=&#39;white&#39;)
+        self.frame2 = Frame(self.root, width=250, height=self.root.winfo_screenheight(), background=&#39;white&#39;)
         self.frame1.grid(row=0, column=0, rowspan=2)
         self.frame2.grid(row=1, column=1, rowspan=2)
 
         # Create Image Column
-        self.image = ImageTk.PhotoImage(file=&amp;#34;img/img.png&amp;#34;)
-        self.label1 = Label(self.frame1, image=self.image, width=250, height=300, padx=5, background=&amp;#39;white&amp;#39;, pady=20)
+        self.image = ImageTk.PhotoImage(file=&amp;quot;img/img.png&amp;quot;)
+        self.label1 = Label(self.frame1, image=self.image, width=250, height=300, padx=5, background=&#39;white&#39;, pady=20)
         self.label1.grid(row=1, column=1)
 
         # Create Button
-        self.button1 = Button(self.frame2, text=&amp;#34;Blocca Social&amp;#34;, width=30, height=5, command=self.blockSocial)
+        self.button1 = Button(self.frame2, text=&amp;quot;Blocca Social&amp;quot;, width=30, height=5, command=self.blockSocial)
         self.button1.grid(row=0, column=0, padx=15, pady=15)
-        self.button3 = Button(self.frame2, text=&amp;#34;Blocca Tutto&amp;#34;, width=30, height=5, command=self.blockAll)
+        self.button3 = Button(self.frame2, text=&amp;quot;Blocca Tutto&amp;quot;, width=30, height=5, command=self.blockAll)
         self.button3.grid(row=2, column=0, padx=15, pady=15)
 
     def start(self):
         self.root.mainloop()
 
     def blockSocial(self):
-        site = [&amp;#39;www.instagram.com&amp;#39;, &amp;#39;instagram.com&amp;#39;, &amp;#39;tiktok.com&amp;#39;, &amp;#39;www.tiktok.com&amp;#39;, &amp;#39;twitter.com&amp;#39;]
+        site = [&#39;www.instagram.com&#39;, &#39;instagram.com&#39;, &#39;tiktok.com&#39;, &#39;www.tiktok.com&#39;, &#39;twitter.com&#39;]
         self.site_to_block.extend(site)
-        if self.button1[&amp;#39;text&amp;#39;] == &amp;#34;Blocca Social&amp;#34;:
-            self.button1.configure(text=&amp;#34;Sblocca Social&amp;#34;)
+        if self.button1[&#39;text&#39;] == &amp;quot;Blocca Social&amp;quot;:
+            self.button1.configure(text=&amp;quot;Sblocca Social&amp;quot;)
             self.block_websites()
         else:
-            self.button1.configure(text=&amp;#34;Blocca Social&amp;#34;)
+            self.button1.configure(text=&amp;quot;Blocca Social&amp;quot;)
             self.unblock_website()
 
     def blockAll(self):
-        if self.button3[&amp;#39;text&amp;#39;] == &amp;#34;Blocca Tutto&amp;#34;:
+        if self.button3[&#39;text&#39;] == &amp;quot;Blocca Tutto&amp;quot;:
             self.blockSocial()
             self.blockPorn()
-            self.button1.configure(text=&amp;#34;Sblocca Social&amp;#34;)
-            self.button3.configure(text=&amp;#34;Sblocca Tutto&amp;#34;)
+            self.button1.configure(text=&amp;quot;Sblocca Social&amp;quot;)
+            self.button3.configure(text=&amp;quot;Sblocca Tutto&amp;quot;)
             self.block_websites()
         else:
             self.blockSocial()
             self.blockPorn()
-            self.button1.configure(text=&amp;#34;Blocca Social&amp;#34;)
-            self.button3.configure(text=&amp;#34;Blocca Tutto&amp;#34;)
+            self.button1.configure(text=&amp;quot;Blocca Social&amp;quot;)
+            self.button3.configure(text=&amp;quot;Blocca Tutto&amp;quot;)
             self.unblock_website()
 
     def block_websites(self):
@@ -1035,14 +1044,14 @@ La funzione blockwebsites, tramite l&amp;rsquo;array con i siti e dei for, scriv
         for i in self.site_to_block:
             if i not in result:
                 result.append(i)
-        with open(hosts_path, &amp;#39;r+&amp;#39;) as hostfile:
+        with open(hosts_path, &#39;r+&#39;) as hostfile:
             hosts_content = hostfile.read()
             for site in self.site_to_block:  # for site in  sites_to_block:
                 if site not in hosts_content:
-                    hostfile.write(redirect_IP + &amp;#39; &amp;#39; + site + &amp;#39;\n&amp;#39;)
+                    hostfile.write(redirect_IP + &#39; &#39; + site + &#39;\n&#39;)
 
     def unblock_website(self):
-        with open(hosts_path, &amp;#39;r+&amp;#39;) as hostfile:
+        with open(hosts_path, &#39;r+&#39;) as hostfile:
             lines = hostfile.readlines()
             hostfile.seek(0)
             for line in lines:
@@ -1053,61 +1062,62 @@ La funzione blockwebsites, tramite l&amp;rsquo;array con i siti e dei for, scriv
 
  app = Blocker()
  app.start()
+
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;E questo è tutto. Ora hai il tuo website blocker personale!&lt;/p&gt;
 </description>
 	</item>
 	
 	<item>
 		<title>08. Attivista (ENFP-A/ENFP-T)</title>
-		<link>https://mattiaudisio.github.io/piacerematthew/attivista/</link>
+		<link>https://piacerematthew.xyz/attivista/</link>
 		<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 		
-		<guid>https://mattiaudisio.github.io/piacerematthew/attivista/</guid>
+		<guid>https://piacerematthew.xyz/attivista/</guid>
 		<description></description>
 	</item>
 	
 	<item>
 		<title>L&#39;angolo dei consigli</title>
-		<link>https://mattiaudisio.github.io/piacerematthew/angoloconsigli/</link>
+		<link>https://piacerematthew.xyz/angoloconsigli/</link>
 		<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 		
-		<guid>https://mattiaudisio.github.io/piacerematthew/angoloconsigli/</guid>
+		<guid>https://piacerematthew.xyz/angoloconsigli/</guid>
 		<description></description>
 	</item>
 	
 	<item>
 		<title>L&#39;odore dei podcast quando li butti via</title>
-		<link>https://mattiaudisio.github.io/piacerematthew/podcast/</link>
+		<link>https://piacerematthew.xyz/podcast/</link>
 		<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 		
-		<guid>https://mattiaudisio.github.io/piacerematthew/podcast/</guid>
+		<guid>https://piacerematthew.xyz/podcast/</guid>
 		<description></description>
 	</item>
 	
 	<item>
 		<title>Libri</title>
-		<link>https://mattiaudisio.github.io/piacerematthew/libri/</link>
+		<link>https://piacerematthew.xyz/libri/</link>
 		<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 		
-		<guid>https://mattiaudisio.github.io/piacerematthew/libri/</guid>
+		<guid>https://piacerematthew.xyz/libri/</guid>
 		<description></description>
 	</item>
 	
 	<item>
 		<title>Prove tecniche di trasmissione (l’ultimo antro del podcast)</title>
-		<link>https://mattiaudisio.github.io/piacerematthew/provetecnicheditrasmissione/</link>
+		<link>https://piacerematthew.xyz/provetecnicheditrasmissione/</link>
 		<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 		
-		<guid>https://mattiaudisio.github.io/piacerematthew/provetecnicheditrasmissione/</guid>
+		<guid>https://piacerematthew.xyz/provetecnicheditrasmissione/</guid>
 		<description></description>
 	</item>
 	
 	<item>
 		<title>Tracker</title>
-		<link>https://mattiaudisio.github.io/piacerematthew/tracker/</link>
+		<link>https://piacerematthew.xyz/tracker/</link>
 		<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 		
-		<guid>https://mattiaudisio.github.io/piacerematthew/tracker/</guid>
+		<guid>https://piacerematthew.xyz/tracker/</guid>
 		<description></description>
 	</item>
 	
