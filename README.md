@@ -12,7 +12,7 @@
 
 - 💬 Ask me about **Music**, **Film**. **Photography**
 
-- ⚡ personal fact: **I have a toxic relationship with technology and social media, but I am succeeding in getting out of it**
+- ⚡ personal fact: **I don't have a good relationship with technology and social media. I am trying to recover from that through a process of degooglization**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
