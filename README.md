@@ -8,11 +8,11 @@
 
 - 🔭 I’m currently working on **Wordpress, Hugo, PHP, Boostrap**
 
-- 🌱 I’m currently learning **Wordpress**
+- 🌱 I’m currently learning **Wordpress** and **Hugo**
 
-- 💬 Ask me about **Android , Astro.js**
+- 💬 Ask me about **Music**, **Film**. **Photography**
 
-- ⚡ Fun fact **I am Funny**
+- ⚡ personal fact: **I have a toxic relationship with technology and social media, but I am succeeding in getting out of it**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -30,6 +30,8 @@
  <img align="left" alt="Github"  width="50px" height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
  <img align="left" alt="Linux"  width="50px" height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
  <img align="left" alt="AstroJS"  width="50px" height="50px" src="https://astro.js.org/astro.png" /> 
+ <img align="left" alt="Wordpress"  width="50px" height="50px" src="https://pngimg.com/uploads/wordpress/wordpress_PNG47.png" />
+ <img align="left" alt="Hugo"  width="50px" height="50px" src="https://upload.wikimedia.org/wikipedia/commons/a/af/Logo_of_Hugo_the_static_website_generator.svg" />
 </p>
 <br />
 
