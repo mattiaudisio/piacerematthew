@@ -17,6 +17,9 @@
 <body>
 {{ if .Site.Menus.main }}{{ partial "nav.html" . }}{{ end -}}
 <main>
+	<div>
+		<p style="text-decoration: none;font-weight: bold;width: 20px;"><a href="{{ .Site.BaseURL }}"> << </a></p>
+	</div>
 <header><h1 id="tag_{{ .Title }}">{{ .Title }}</h1></header>
 <article>
 {{ block "main" . }}
@@ -30,10 +33,10 @@
 </article>
 </main>
 {{ block "footer" . }}
-<footer>
-	<br /><br />
-	<a href="{{ .Site.BaseURL }}">{{ .Site.BaseURL }}</a>
-	{{- if .Param "showrss" }}<br><br><a href="../../index.xml"><img src="../../rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>{{ end }}
+<footer style="padding-top: 30px;">
+	<hr style="width: 20%;">
+	©  <a href="{{ .Site.BaseURL }}">Piacere, Matthew</a> | Se incontri il Buddha per strada non t'improvvisare
+	{{- if .Param "showrss" }}<br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>{{ end }}
 </footer>
 {{ end }}
 </body>

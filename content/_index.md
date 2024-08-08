@@ -9,9 +9,9 @@ layout: single
 
 <h3>Salve popolo di internet, sono Matthew</h3>
 
-Una persona appassionata di tecnologia e culture underground con un diploma da perito informatico alle spalle.<br /><br />
+Chi sono? Sono una persona appassionata di tecnologia e culture underground con un diploma da perito informatico alle spalle.<br /><br />
 Piacere, Matthew è il mio giardino digitale, un sito personale dove mi occupo di progetti, stranezze, scoperte interessanti e tutte quelle follie fatte assecondando la mia FOMO e la mia dipendenza da dopamina.<br /><br />
-Benvenuto. Sentiti libero di curiosare e di leggere <a href="/blog">gli articoli che scrivo</a>.<br /><br />
+Benvenuto. Mettiti a tuo agio e sentiti libero di curiosare e di leggere <a href="/blog">gli articoli che scrivo</a>.<br /><br />
 
 <h1>...i miei contributi alla società...</h1>
 
